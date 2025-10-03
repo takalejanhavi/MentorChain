@@ -19,6 +19,17 @@ dist-ssr
 # Ignore nested git repositories
 MentorChain.git/
 
+# Python virtual environments and cache
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large model files
+*.pkl
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
