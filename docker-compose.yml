@@ -1,0 +1,70 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - VITE_API_URL=http://localhost:5000/api
+      - VITE_MODEL_URL=http://localhost:5002/api
+      - VITE_BLOCKCHAIN_URL=http://localhost:5001/api
+      - VITE_CONTRACT_ADDRESS=${CONTRACT_ADDRESS}
+      - VITE_MUMBAI_RPC_URL=${MUMBAI_RPC_URL}
+    depends_on:
+      - backend
+      - python-service
+      - blockchain-service
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+      - MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/careerguide
+      - JWT_SECRET=your-super-secret-jwt-key-here
+      - BLOCKCHAIN_API_URL=http://blockchain-service:5001/api
+      - MODEL_API_URL=http://python-service:5002/api
+      - WEB3STORAGE_TOKEN=${WEB3STORAGE_TOKEN}
+      - MUMBAI_RPC_URL=${MUMBAI_RPC_URL}
+      - DEPLOYER_PRIVATE_KEY=${DEPLOYER_PRIVATE_KEY}
+      - CONTRACT_ADDRESS=${CONTRACT_ADDRESS}
+      - ENCRYPTION_KEY=${ENCRYPTION_KEY}
+    volumes:
+      - ./backend/uploads:/app/uploads
+    depends_on:
+      - blockchain-service
+      - python-service
+
+  python-service:
+    build:
+      context: ./python-service
+      dockerfile: Dockerfile
+    ports:
+      - "5002:5002"
+    environment:
+      - PORT=5002
+      - FLASK_ENV=production
+      - BACKEND_API_URL=http://backend:5000/api
+    volumes:
+      - ./python-service/models:/app/models
+      - ./python-service/student_training_data.csv:/app/student_training_data.csv
+
+  blockchain-service:
+    build:
+      context: ./blockchain-service
+      dockerfile: Dockerfile
+    ports:
+      - "5001:5001"
+    environment:
+      - NODE_ENV=production
+      - PORT=5001
+
+networks:
+  default:
+    name: careerguide-network
