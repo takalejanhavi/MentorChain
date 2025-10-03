@@ -16,6 +16,9 @@ dist-ssr
 *.local
 .env
 
+# Ignore nested git repositories
+MentorChain.git/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
