@@ -7,6 +7,7 @@ import TakeTest from './pages/TakeTest';
 import Reports from './pages/Reports';
 import GrantPermission from './pages/GrantPermission';
 import AccessReports from './pages/AccessReports';
+import AssessmentPage from './pages/AssessmentPage';
 import Layout from './components/Layout';
 import Login from './pages/Login';
 import Register from './pages/Register';
@@ -53,6 +54,7 @@ function App() {
             <Route path="/reports" element={<ProtectedRoute><Layout><Reports /></Layout></ProtectedRoute>} />
             <Route path="/grant-permission" element={<ProtectedRoute><Layout><GrantPermission /></Layout></ProtectedRoute>} />
             <Route path="/access-reports" element={<ProtectedRoute><Layout><AccessReports /></Layout></ProtectedRoute>} />
+            <Route path="/assessment" element={<ProtectedRoute><Layout><AssessmentPage /></Layout></ProtectedRoute>} />
           </Routes>
         </div>
       </Router>

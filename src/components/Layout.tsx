@@ -27,6 +27,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   const menuItems = [
     { path: '/dashboard', icon: Home, label: 'Dashboard' },
     { path: '/take-test', icon: FileText, label: 'Take Test', studentOnly: true },
+    { path: '/assessment', icon: Brain, label: 'Psychometric Assessment', studentOnly: true },
     { path: '/reports', icon: BarChart3, label: 'Reports' },
     { path: '/grant-permission', icon: Shield, label: 'Grant Permission', studentOnly: true },
     { path: '/access-reports', icon: Users, label: 'Access Reports', psychologistOnly: true },

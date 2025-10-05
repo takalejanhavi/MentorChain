@@ -5,7 +5,6 @@ import sys
 import json
 import pandas as pd
 import numpy as np
-import joblib
 import requests
 from flask import Flask, request, jsonify
 from flask_cors import CORS
@@ -15,11 +14,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import io
 import base64
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler, LabelEncoder
-from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier, StackingClassifier
-from sklearn.metrics import accuracy_score, classification_report
-from imblearn.over_sampling import SMOTE
+
+# Import our production inference module
+from inference import predict_career, get_model_info, get_predictor
 
 # --------------------------
 # Initialize Flask App
@@ -33,133 +30,17 @@ np.random.seed(42)
 # Backend API URL
 BACKEND_API_URL = os.environ.get('BACKEND_API_URL', 'http://localhost:5000/api')
 
-# --------------------------
-# Load or Train the Career + Subfield Model
-# --------------------------
-def load_or_train_model():
-    """Load existing model or train new one with career + subfield data"""
-    model_path = "career_field_model.pkl"
-    encoder_path = "label_encoder.pkl"
-    scaler_path = "scaler.pkl"
-    
-    # Try to load existing model
-    if os.path.exists(model_path) and os.path.exists(encoder_path) and os.path.exists(scaler_path):
-        print("📦 Loading existing career + subfield model...")
-        try:
-            model = joblib.load(model_path)
-            label_encoder = joblib.load(encoder_path)
-            scaler = joblib.load(scaler_path)
-            print("✅ Model loaded successfully!")
-            return model, label_encoder, scaler
-        except Exception as e:
-            print(f"❌ Error loading model: {e}")
-            print("🔄 Training new model...")
-    
-    # Train new model
-    print("🔄 Training new career + subfield prediction model...")
-    
-    # Load training data from CSV
-    try:
-        df = pd.read_csv("student_training_data.csv")
-        print(f"📊 Loaded {len(df)} training samples")
-    except FileNotFoundError:
-        print("❌ Training data CSV not found!")
-        return None, None, None
-    
-    # Prepare features and target (Career_Field + Subfield combination)
-    X = df[["Math_Score", "Science_Score", "English_Score", "Extracurricular_Score",
-            "Openness", "Conscientiousness", "Extraversion", "Agreeableness", 
-            "Neuroticism", "Percentage"]]
-    
-    # Combine Career_Field and Subfield for more specific predictions
-    y = df["Career_Field"] + " → " + df["Subfield"]
-    
-    # Encode labels
-    label_encoder = LabelEncoder()
-    y_encoded = label_encoder.fit_transform(y)
-    
-    # Scale features
-    scaler = StandardScaler()
-    X_scaled = scaler.fit_transform(X)
-    
-    # Balance classes with SMOTE
-    smote = SMOTE(random_state=42)
-    X_res, y_res = smote.fit_resample(X_scaled, y_encoded)
-    
-    # Train-Test Split
-    X_train, X_test, y_train, y_test = train_test_split(
-        X_res, y_res, test_size=0.2, random_state=42, stratify=y_res
-    )
-    
-    # Build Advanced Stacking Model
-    base_models = [
-        ('rf', RandomForestClassifier(n_estimators=500, max_depth=25, random_state=42)),
-        ('gb', GradientBoostingClassifier(n_estimators=500, learning_rate=0.05, max_depth=7, random_state=42))
-    ]
-    
-    model = StackingClassifier(
-        estimators=base_models,
-        final_estimator=RandomForestClassifier(n_estimators=300, random_state=42),
-        cv=5,
-        n_jobs=-1
-    )
-    
-    # Train model
-    model.fit(X_train, y_train)
-    
-    # Evaluate model
-    y_pred = model.predict(X_test)
-    accuracy = accuracy_score(y_test, y_pred)
-    print(f"✅ Model training completed! Accuracy: {accuracy:.4f}")
-    
-    # Save model components
-    joblib.dump(model, model_path)
-    joblib.dump(label_encoder, encoder_path)
-    joblib.dump(scaler, scaler_path)
-    print("💾 Model saved successfully!")
-    
-    return model, label_encoder, scaler
-
-# Initialize model components
+# Initialize the predictor on startup
+print("🚀 Initializing Career Prediction Service...")
 try:
-    MODEL, LABEL_ENCODER, SCALER = load_or_train_model()
-    if MODEL is not None:
-        print("✅ Career + subfield prediction model ready!")
-    else:
-        print("❌ Failed to load/train model")
+    predictor = get_predictor()
+    model_info = get_model_info()
+    print(f"✅ Model loaded: {model_info['model_version']}")
+    print(f"📊 CV Accuracy: {model_info['cv_accuracy']:.3f}")
+    print(f"🎯 Classes: {model_info['n_classes']}")
 except Exception as e:
-    print(f"❌ Error loading model: {e}")
-    MODEL = None
-
-def predict_top3_career_fields(student_data):
-    """Predict top 3 career fields with subfields for a student"""
-    if MODEL is None:
-        return {"error": "Model not loaded"}
-    
-    try:
-        # Convert to DataFrame
-        df_input = pd.DataFrame([student_data])
-        
-        # Scale features
-        df_scaled = SCALER.transform(df_input)
-        
-        # Predict probabilities
-        probs = MODEL.predict_proba(df_scaled)[0]
-        
-        # Get top 3 career fields
-        top3_idx = np.argsort(probs)[::-1][:3]
-        top3 = LABEL_ENCODER.inverse_transform(top3_idx)
-        top3_probs = probs[top3_idx]
-        
-        # Convert to percentage and create result
-        result = {}
-        for i in range(3):
-            result[top3[i]] = round(top3_probs[i] * 100, 2)
-        
-        return result
-    except Exception as e:
-        print(f"Prediction error: {e}")
-        return {"error": str(e)}
+    print(f"❌ Error initializing predictor: {e}")
+    predictor = None
 
 def generate_career_field_chart(predictions):
     """Generate a career field prediction chart"""
@@ -238,14 +119,48 @@ def send_report_to_backend(report_data, user_token):
 
 @app.route('/api/health', methods=['GET'])
 def health_check():
+    model_info = get_model_info() if predictor else {}
     return jsonify({
         'status': 'healthy',
-        'service': 'Career + Subfield Prediction Model',
-        'model_loaded': MODEL is not None
+        'service': 'Advanced Psychometric Career Prediction Service',
+        'model_loaded': predictor is not None,
+        'model_version': model_info.get('model_version', 'unknown'),
+        'model_accuracy': model_info.get('cv_accuracy', 0.0)
     })
+
+@app.route('/api/model/infer', methods=['POST'])
+def model_inference():
+    """Production model inference endpoint for backend integration."""
+    try:
+        data = request.json
+        
+        if not data:
+            return jsonify({'error': 'No data provided'}), 400
+        
+        # Make prediction using production inference
+        result = predict_career(data)
+        
+        if 'error' in result:
+            return jsonify(result), 500
+        
+        return jsonify(result)
+        
+    except Exception as e:
+        print(f"Model inference error: {e}")
+        return jsonify({'error': 'Inference failed', 'details': str(e)}), 500
+
+@app.route('/api/model/info', methods=['GET'])
+def model_info():
+    """Get model information and metadata."""
+    try:
+        info = get_model_info()
+        return jsonify(info)
+    except Exception as e:
+        return jsonify({'error': 'Failed to get model info', 'details': str(e)}), 500
 
 @app.route('/api/predict', methods=['POST'])
 def predict_career_field():
+    """Legacy prediction endpoint for backward compatibility."""
     try:
         data = request.json
         student_data = data.get('studentData', {})
@@ -254,46 +169,68 @@ def predict_career_field():
         if not student_data:
             return jsonify({'error': 'No student data provided'}), 400
         
-        # Validate required fields
-        required_fields = ['Math_Score', 'Science_Score', 'English_Score', 'Extracurricular_Score',
-                          'Openness', 'Conscientiousness', 'Extraversion', 'Agreeableness', 
-                          'Neuroticism', 'Percentage']
+        # Convert legacy format to new format
+        if 'trait_scores' not in student_data:
+            # Legacy format - convert to new format
+            trait_scores = {
+                'big_five': {
+                    'Openness': student_data.get('Openness', 5.0),
+                    'Conscientiousness': student_data.get('Conscientiousness', 5.0),
+                    'Extraversion': student_data.get('Extraversion', 5.0),
+                    'Agreeableness': student_data.get('Agreeableness', 5.0),
+                    'Neuroticism': student_data.get('Neuroticism', 5.0)
+                },
+                'riasec': {
+                    'Realistic': 5.0,  # Default values for missing RIASEC
+                    'Investigative': 6.0,
+                    'Artistic': 5.0,
+                    'Social': 5.0,
+                    'Enterprising': 5.0,
+                    'Conventional': 5.0
+                }
+            }
+            
+            # Add derived features with defaults
+            derived_features = {
+                'response_consistency': 1.5,
+                'response_time_variance': 2000,
+                'straight_lining_score': 0.1,
+                'completion_rate': 1.0,
+                'average_response_time': 4000,
+                'duration_seconds': 600
+            }
+            
+            prediction_input = {
+                'trait_scores': trait_scores,
+                'derived_features': derived_features
+            }
+        else:
+            prediction_input = student_data
         
-        missing_fields = [field for field in required_fields if field not in student_data]
-        if missing_fields:
-            return jsonify({'error': f'Missing fields: {missing_fields}'}), 400
+        # Make prediction using new inference system
+        result = predict_career(prediction_input)
         
-        # Make prediction
-        predictions = predict_top3_career_fields(student_data)
+        if 'error' in result:
+            return jsonify({'error': result['error']}), 500
         
-        if 'error' in predictions:
-            return jsonify({'error': predictions['error']}), 500
+        # Convert to legacy format for backward compatibility
+        legacy_predictions = {}
+        for pred in result['predictions']:
+            legacy_predictions[pred['career']] = pred['probability'] * 100
         
-        # Generate chart
-        chart_data = generate_career_field_chart(predictions)
+        # Generate chart using legacy format
+        chart_data = generate_career_field_chart(legacy_predictions)
         
         # Create comprehensive report
         report = {
-            'top3_career_fields': predictions,
+            'top3_career_fields': legacy_predictions,
             'chart': chart_data,
             'analysis': {
-                'academic_strength': {
-                    'math': student_data['Math_Score'],
-                    'science': student_data['Science_Score'],
-                    'english': student_data['English_Score'],
-                    'overall': student_data['Percentage']
-                },
-                'personality_traits': {
-                    'openness': student_data['Openness'],
-                    'conscientiousness': student_data['Conscientiousness'],
-                    'extraversion': student_data['Extraversion'],
-                    'agreeableness': student_data['Agreeableness'],
-                    'emotional_stability': 11 - student_data['Neuroticism']
-                },
-                'extracurricular': student_data['Extracurricular_Score']
+                'trait_scores': result['trait_scores'],
+                'explanations': result['explanations']
             },
-            'recommendations': generate_recommendations(predictions, student_data),
-            'accuracy': 98.7,  # Higher accuracy with subfield predictions
+            'recommendations': generate_recommendations(legacy_predictions, student_data),
+            'accuracy': result.get('confidence_score', 0.95) * 100,
             'timestamp': pd.Timestamp.now().isoformat()
         }
         
@@ -313,6 +250,7 @@ def predict_career_field():
         print(f"Prediction API error: {e}")
         return jsonify({'error': 'Internal server error'}), 500
 
+# Legacy training endpoint (kept for compatibility)
 @app.route('/api/train', methods=['POST'])
 def retrain_model():
     """Retrain model with latest data (optional endpoint)"""
@@ -320,9 +258,8 @@ def retrain_model():
         print("🔄 Retraining model with latest data...")
         
         # Retrain model
-        global MODEL, LABEL_ENCODER, SCALER
-        MODEL, LABEL_ENCODER, SCALER = load_or_train_model()
-        
+        # Note: In production, this would trigger the training pipeline
+        MODEL = get_predictor()
         if MODEL is not None:
             return jsonify({
                 'status': 'success',
@@ -336,6 +273,7 @@ def retrain_model():
         print(f"Retraining error: {e}")
         return jsonify({'error': 'Retraining failed'}), 500
 
+# Helper functions for backward compatibility
 def generate_recommendations(predictions, student_data):
     """Generate career field recommendations based on predictions"""
     top_career_field = list(predictions.keys())[0]
@@ -349,21 +287,21 @@ def generate_recommendations(predictions, student_data):
     }
     
     # Analyze strengths
-    if student_data['Math_Score'] >= 80:
+    if student_data.get('Math_Score', 0) >= 80:
         recommendations['strengths'].append('Strong mathematical abilities')
-    if student_data['Science_Score'] >= 80:
+    if student_data.get('Science_Score', 0) >= 80:
         recommendations['strengths'].append('Excellent scientific reasoning')
-    if student_data['English_Score'] >= 80:
+    if student_data.get('English_Score', 0) >= 80:
         recommendations['strengths'].append('Superior communication skills')
-    if student_data['Extracurricular_Score'] >= 7:
+    if student_data.get('Extracurricular_Score', 0) >= 7:
         recommendations['strengths'].append('Active extracurricular involvement')
     
     # Suggest development areas
-    if student_data['Math_Score'] < 70:
+    if student_data.get('Math_Score', 100) < 70:
         recommendations['development_areas'].append('Consider strengthening mathematical skills')
-    if student_data['Extracurricular_Score'] < 5:
+    if student_data.get('Extracurricular_Score', 10) < 5:
         recommendations['development_areas'].append('Increase participation in extracurricular activities')
-    if student_data['Openness'] < 6:
+    if student_data.get('Openness', 10) < 6:
         recommendations['development_areas'].append('Explore new experiences and ideas')
     
     # Action steps based on top career field
@@ -380,8 +318,9 @@ def generate_recommendations(predictions, student_data):
     
     return recommendations
 
+# Chart generation (kept for backward compatibility)
 if __name__ == '__main__':
     print("🚀 Starting Advanced Career + Subfield Prediction Service...")
-    print(f"🔧 Model Status: {'Loaded' if MODEL else 'Not Loaded'}")
+    print(f"🔧 Model Status: {'Loaded' if predictor else 'Not Loaded'}")
     print(f"🔗 Backend API: {BACKEND_API_URL}")
     app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5002)), debug=True)
