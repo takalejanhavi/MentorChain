@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const app = require('../backend/server');
 const User = require('../backend/models/User');
 const Assessment = require('../backend/models/Assessment');
-const { calculateTraitScores } = require('../backend/services/assessmentService');
+const { calculateTraitScores } = require('./services/assessmentService');
 
 describe('Psychometric Assessment API', () => {
   let authToken;

@@ -8,7 +8,7 @@ const dashboardRoutes = require('./routes/dashboard');
 const testRoutes = require('./routes/tests');
 const reportRoutes = require('./routes/reports');
 const permissionRoutes = require('./routes/permissions');
-const assessmentRoutes = require('./routes/assessment');
+const assessmentRoutes = require('./assessment');
 const User = require('./models/User');
 
 const app = express();
