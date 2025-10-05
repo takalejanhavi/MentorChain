@@ -1,3 +1,9 @@
+# Line endings
+* text=auto
+*.py text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+
 # Logs
 logs
 *.log
@@ -8,16 +14,13 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # Dependency directories
-node_modules
-dist
-dist-ssr
+node_modules/
+dist/
+dist-ssr/
 
 # Local environment files
 *.local
 .env
-
-# Ignore nested git repositories
-MentorChain.git/
 
 # Python virtual environments and cache
 venv/
@@ -33,7 +36,7 @@ __pycache__/
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*

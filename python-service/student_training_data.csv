@@ -1,0 +1,2001 @@
+Student_ID,Math_Score,Science_Score,English_Score,Extracurricular_Score,Openness,Conscientiousness,Extraversion,Agreeableness,Neuroticism,Percentage,Career_Field,Subfield,Career_Subfield
+1,59,65,82,10,8,6,7,6,3,74,Designer,Fashion,Designer → Fashion
+2,93,85,83,4,6,10,6,9,2,78,Doctor,Cardiology,Doctor → Cardiology
+3,76,63,84,7,8,8,6,6,4,73,Lawyer,Corporate Law,Lawyer → Corporate Law
+4,77,84,75,7,7,7,8,9,4,78,Teacher,Elementary,Teacher → Elementary
+5,67,55,95,5,6,8,6,7,5,66,Lawyer,Public Interest,Lawyer → Public Interest
+6,92,73,73,6,10,7,6,5,4,77,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+7,92,82,67,6,10,8,8,7,7,77,IT Professional,AI/ML,IT Professional → AI/ML
+8,60,63,78,9,8,6,8,9,4,70,Designer,UI/UX,Designer → UI/UX
+9,76,64,87,10,8,9,10,8,4,79,Business,Entrepreneurship,Business → Entrepreneurship
+10,90,89,70,6,8,9,6,7,3,80,Doctor,General Medicine,Doctor → General Medicine
+11,89,79,77,4,7,9,6,5,4,74,IT Professional,Data Science,IT Professional → Data Science
+12,77,93,90,5,8,9,5,10,4,79,Doctor,Cardiology,Doctor → Cardiology
+13,79,90,85,8,7,8,5,8,7,84,IT Professional,Software Development,IT Professional → Software Development
+14,92,70,76,4,9,6,8,6,5,73,IT Professional,Data Science,IT Professional → Data Science
+15,59,68,70,9,10,7,7,6,6,70,Designer,Game Design,Designer → Game Design
+16,81,72,92,8,9,9,7,9,6,81,Business,Operations,Business → Operations
+17,77,99,89,4,9,9,7,10,3,79,Doctor,Orthopedics,Doctor → Orthopedics
+18,61,70,78,10,10,8,8,6,5,75,Designer,Game Design,Designer → Game Design
+19,100,96,65,5,9,9,5,7,5,81,Scientist,Biology,Scientist → Biology
+20,90,66,79,7,7,7,8,9,4,77,Business,Management,Business → Management
+21,87,74,83,6,10,9,5,8,6,77,IT Professional,UI/UX,IT Professional → UI/UX
+22,80,84,85,7,10,9,7,6,6,80,IT Professional,Data Science,IT Professional → Data Science
+23,79,61,82,7,6,9,8,8,3,73,Business,Finance,Business → Finance
+24,82,100,79,5,6,8,7,7,2,80,Doctor,Pediatrics,Doctor → Pediatrics
+25,97,96,63,4,7,8,7,7,2,79,Engineer,Electrical,Engineer → Electrical
+26,82,71,98,4,9,8,6,6,6,73,Lawyer,IP Law,Lawyer → IP Law
+27,85,81,70,3,9,7,5,7,6,70,Engineer,Electrical,Engineer → Electrical
+28,85,98,76,6,8,10,6,7,6,82,Engineer,Computer Science,Engineer → Computer Science
+29,89,96,89,6,6,10,5,8,3,86,Doctor,General Medicine,Doctor → General Medicine
+30,92,98,62,7,6,7,5,8,4,83,Engineer,Mechanical,Engineer → Mechanical
+31,96,88,60,7,9,10,5,7,5,81,Engineer,Chemical,Engineer → Chemical
+32,55,50,83,10,10,6,6,7,7,68,Designer,Game Design,Designer → Game Design
+33,80,90,77,7,8,9,5,7,5,80,Doctor,Psychiatry,Doctor → Psychiatry
+34,100,100,78,5,9,8,7,6,2,86,Scientist,Research,Scientist → Research
+35,85,71,79,4,9,7,4,8,5,70,IT Professional,Data Science,IT Professional → Data Science
+36,90,59,89,7,6,8,7,9,5,76,Business,Operations,Business → Operations
+37,79,73,80,7,7,8,8,5,6,76,Lawyer,IP Law,Lawyer → IP Law
+38,88,94,75,5,8,9,6,8,5,80,Scientist,Environmental,Scientist → Environmental
+39,77,75,79,10,8,7,7,6,6,81,Designer,Graphic Design,Designer → Graphic Design
+40,65,70,95,9,7,7,9,6,6,78,Business,Entrepreneurship,Business → Entrepreneurship
+41,74,65,91,4,8,9,8,7,3,69,Lawyer,Public Interest,Lawyer → Public Interest
+42,78,93,80,5,8,8,6,9,4,77,Doctor,Pediatrics,Doctor → Pediatrics
+43,86,90,78,7,9,10,8,10,4,82,Teacher,Elementary,Teacher → Elementary
+44,99,91,83,6,10,7,6,8,2,85,Scientist,Data Science,Scientist → Data Science
+45,80,74,75,9,8,9,9,9,3,79,Teacher,Science,Teacher → Science
+46,95,94,76,4,7,8,8,7,5,79,Doctor,Neurosurgery,Doctor → Neurosurgery
+47,78,60,85,4,7,10,6,7,4,67,Lawyer,Family Law,Lawyer → Family Law
+48,84,85,73,5,8,8,6,7,5,75,Scientist,Data Science,Scientist → Data Science
+49,64,54,81,7,9,7,7,8,5,67,Designer,Game Design,Designer → Game Design
+50,100,92,66,6,8,7,4,7,3,82,Engineer,Chemical,Engineer → Chemical
+51,87,69,83,7,7,7,7,7,4,77,Business,Finance,Business → Finance
+52,90,80,87,6,7,7,7,9,6,81,Business,Operations,Business → Operations
+53,75,69,86,6,7,8,7,6,4,72,Lawyer,Family Law,Lawyer → Family Law
+54,63,63,73,9,9,6,6,7,6,70,Designer,Graphic Design,Designer → Graphic Design
+55,79,69,98,8,9,8,7,5,5,80,Lawyer,Public Interest,Lawyer → Public Interest
+56,75,95,73,6,6,9,5,8,4,78,Doctor,Orthopedics,Doctor → Orthopedics
+57,100,98,78,3,9,8,5,7,5,82,Engineer,Electrical,Engineer → Electrical
+58,98,85,63,5,8,9,6,7,5,78,Engineer,Aerospace,Engineer → Aerospace
+59,95,85,73,6,10,9,7,6,4,80,Scientist,Environmental,Scientist → Environmental
+60,91,95,78,7,6,9,7,7,5,85,Doctor,General Medicine,Doctor → General Medicine
+61,79,77,97,6,7,9,6,6,6,79,Lawyer,Environmental Law,Lawyer → Environmental Law
+62,88,88,71,6,7,7,6,7,4,78,IT Professional,Data Science,IT Professional → Data Science
+63,100,97,60,5,6,8,6,8,3,82,Engineer,Mechanical,Engineer → Mechanical
+64,65,80,76,9,9,9,8,9,4,77,Teacher,Science,Teacher → Science
+65,70,78,84,5,8,9,6,5,5,72,Lawyer,Criminal Law,Lawyer → Criminal Law
+66,57,56,85,9,10,6,6,6,3,69,Designer,Graphic Design,Designer → Graphic Design
+67,81,81,73,6,7,8,5,8,4,76,IT Professional,Software Development,IT Professional → Software Development
+68,80,86,79,6,8,8,7,8,4,76,Doctor,General Medicine,Doctor → General Medicine
+69,80,76,75,5,8,8,6,8,3,72,IT Professional,UI/UX,IT Professional → UI/UX
+70,100,80,74,5,7,8,6,7,2,80,Engineer,Aerospace,Engineer → Aerospace
+71,85,78,88,6,7,9,7,8,4,79,Business,Management,Business → Management
+72,75,75,94,5,9,9,7,9,2,74,Teacher,Administration,Teacher → Administration
+73,68,61,93,6,8,7,10,6,3,69,Business,Finance,Business → Finance
+74,73,63,86,8,9,9,9,7,4,74,Business,Finance,Business → Finance
+75,90,83,80,6,7,9,6,9,5,81,Teacher,Elementary,Teacher → Elementary
+76,98,91,80,7,9,7,4,6,4,87,Engineer,Civil,Engineer → Civil
+77,75,69,71,9,6,8,10,6,5,75,Business,Operations,Business → Operations
+78,85,89,64,5,6,9,5,7,3,76,Engineer,Aerospace,Engineer → Aerospace
+79,85,80,85,4,6,10,7,6,4,74,Engineer,Chemical,Engineer → Chemical
+80,90,78,88,9,9,10,10,8,4,86,Business,Operations,Business → Operations
+81,65,80,83,5,7,10,7,5,5,71,Lawyer,Criminal Law,Lawyer → Criminal Law
+82,84,75,78,8,7,8,8,8,4,80,Business,Marketing,Business → Marketing
+83,73,69,92,4,7,10,9,7,3,69,Lawyer,Criminal Law,Lawyer → Criminal Law
+84,72,63,89,8,10,8,7,7,7,74,Designer,Industrial,Designer → Industrial
+85,61,69,78,7,8,5,6,6,4,69,Designer,Fashion,Designer → Fashion
+86,98,97,71,5,8,7,6,7,5,82,Engineer,Chemical,Engineer → Chemical
+87,80,93,71,4,10,8,5,6,3,74,Scientist,Biology,Scientist → Biology
+88,85,82,76,4,8,9,4,8,6,74,Engineer,Electrical,Engineer → Electrical
+89,90,94,77,7,6,9,4,5,5,84,Engineer,Mechanical,Engineer → Mechanical
+90,85,85,74,5,9,10,5,6,5,76,Engineer,Electrical,Engineer → Electrical
+91,96,94,81,5,7,8,5,5,4,83,Engineer,Mechanical,Engineer → Mechanical
+92,72,65,76,7,8,9,9,7,5,70,Business,Entrepreneurship,Business → Entrepreneurship
+93,77,68,80,7,8,10,7,7,5,74,Lawyer,IP Law,Lawyer → IP Law
+94,85,77,80,6,8,9,7,6,5,77,Lawyer,Criminal Law,Lawyer → Criminal Law
+95,100,80,68,6,9,8,5,8,2,79,Engineer,Aerospace,Engineer → Aerospace
+96,55,54,86,9,8,5,9,8,5,68,Designer,Architecture,Designer → Architecture
+97,65,80,96,6,7,8,8,6,6,74,Lawyer,IP Law,Lawyer → IP Law
+98,72,70,93,7,8,10,9,7,5,75,Lawyer,Family Law,Lawyer → Family Law
+99,66,82,75,7,9,7,9,7,4,74,Teacher,Elementary,Teacher → Elementary
+100,85,91,74,8,7,10,5,9,4,84,Doctor,Pediatrics,Doctor → Pediatrics
+101,67,67,89,4,9,10,7,7,5,67,Lawyer,Family Law,Lawyer → Family Law
+102,75,90,79,5,7,9,5,10,4,76,Doctor,General Medicine,Doctor → General Medicine
+103,100,96,73,4,8,9,7,7,5,82,Engineer,Electrical,Engineer → Electrical
+104,63,63,88,8,10,7,9,7,5,72,Designer,Industrial,Designer → Industrial
+105,72,74,82,8,9,8,7,10,5,76,Teacher,English,Teacher → English
+106,81,68,90,6,9,10,7,10,5,75,Teacher,Special Education,Teacher → Special Education
+107,68,56,84,10,9,8,10,7,4,73,Business,Entrepreneurship,Business → Entrepreneurship
+108,100,95,74,6,6,10,6,7,3,85,Engineer,Mechanical,Engineer → Mechanical
+109,71,62,89,8,8,9,8,5,6,73,Lawyer,Public Interest,Lawyer → Public Interest
+110,65,80,84,8,7,10,7,7,3,77,Teacher,Elementary,Teacher → Elementary
+111,86,70,83,5,7,7,8,8,5,74,IT Professional,UI/UX,IT Professional → UI/UX
+112,82,99,90,7,7,9,8,8,4,87,Doctor,Cardiology,Doctor → Cardiology
+113,89,92,81,5,10,8,6,5,5,81,Scientist,Research,Scientist → Research
+114,70,75,79,10,8,7,6,7,7,79,Designer,Industrial,Designer → Industrial
+115,96,85,75,5,9,9,5,7,4,80,Scientist,Data Science,Scientist → Data Science
+116,79,84,95,6,8,7,9,8,4,79,Teacher,Special Education,Teacher → Special Education
+117,70,56,87,8,9,7,7,9,6,72,Designer,Graphic Design,Designer → Graphic Design
+118,80,85,65,4,10,7,5,5,3,70,Scientist,Physics,Scientist → Physics
+119,100,97,67,7,9,8,4,8,2,87,Engineer,Mechanical,Engineer → Mechanical
+120,80,85,71,7,9,9,7,6,5,78,Scientist,Research,Scientist → Research
+121,73,71,87,7,7,8,6,5,6,74,Lawyer,IP Law,Lawyer → IP Law
+122,80,90,81,5,7,7,6,5,6,77,IT Professional,Data Science,IT Professional → Data Science
+123,80,96,75,6,9,10,6,6,4,79,Scientist,Physics,Scientist → Physics
+124,82,75,88,8,7,10,7,8,4,80,Teacher,Special Education,Teacher → Special Education
+125,87,96,70,7,7,9,4,8,3,83,Engineer,Mechanical,Engineer → Mechanical
+126,87,77,79,8,10,6,6,8,3,81,IT Professional,AI/ML,IT Professional → AI/ML
+127,71,90,95,6,9,10,7,8,3,80,Teacher,Elementary,Teacher → Elementary
+128,77,75,73,5,9,7,7,8,5,70,IT Professional,UI/UX,IT Professional → UI/UX
+129,85,92,82,3,9,9,5,6,5,76,Engineer,Mechanical,Engineer → Mechanical
+130,91,85,80,4,9,10,5,8,2,76,Scientist,Environmental,Scientist → Environmental
+131,69,65,92,8,9,9,9,7,5,75,Business,Marketing,Business → Marketing
+132,76,69,78,6,8,9,8,7,2,71,Teacher,English,Teacher → English
+133,71,75,80,10,9,6,9,7,5,79,Designer,UI/UX,Designer → UI/UX
+134,78,63,97,7,8,8,9,8,3,76,Lawyer,Environmental Law,Lawyer → Environmental Law
+135,87,92,84,7,7,8,5,9,4,84,Doctor,Psychiatry,Doctor → Psychiatry
+136,60,60,85,9,9,5,6,6,5,70,Designer,Game Design,Designer → Game Design
+137,95,92,70,7,6,9,6,8,5,84,Doctor,Neurosurgery,Doctor → Neurosurgery
+138,90,62,77,9,6,9,9,7,6,78,Business,Management,Business → Management
+139,78,55,80,6,8,9,7,6,6,68,Lawyer,IP Law,Lawyer → IP Law
+140,87,85,80,3,10,9,7,6,3,74,Scientist,Chemistry,Scientist → Chemistry
+141,85,100,75,5,8,8,7,10,3,80,Doctor,Orthopedics,Doctor → Orthopedics
+142,100,93,74,5,7,9,5,6,6,84,Engineer,Chemical,Engineer → Chemical
+143,65,65,88,7,7,9,8,8,4,72,Lawyer,Family Law,Lawyer → Family Law
+144,86,85,81,6,7,8,8,10,2,79,Doctor,Pediatrics,Doctor → Pediatrics
+145,82,88,75,6,9,7,8,10,3,79,Teacher,Mathematics,Teacher → Mathematics
+146,93,84,80,5,8,10,6,7,5,79,Engineer,Electrical,Engineer → Electrical
+147,89,78,70,4,7,6,7,7,4,73,IT Professional,Data Science,IT Professional → Data Science
+148,72,70,96,7,7,9,8,6,6,76,Lawyer,Family Law,Lawyer → Family Law
+149,82,73,81,7,8,9,7,6,5,76,Lawyer,Public Interest,Lawyer → Public Interest
+150,72,59,72,10,8,7,9,8,4,74,Designer,Industrial,Designer → Industrial
+151,84,85,78,4,7,10,8,9,2,75,Doctor,Pediatrics,Doctor → Pediatrics
+152,89,100,90,6,8,10,7,10,4,86,Doctor,Pediatrics,Doctor → Pediatrics
+153,61,50,85,9,8,8,9,7,6,68,Designer,Game Design,Designer → Game Design
+154,73,63,95,7,8,10,10,9,6,74,Business,Management,Business → Management
+155,88,96,72,7,9,8,7,7,2,83,Engineer,Aerospace,Engineer → Aerospace
+156,84,62,70,8,7,10,9,6,6,73,Business,Operations,Business → Operations
+157,75,70,92,8,9,7,7,8,3,77,Business,Consulting,Business → Consulting
+158,81,94,65,5,9,8,4,7,3,76,Scientist,Biology,Scientist → Biology
+159,100,98,73,5,7,8,6,6,4,84,Engineer,Chemical,Engineer → Chemical
+160,75,60,81,4,6,8,8,7,4,65,Lawyer,Environmental Law,Lawyer → Environmental Law
+161,93,90,65,4,8,8,7,5,4,77,IT Professional,AI/ML,IT Professional → AI/ML
+162,76,67,84,7,6,8,8,5,6,74,Lawyer,IP Law,Lawyer → IP Law
+163,75,100,74,4,8,10,5,9,4,76,Doctor,Pediatrics,Doctor → Pediatrics
+164,91,100,88,6,7,8,6,7,4,87,Doctor,Psychiatry,Doctor → Psychiatry
+165,92,98,66,7,7,9,6,6,4,83,Engineer,Electrical,Engineer → Electrical
+166,85,64,81,6,9,9,7,6,3,73,Lawyer,IP Law,Lawyer → IP Law
+167,92,83,73,6,6,8,7,7,6,80,Engineer,Civil,Engineer → Civil
+168,80,81,65,7,8,9,7,6,7,76,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+169,65,68,97,7,9,8,7,7,4,73,Lawyer,Public Interest,Lawyer → Public Interest
+170,86,88,83,4,10,8,6,7,3,76,Scientist,Research,Scientist → Research
+171,86,92,68,5,7,7,6,6,4,78,Engineer,Civil,Engineer → Civil
+172,82,95,86,4,6,9,7,7,4,78,Doctor,Cardiology,Doctor → Cardiology
+173,76,65,79,7,9,8,10,9,6,71,Business,Finance,Business → Finance
+174,82,80,76,7,8,9,5,6,6,77,IT Professional,UI/UX,IT Professional → UI/UX
+175,76,80,81,5,8,9,8,7,5,73,Lawyer,Family Law,Lawyer → Family Law
+176,100,91,78,4,8,7,4,7,5,80,Engineer,Mechanical,Engineer → Mechanical
+177,81,79,78,6,9,7,7,6,6,76,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+178,82,75,78,9,7,9,8,6,5,81,Business,Entrepreneurship,Business → Entrepreneurship
+179,77,75,91,5,7,7,9,10,3,74,Teacher,Elementary,Teacher → Elementary
+180,84,85,76,6,9,8,7,8,2,78,Doctor,Psychiatry,Doctor → Psychiatry
+181,86,93,71,5,9,10,5,5,3,78,Scientist,Environmental,Scientist → Environmental
+182,87,100,73,7,10,8,5,5,2,85,Scientist,Biology,Scientist → Biology
+183,95,81,74,6,8,6,6,5,6,79,IT Professional,Software Development,IT Professional → Software Development
+184,80,93,65,5,8,9,7,5,4,74,Scientist,Research,Scientist → Research
+185,71,76,78,7,9,7,7,10,3,75,Teacher,Elementary,Teacher → Elementary
+186,80,97,83,4,9,8,8,9,4,77,Doctor,Orthopedics,Doctor → Orthopedics
+187,90,85,83,6,7,8,7,7,3,80,Teacher,Administration,Teacher → Administration
+188,93,93,71,7,9,10,4,7,5,84,Engineer,Mechanical,Engineer → Mechanical
+189,73,70,73,8,7,8,8,6,4,74,Business,Marketing,Business → Marketing
+190,91,85,81,6,10,9,7,8,3,81,Scientist,Data Science,Scientist → Data Science
+191,76,57,90,8,9,7,7,8,6,74,Designer,Graphic Design,Designer → Graphic Design
+192,85,98,79,4,9,8,4,5,3,78,Engineer,Mechanical,Engineer → Mechanical
+193,100,100,71,5,8,8,7,8,2,83,Scientist,Chemistry,Scientist → Chemistry
+194,73,80,79,8,6,9,8,7,5,77,Business,Operations,Business → Operations
+195,84,77,73,8,9,7,7,6,6,79,IT Professional,UI/UX,IT Professional → UI/UX
+196,88,85,70,6,6,9,5,10,4,78,Doctor,Pediatrics,Doctor → Pediatrics
+197,93,76,68,7,10,8,7,6,4,78,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+198,69,75,73,7,9,8,9,6,6,72,Designer,Architecture,Designer → Architecture
+199,94,99,85,7,8,7,5,7,3,89,Scientist,Research,Scientist → Research
+200,100,82,73,5,9,8,4,8,5,79,Engineer,Civil,Engineer → Civil
+201,55,75,88,9,9,7,8,8,6,74,Designer,Industrial,Designer → Industrial
+202,76,56,97,5,6,10,8,7,6,69,Lawyer,Corporate Law,Lawyer → Corporate Law
+203,84,71,98,5,9,9,9,5,5,76,Lawyer,Public Interest,Lawyer → Public Interest
+204,86,78,68,5,10,8,4,8,7,72,IT Professional,Data Science,IT Professional → Data Science
+205,78,74,88,4,8,8,6,7,4,71,Lawyer,Criminal Law,Lawyer → Criminal Law
+206,76,59,74,9,9,7,9,7,3,72,Designer,Game Design,Designer → Game Design
+207,90,86,79,7,8,10,7,10,2,83,Doctor,Psychiatry,Doctor → Psychiatry
+208,88,85,76,5,10,7,5,5,5,78,Scientist,Data Science,Scientist → Data Science
+209,85,92,77,6,8,8,6,8,2,80,Doctor,General Medicine,Doctor → General Medicine
+210,78,88,70,6,10,7,7,6,7,75,IT Professional,Data Science,IT Professional → Data Science
+211,95,100,88,7,8,9,6,8,4,91,Doctor,Orthopedics,Doctor → Orthopedics
+212,100,92,72,3,8,7,5,5,2,78,Engineer,Computer Science,Engineer → Computer Science
+213,79,57,95,7,9,8,10,9,5,74,Business,Management,Business → Management
+214,96,98,74,6,8,8,7,6,4,84,Scientist,Chemistry,Scientist → Chemistry
+215,93,84,77,8,9,7,6,6,6,85,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+216,84,83,83,8,7,10,7,7,3,83,Teacher,Mathematics,Teacher → Mathematics
+217,83,94,88,4,6,9,8,7,4,79,Doctor,Orthopedics,Doctor → Orthopedics
+218,80,55,82,6,6,9,9,7,5,69,Lawyer,IP Law,Lawyer → IP Law
+219,62,68,86,10,8,5,8,8,6,76,Designer,Fashion,Designer → Fashion
+220,72,72,73,7,9,8,9,7,6,73,Designer,Fashion,Designer → Fashion
+221,84,88,88,4,8,9,7,9,2,78,Doctor,Cardiology,Doctor → Cardiology
+222,69,71,81,10,9,5,8,8,5,78,Designer,Game Design,Designer → Game Design
+223,61,65,80,10,10,6,6,8,6,74,Designer,Fashion,Designer → Fashion
+224,67,64,80,9,8,7,8,7,4,74,Designer,Game Design,Designer → Game Design
+225,81,57,81,7,9,9,7,6,3,71,Lawyer,Environmental Law,Lawyer → Environmental Law
+226,82,79,83,7,7,10,8,7,5,78,Business,Finance,Business → Finance
+227,95,90,79,4,8,8,5,10,3,80,Doctor,Pediatrics,Doctor → Pediatrics
+228,91,96,73,5,6,10,8,7,3,81,Doctor,General Medicine,Doctor → General Medicine
+229,83,71,85,5,7,8,5,5,4,74,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+230,78,66,78,7,10,8,9,9,5,73,Teacher,Elementary,Teacher → Elementary
+231,80,85,86,3,7,8,5,8,5,73,Doctor,Pediatrics,Doctor → Pediatrics
+232,97,85,70,7,8,8,6,7,3,82,Scientist,Environmental,Scientist → Environmental
+233,89,65,80,7,10,9,8,8,4,77,Teacher,English,Teacher → English
+234,93,94,60,7,6,8,6,8,6,82,Engineer,Aerospace,Engineer → Aerospace
+235,86,75,89,8,9,10,8,8,4,82,Business,Management,Business → Management
+236,94,96,81,6,10,8,6,5,3,85,Scientist,Data Science,Scientist → Data Science
+237,73,67,80,5,9,10,8,7,5,69,Lawyer,Environmental Law,Lawyer → Environmental Law
+238,80,83,73,7,10,6,7,7,7,77,IT Professional,UI/UX,IT Professional → UI/UX
+239,84,80,90,5,6,8,9,5,6,77,Lawyer,Public Interest,Lawyer → Public Interest
+240,71,73,75,5,10,8,7,9,4,69,Teacher,Special Education,Teacher → Special Education
+241,83,83,88,7,9,8,8,7,4,81,Teacher,Administration,Teacher → Administration
+242,96,80,75,4,8,9,7,7,6,75,Engineer,Electrical,Engineer → Electrical
+243,68,71,80,7,9,8,6,6,6,71,Lawyer,Criminal Law,Lawyer → Criminal Law
+244,84,86,75,9,8,9,9,10,2,84,Teacher,Science,Teacher → Science
+245,90,90,71,6,7,9,6,7,6,80,IT Professional,UI/UX,IT Professional → UI/UX
+246,85,67,88,6,7,9,8,6,3,76,Lawyer,Public Interest,Lawyer → Public Interest
+247,85,92,90,7,8,8,7,9,3,86,Doctor,Cardiology,Doctor → Cardiology
+248,68,67,83,7,9,8,8,7,5,71,Lawyer,Criminal Law,Lawyer → Criminal Law
+249,81,90,65,6,8,9,7,6,6,77,IT Professional,DevOps,IT Professional → DevOps
+250,82,89,90,6,9,9,8,7,4,81,Doctor,Psychiatry,Doctor → Psychiatry
+251,68,50,84,10,9,5,7,6,6,72,Designer,Fashion,Designer → Fashion
+252,69,83,84,7,7,10,9,8,5,77,Teacher,Mathematics,Teacher → Mathematics
+253,90,55,89,7,7,9,9,8,3,75,Business,Entrepreneurship,Business → Entrepreneurship
+254,100,94,70,5,6,9,6,6,2,83,Engineer,Computer Science,Engineer → Computer Science
+255,65,69,79,9,7,8,8,9,5,74,Teacher,Elementary,Teacher → Elementary
+256,79,65,89,9,8,10,9,8,3,79,Teacher,Administration,Teacher → Administration
+257,81,75,68,4,9,9,6,7,6,69,IT Professional,UI/UX,IT Professional → UI/UX
+258,88,90,71,5,7,9,8,6,7,78,IT Professional,Data Science,IT Professional → Data Science
+259,93,92,67,5,10,10,6,8,4,79,Scientist,Environmental,Scientist → Environmental
+260,92,90,83,6,10,8,6,6,6,84,IT Professional,DevOps,IT Professional → DevOps
+261,83,90,78,6,8,9,6,6,5,79,IT Professional,UI/UX,IT Professional → UI/UX
+262,93,94,89,5,8,9,7,8,3,85,Doctor,Orthopedics,Doctor → Orthopedics
+263,91,90,68,8,8,7,7,6,6,84,IT Professional,UI/UX,IT Professional → UI/UX
+264,72,79,80,6,7,10,6,5,5,74,Lawyer,Corporate Law,Lawyer → Corporate Law
+265,80,60,98,4,6,8,7,6,3,70,Lawyer,Criminal Law,Lawyer → Criminal Law
+266,100,90,82,4,9,10,5,8,2,81,Engineer,Civil,Engineer → Civil
+267,82,85,80,7,6,10,7,10,3,80,Doctor,Pediatrics,Doctor → Pediatrics
+268,84,78,85,5,10,8,7,7,4,76,Teacher,Elementary,Teacher → Elementary
+269,76,78,88,9,7,8,7,7,6,82,Business,Operations,Business → Operations
+270,66,70,83,8,10,7,6,7,7,73,Designer,Architecture,Designer → Architecture
+271,92,89,80,6,10,10,5,6,2,83,Scientist,Data Science,Scientist → Data Science
+272,95,90,84,3,10,9,4,5,2,79,Scientist,Physics,Scientist → Physics
+273,87,75,82,8,9,6,7,7,3,80,IT Professional,Software Development,IT Professional → Software Development
+274,66,63,95,8,6,8,10,8,5,73,Business,Entrepreneurship,Business → Entrepreneurship
+275,71,76,91,7,8,8,9,7,4,76,Lawyer,Family Law,Lawyer → Family Law
+276,85,68,85,7,7,9,7,5,3,77,Lawyer,Environmental Law,Lawyer → Environmental Law
+277,79,73,92,8,7,9,8,8,6,81,Business,Operations,Business → Operations
+278,96,94,69,3,10,9,5,8,3,77,Scientist,Chemistry,Scientist → Chemistry
+279,87,81,85,6,8,7,6,7,4,79,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+280,76,66,70,7,7,8,8,7,5,71,Business,Finance,Business → Finance
+281,65,59,85,5,7,8,7,7,5,65,Lawyer,Family Law,Lawyer → Family Law
+282,63,70,77,7,9,8,8,8,4,69,Designer,UI/UX,Designer → UI/UX
+283,76,67,92,6,9,8,6,5,4,73,Lawyer,Public Interest,Lawyer → Public Interest
+284,85,90,64,5,7,10,5,8,5,76,Engineer,Mechanical,Engineer → Mechanical
+285,75,76,78,6,7,9,9,6,4,73,Business,Management,Business → Management
+286,80,65,70,10,8,7,6,7,4,77,Designer,Game Design,Designer → Game Design
+287,81,64,86,8,8,9,8,6,4,76,Business,Marketing,Business → Marketing
+288,95,89,77,5,9,6,7,7,5,81,IT Professional,AI/ML,IT Professional → AI/ML
+289,73,73,75,9,8,6,8,6,4,76,Designer,Game Design,Designer → Game Design
+290,68,73,90,7,9,10,9,7,6,74,Lawyer,Criminal Law,Lawyer → Criminal Law
+291,73,89,82,8,9,7,8,9,4,80,Teacher,Special Education,Teacher → Special Education
+292,80,68,76,9,10,6,6,9,5,79,Designer,Fashion,Designer → Fashion
+293,92,100,90,7,8,8,7,9,3,89,Doctor,General Medicine,Doctor → General Medicine
+294,83,74,95,7,8,7,7,7,2,79,Teacher,Special Education,Teacher → Special Education
+295,85,80,80,7,9,8,8,8,5,79,Lawyer,Family Law,Lawyer → Family Law
+296,76,80,79,6,8,10,8,7,4,74,Business,Finance,Business → Finance
+297,75,69,80,6,7,8,6,8,4,71,Lawyer,Family Law,Lawyer → Family Law
+298,55,52,87,8,8,6,9,7,6,65,Designer,UI/UX,Designer → UI/UX
+299,64,70,74,10,8,6,9,7,5,75,Designer,UI/UX,Designer → UI/UX
+300,82,64,86,6,7,9,9,8,4,74,Business,Management,Business → Management
+301,75,100,77,5,6,9,7,10,3,78,Doctor,Pediatrics,Doctor → Pediatrics
+302,100,96,67,4,7,7,6,7,4,80,Engineer,Computer Science,Engineer → Computer Science
+303,83,70,92,6,8,10,6,7,6,75,Lawyer,Environmental Law,Lawyer → Environmental Law
+304,65,50,73,8,10,7,6,8,3,65,Designer,UI/UX,Designer → UI/UX
+305,81,81,75,7,10,8,6,8,3,77,Teacher,Mathematics,Teacher → Mathematics
+306,71,74,89,9,8,8,9,7,3,79,Teacher,Special Education,Teacher → Special Education
+307,88,90,75,5,7,7,6,7,7,79,IT Professional,AI/ML,IT Professional → AI/ML
+308,94,95,68,5,10,8,5,5,5,81,Scientist,Research,Scientist → Research
+309,78,77,80,5,7,8,9,5,4,73,Lawyer,Environmental Law,Lawyer → Environmental Law
+310,69,59,77,7,9,7,9,8,3,68,Designer,Game Design,Designer → Game Design
+311,92,76,75,5,7,6,5,6,5,75,IT Professional,Software Development,IT Professional → Software Development
+312,89,85,65,5,10,8,5,7,5,76,Scientist,Environmental,Scientist → Environmental
+313,95,80,76,5,8,8,7,7,5,77,Engineer,Electrical,Engineer → Electrical
+314,76,57,75,9,9,5,7,9,3,73,Designer,Fashion,Designer → Fashion
+315,89,85,65,4,9,10,7,6,3,73,Scientist,Biology,Scientist → Biology
+316,78,73,96,4,9,8,6,6,4,73,Lawyer,Corporate Law,Lawyer → Corporate Law
+317,89,95,68,4,9,8,6,7,2,76,Scientist,Environmental,Scientist → Environmental
+318,86,97,60,7,9,8,6,5,4,81,Engineer,Civil,Engineer → Civil
+319,68,65,77,6,7,8,9,7,3,68,Business,Consulting,Business → Consulting
+320,70,84,88,8,10,10,7,7,4,80,Teacher,Mathematics,Teacher → Mathematics
+321,85,96,71,4,8,7,5,7,3,77,Scientist,Environmental,Scientist → Environmental
+322,64,67,71,9,9,6,8,7,3,72,Designer,UI/UX,Designer → UI/UX
+323,85,82,93,8,7,8,7,10,2,84,Teacher,English,Teacher → English
+324,100,94,81,7,8,8,4,5,6,87,Engineer,Chemical,Engineer → Chemical
+325,98,80,70,6,8,9,6,8,3,79,Engineer,Electrical,Engineer → Electrical
+326,87,91,85,5,7,9,5,8,2,80,Engineer,Electrical,Engineer → Electrical
+327,84,67,82,7,8,9,6,10,5,75,Teacher,Mathematics,Teacher → Mathematics
+328,79,80,88,8,9,10,7,6,6,81,Lawyer,Environmental Law,Lawyer → Environmental Law
+329,58,65,80,8,10,7,8,7,6,69,Designer,Fashion,Designer → Fashion
+330,96,85,82,6,10,7,6,6,4,82,Scientist,Research,Scientist → Research
+331,84,89,70,5,10,9,6,6,3,76,Scientist,Research,Scientist → Research
+332,84,73,80,6,9,9,8,6,5,75,Business,Finance,Business → Finance
+333,78,82,78,7,7,10,6,10,3,78,Teacher,Special Education,Teacher → Special Education
+334,76,67,85,10,8,8,10,7,3,79,Business,Consulting,Business → Consulting
+335,81,100,78,4,9,7,7,8,4,77,Scientist,Research,Scientist → Research
+336,80,83,95,6,7,10,8,8,3,81,Teacher,Science,Teacher → Science
+337,92,81,81,7,8,7,4,7,5,82,Engineer,Electrical,Engineer → Electrical
+338,81,90,85,6,7,10,8,9,5,80,Teacher,Mathematics,Teacher → Mathematics
+339,86,83,89,7,10,9,7,10,4,82,Teacher,Science,Teacher → Science
+340,78,58,98,7,6,8,9,5,6,75,Lawyer,Corporate Law,Lawyer → Corporate Law
+341,79,92,72,5,7,10,8,10,2,77,Doctor,Psychiatry,Doctor → Psychiatry
+342,68,69,93,8,7,8,9,5,4,76,Lawyer,Corporate Law,Lawyer → Corporate Law
+343,94,87,85,7,9,10,7,6,3,85,Scientist,Research,Scientist → Research
+344,86,78,73,6,10,7,7,7,7,76,IT Professional,UI/UX,IT Professional → UI/UX
+345,80,65,80,5,7,7,8,7,2,70,Teacher,Mathematics,Teacher → Mathematics
+346,65,55,75,9,9,10,8,6,6,69,Business,Operations,Business → Operations
+347,91,87,85,5,7,7,5,6,3,80,Engineer,Civil,Engineer → Civil
+348,93,89,78,5,7,9,5,6,3,79,Engineer,Civil,Engineer → Civil
+349,75,82,76,5,9,9,7,5,5,73,IT Professional,Software Development,IT Professional → Software Development
+350,61,58,76,8,9,7,6,6,5,66,Designer,Industrial,Designer → Industrial
+351,68,53,90,10,9,8,8,6,5,74,Designer,UI/UX,Designer → UI/UX
+352,86,70,65,7,9,6,7,7,5,74,IT Professional,UI/UX,IT Professional → UI/UX
+353,88,88,67,6,9,8,5,8,5,78,Scientist,Biology,Scientist → Biology
+354,90,68,86,6,7,9,8,8,3,77,Business,Operations,Business → Operations
+355,99,87,85,4,10,9,7,5,5,80,Scientist,Chemistry,Scientist → Chemistry
+356,84,84,71,8,7,9,4,7,6,80,IT Professional,UI/UX,IT Professional → UI/UX
+357,91,90,73,3,8,10,6,7,4,76,Scientist,Data Science,Scientist → Data Science
+358,71,63,73,8,9,7,7,9,6,70,Business,Entrepreneurship,Business → Entrepreneurship
+359,95,85,70,6,9,8,5,9,4,80,Doctor,Pediatrics,Doctor → Pediatrics
+360,80,68,90,7,9,6,6,8,7,76,Designer,Architecture,Designer → Architecture
+361,85,91,88,4,8,9,5,8,5,79,Doctor,Neurosurgery,Doctor → Neurosurgery
+362,100,99,65,5,8,9,4,8,2,82,Scientist,Environmental,Scientist → Environmental
+363,55,69,73,7,9,6,7,9,7,66,Designer,Industrial,Designer → Industrial
+364,80,97,69,6,10,8,6,8,2,79,Scientist,Chemistry,Scientist → Chemistry
+365,69,59,76,6,9,9,10,8,5,66,Business,Management,Business → Management
+366,78,61,88,9,6,8,8,7,3,76,Business,Finance,Business → Finance
+367,100,94,76,6,8,7,5,5,3,85,Scientist,Chemistry,Scientist → Chemistry
+368,81,61,94,7,7,10,7,8,5,76,Business,Finance,Business → Finance
+369,85,62,80,4,7,8,7,6,6,69,Lawyer,Corporate Law,Lawyer → Corporate Law
+370,88,95,69,6,8,9,5,7,4,80,Engineer,Computer Science,Engineer → Computer Science
+371,76,98,74,4,7,9,7,8,3,75,Doctor,General Medicine,Doctor → General Medicine
+372,83,71,86,9,10,7,9,8,3,81,Teacher,Science,Teacher → Science
+373,72,70,70,10,8,7,9,7,5,77,Designer,Graphic Design,Designer → Graphic Design
+374,83,71,82,5,10,8,7,10,3,73,Teacher,Special Education,Teacher → Special Education
+375,75,65,79,9,8,7,7,6,4,75,Designer,Industrial,Designer → Industrial
+376,84,70,65,6,10,6,5,7,6,71,IT Professional,UI/UX,IT Professional → UI/UX
+377,87,84,68,8,8,8,5,8,6,80,IT Professional,Software Development,IT Professional → Software Development
+378,90,82,91,8,9,7,8,7,5,85,Teacher,Administration,Teacher → Administration
+379,91,91,67,6,9,9,5,6,2,80,Scientist,Chemistry,Scientist → Chemistry
+380,92,92,73,7,9,9,7,9,5,84,Doctor,Pediatrics,Doctor → Pediatrics
+381,73,78,80,9,7,9,8,9,5,78,Teacher,Mathematics,Teacher → Mathematics
+382,88,100,76,5,9,9,4,6,2,82,Scientist,Environmental,Scientist → Environmental
+383,75,85,70,5,7,9,5,7,4,73,Doctor,Orthopedics,Doctor → Orthopedics
+384,73,70,88,8,8,8,8,8,4,76,Teacher,Science,Teacher → Science
+385,90,90,74,5,8,7,4,5,2,79,Scientist,Data Science,Scientist → Data Science
+386,86,76,68,8,9,8,8,7,4,78,IT Professional,Data Science,IT Professional → Data Science
+387,67,65,82,7,8,7,7,9,3,70,Teacher,Science,Teacher → Science
+388,79,87,75,6,8,9,9,7,2,78,Teacher,Special Education,Teacher → Special Education
+389,67,64,98,7,6,9,7,6,6,72,Lawyer,Public Interest,Lawyer → Public Interest
+390,65,80,90,5,8,8,6,7,3,71,Lawyer,Corporate Law,Lawyer → Corporate Law
+391,81,100,76,4,8,7,5,6,2,78,Scientist,Physics,Scientist → Physics
+392,85,95,90,6,9,8,7,7,2,83,Doctor,Orthopedics,Doctor → Orthopedics
+393,88,91,85,8,7,8,7,8,3,86,Doctor,Pediatrics,Doctor → Pediatrics
+394,99,88,77,3,7,9,7,7,5,78,Engineer,Aerospace,Engineer → Aerospace
+395,77,61,90,8,9,7,8,8,5,74,Designer,Industrial,Designer → Industrial
+396,94,100,72,8,7,10,5,9,3,88,Doctor,General Medicine,Doctor → General Medicine
+397,80,73,74,8,7,6,6,8,4,77,IT Professional,Data Science,IT Professional → Data Science
+398,99,87,70,6,8,7,6,7,6,83,Engineer,Civil,Engineer → Civil
+399,75,76,86,8,7,10,9,9,3,78,Business,Finance,Business → Finance
+400,70,74,86,6,7,9,8,5,4,73,Lawyer,Family Law,Lawyer → Family Law
+401,80,67,75,8,9,6,9,8,4,74,Designer,Architecture,Designer → Architecture
+402,90,70,90,7,7,9,8,8,3,80,Teacher,Administration,Teacher → Administration
+403,100,97,74,6,6,9,5,5,2,87,Engineer,Chemical,Engineer → Chemical
+404,72,74,87,9,7,9,7,8,5,80,Business,Entrepreneurship,Business → Entrepreneurship
+405,76,84,93,6,9,9,9,8,3,78,Teacher,Special Education,Teacher → Special Education
+406,86,71,85,5,8,6,4,7,6,74,IT Professional,Data Science,IT Professional → Data Science
+407,72,63,95,8,8,8,10,7,4,75,Business,Consulting,Business → Consulting
+408,85,98,61,3,8,8,5,6,4,73,Engineer,Civil,Engineer → Civil
+409,80,76,74,9,7,10,10,7,3,80,Business,Management,Business → Management
+410,66,67,83,6,8,8,8,8,4,69,Lawyer,Criminal Law,Lawyer → Criminal Law
+411,77,80,85,4,9,7,6,7,5,72,IT Professional,Data Science,IT Professional → Data Science
+412,69,75,81,9,8,7,9,6,4,78,Business,Management,Business → Management
+413,58,71,85,7,8,6,7,8,5,70,Designer,Fashion,Designer → Fashion
+414,80,90,72,4,10,8,6,6,3,74,Scientist,Physics,Scientist → Physics
+415,91,86,73,6,9,9,6,7,4,80,Scientist,Physics,Scientist → Physics
+416,76,77,74,9,7,8,9,6,4,79,Business,Entrepreneurship,Business → Entrepreneurship
+417,87,64,91,8,7,7,8,9,3,79,Business,Operations,Business → Operations
+418,80,61,70,8,8,6,7,9,5,72,Designer,Fashion,Designer → Fashion
+419,80,71,90,7,9,5,7,8,5,78,Designer,UI/UX,Designer → UI/UX
+420,85,87,75,7,10,8,6,5,3,80,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+421,71,67,70,10,7,9,9,9,3,76,Business,Operations,Business → Operations
+422,93,86,79,5,7,10,5,5,4,79,Engineer,Chemical,Engineer → Chemical
+423,81,66,72,8,7,10,7,9,4,74,Business,Entrepreneurship,Business → Entrepreneurship
+424,81,85,72,4,9,10,7,7,2,71,Scientist,Data Science,Scientist → Data Science
+425,84,100,88,6,7,8,7,8,4,84,Doctor,General Medicine,Doctor → General Medicine
+426,97,89,84,7,9,8,5,6,5,87,Scientist,Biology,Scientist → Biology
+427,81,55,89,7,9,8,8,5,3,72,Lawyer,Public Interest,Lawyer → Public Interest
+428,97,100,75,5,8,9,7,8,3,85,Scientist,Research,Scientist → Research
+429,86,70,70,8,7,8,5,7,5,76,IT Professional,Software Development,IT Professional → Software Development
+430,65,72,80,9,8,8,8,7,3,75,Designer,Fashion,Designer → Fashion
+431,59,75,77,8,10,7,8,6,6,71,Designer,Game Design,Designer → Game Design
+432,90,74,92,6,8,8,7,9,3,80,Teacher,English,Teacher → English
+433,68,64,90,9,10,7,7,9,5,75,Designer,Fashion,Designer → Fashion
+434,85,92,72,4,6,10,6,5,3,75,Engineer,Aerospace,Engineer → Aerospace
+435,79,83,75,5,8,7,5,8,6,73,IT Professional,UI/UX,IT Professional → UI/UX
+436,92,85,80,3,6,10,5,7,3,76,Doctor,Cardiology,Doctor → Cardiology
+437,86,93,90,4,7,9,5,7,5,80,Doctor,Pediatrics,Doctor → Pediatrics
+438,74,58,87,10,9,7,6,8,5,77,Designer,Industrial,Designer → Industrial
+439,88,100,78,3,9,8,7,10,4,78,Doctor,General Medicine,Doctor → General Medicine
+440,85,55,85,5,8,10,6,6,3,70,Lawyer,Family Law,Lawyer → Family Law
+441,85,66,90,7,7,10,7,8,3,76,Teacher,Special Education,Teacher → Special Education
+442,100,90,70,5,7,9,4,7,3,80,Engineer,Chemical,Engineer → Chemical
+443,94,82,85,3,6,10,5,8,4,76,Engineer,Computer Science,Engineer → Computer Science
+444,85,100,65,5,8,10,5,6,4,78,Scientist,Biology,Scientist → Biology
+445,68,75,80,8,8,9,8,7,6,75,Lawyer,Family Law,Lawyer → Family Law
+446,95,79,82,6,8,8,7,6,5,80,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+447,99,89,61,7,7,9,5,7,2,82,Engineer,Electrical,Engineer → Electrical
+448,87,100,83,4,8,9,4,7,3,80,Scientist,Environmental,Scientist → Environmental
+449,65,55,84,7,7,9,10,7,4,67,Business,Entrepreneurship,Business → Entrepreneurship
+450,94,97,80,3,8,7,6,7,5,79,Scientist,Data Science,Scientist → Data Science
+451,71,64,90,5,8,8,7,8,6,69,Lawyer,Environmental Law,Lawyer → Environmental Law
+452,65,77,98,7,9,8,6,8,5,77,Lawyer,IP Law,Lawyer → IP Law
+453,75,94,88,3,9,8,7,8,4,74,Doctor,Neurosurgery,Doctor → Neurosurgery
+454,86,56,91,6,8,7,9,7,3,73,Business,Consulting,Business → Consulting
+455,89,86,73,7,6,9,6,5,6,81,Engineer,Chemical,Engineer → Chemical
+456,89,70,65,5,7,6,6,6,5,70,IT Professional,AI/ML,IT Professional → AI/ML
+457,95,83,72,6,8,9,4,6,3,79,Engineer,Computer Science,Engineer → Computer Science
+458,83,100,90,5,6,10,6,9,5,83,Doctor,General Medicine,Doctor → General Medicine
+459,72,64,80,7,7,8,9,6,4,70,Business,Consulting,Business → Consulting
+460,76,100,77,5,7,9,7,9,3,78,Doctor,Pediatrics,Doctor → Pediatrics
+461,85,98,60,4,8,9,5,6,4,75,Engineer,Civil,Engineer → Civil
+462,88,85,82,7,8,9,5,7,2,82,Scientist,Chemistry,Scientist → Chemistry
+463,78,82,81,5,10,6,8,7,4,74,IT Professional,Data Science,IT Professional → Data Science
+464,75,64,92,8,7,9,9,6,4,75,Business,Entrepreneurship,Business → Entrepreneurship
+465,73,74,84,7,7,9,8,9,6,74,Business,Marketing,Business → Marketing
+466,92,80,85,6,7,9,6,5,3,81,IT Professional,Software Development,IT Professional → Software Development
+467,90,99,83,5,8,8,7,8,3,84,Doctor,Neurosurgery,Doctor → Neurosurgery
+468,75,81,65,8,8,8,6,8,3,76,IT Professional,DevOps,IT Professional → DevOps
+469,100,84,85,4,8,8,4,7,5,81,Engineer,Chemical,Engineer → Chemical
+470,80,85,71,6,10,8,4,7,2,75,Scientist,Physics,Scientist → Physics
+471,75,69,98,5,9,9,7,8,4,73,Lawyer,IP Law,Lawyer → IP Law
+472,80,91,80,5,10,9,7,6,2,77,Scientist,Chemistry,Scientist → Chemistry
+473,85,98,67,6,7,7,6,7,5,80,Engineer,Computer Science,Engineer → Computer Science
+474,55,68,70,9,8,7,6,8,6,69,Designer,UI/UX,Designer → UI/UX
+475,58,56,87,10,8,6,7,6,3,72,Designer,Architecture,Designer → Architecture
+476,58,70,84,8,9,7,9,8,4,72,Designer,UI/UX,Designer → UI/UX
+477,100,84,69,7,7,9,5,8,5,83,Engineer,Electrical,Engineer → Electrical
+478,79,71,92,6,7,10,9,7,5,76,Lawyer,Public Interest,Lawyer → Public Interest
+479,55,75,74,8,9,8,7,9,5,71,Designer,Architecture,Designer → Architecture
+480,77,82,83,5,9,6,7,7,6,74,IT Professional,DevOps,IT Professional → DevOps
+481,80,94,71,6,10,10,5,6,4,77,Scientist,Research,Scientist → Research
+482,82,93,79,5,8,8,5,9,4,77,Doctor,Neurosurgery,Doctor → Neurosurgery
+483,85,91,63,5,9,9,6,5,5,75,Engineer,Civil,Engineer → Civil
+484,78,86,82,5,8,10,7,8,5,76,Teacher,Special Education,Teacher → Special Education
+485,88,94,82,7,9,10,7,8,3,84,Doctor,Pediatrics,Doctor → Pediatrics
+486,75,100,90,4,6,9,7,7,3,79,Doctor,Cardiology,Doctor → Cardiology
+487,69,73,98,5,8,8,8,6,5,73,Lawyer,Family Law,Lawyer → Family Law
+488,76,67,83,6,7,7,8,10,4,70,Teacher,Mathematics,Teacher → Mathematics
+489,75,83,83,8,8,8,6,8,4,80,IT Professional,AI/ML,IT Professional → AI/ML
+490,64,73,75,7,9,7,7,9,6,71,Designer,Industrial,Designer → Industrial
+491,79,78,77,7,9,6,8,6,5,76,IT Professional,AI/ML,IT Professional → AI/ML
+492,82,74,90,8,7,8,8,7,3,81,Business,Marketing,Business → Marketing
+493,65,65,78,8,8,10,10,9,4,71,Business,Consulting,Business → Consulting
+494,89,86,71,6,8,8,5,7,3,78,Engineer,Chemical,Engineer → Chemical
+495,68,71,94,5,7,10,8,7,4,71,Lawyer,Public Interest,Lawyer → Public Interest
+496,85,89,67,5,6,10,5,6,4,75,Engineer,Civil,Engineer → Civil
+497,71,59,73,9,8,6,6,8,7,72,Designer,UI/UX,Designer → UI/UX
+498,65,57,84,10,7,10,10,9,5,73,Business,Entrepreneurship,Business → Entrepreneurship
+499,66,70,94,7,7,8,7,5,4,74,Lawyer,Family Law,Lawyer → Family Law
+500,83,90,84,5,9,8,7,8,3,79,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+501,90,87,75,8,10,8,8,8,5,84,Teacher,Mathematics,Teacher → Mathematics
+502,88,83,65,6,10,7,7,6,4,76,IT Professional,AI/ML,IT Professional → AI/ML
+503,76,53,73,10,9,6,8,6,5,73,Designer,Architecture,Designer → Architecture
+504,93,98,72,3,6,9,4,6,4,78,Engineer,Civil,Engineer → Civil
+505,90,83,80,7,7,7,8,10,2,81,Teacher,Science,Teacher → Science
+506,68,61,70,7,8,8,9,7,6,67,Designer,Graphic Design,Designer → Graphic Design
+507,85,62,92,5,6,8,6,6,6,73,Lawyer,Public Interest,Lawyer → Public Interest
+508,98,93,82,4,8,9,6,7,3,82,Engineer,Civil,Engineer → Civil
+509,90,79,90,7,9,7,8,9,4,83,Teacher,Science,Teacher → Science
+510,90,83,81,9,7,9,9,8,2,86,Teacher,Special Education,Teacher → Special Education
+511,76,87,84,8,10,9,8,9,4,82,Teacher,Administration,Teacher → Administration
+512,85,55,83,5,8,8,7,6,4,68,Lawyer,Public Interest,Lawyer → Public Interest
+513,81,74,84,7,9,8,8,6,6,78,Lawyer,Environmental Law,Lawyer → Environmental Law
+514,73,82,79,7,7,9,7,7,5,76,Teacher,Mathematics,Teacher → Mathematics
+515,96,95,65,6,6,9,4,8,5,82,Engineer,Mechanical,Engineer → Mechanical
+516,85,80,67,3,9,8,5,8,3,69,Engineer,Electrical,Engineer → Electrical
+517,91,88,80,4,8,10,7,10,4,79,Doctor,Cardiology,Doctor → Cardiology
+518,81,74,96,4,9,9,7,6,4,74,Lawyer,Public Interest,Lawyer → Public Interest
+519,90,63,70,9,6,8,8,7,5,78,Business,Marketing,Business → Marketing
+520,72,78,83,8,7,7,6,10,4,77,Teacher,Elementary,Teacher → Elementary
+521,64,58,85,8,8,8,8,9,6,69,Designer,Graphic Design,Designer → Graphic Design
+522,81,100,68,6,8,7,5,7,5,79,Scientist,Biology,Scientist → Biology
+523,85,84,85,6,6,10,4,6,3,80,Engineer,Electrical,Engineer → Electrical
+524,80,72,95,6,6,8,9,8,4,77,Business,Operations,Business → Operations
+525,80,66,98,6,6,9,9,5,3,76,Lawyer,Environmental Law,Lawyer → Environmental Law
+526,78,85,70,6,8,8,6,9,3,75,Doctor,Psychiatry,Doctor → Psychiatry
+527,90,93,81,3,6,9,6,9,4,78,Doctor,General Medicine,Doctor → General Medicine
+528,84,95,85,6,10,7,5,7,2,84,Scientist,Data Science,Scientist → Data Science
+529,83,83,83,6,8,10,8,10,3,79,Teacher,Administration,Teacher → Administration
+530,61,62,73,10,10,8,7,7,3,71,Designer,Architecture,Designer → Architecture
+531,80,73,79,9,7,8,7,7,4,80,Business,Consulting,Business → Consulting
+532,82,70,85,8,8,8,7,8,4,78,IT Professional,Software Development,IT Professional → Software Development
+533,90,82,68,6,8,10,6,5,6,77,Engineer,Computer Science,Engineer → Computer Science
+534,88,89,86,3,6,8,7,8,4,77,Doctor,Cardiology,Doctor → Cardiology
+535,70,73,87,10,10,6,8,6,4,80,Designer,UI/UX,Designer → UI/UX
+536,95,100,79,6,8,10,7,8,3,85,Doctor,Psychiatry,Doctor → Psychiatry
+537,80,80,78,7,7,8,9,8,5,77,Teacher,Mathematics,Teacher → Mathematics
+538,85,84,70,3,7,8,6,7,3,71,Engineer,Aerospace,Engineer → Aerospace
+539,86,85,79,7,6,8,5,9,5,82,Doctor,Pediatrics,Doctor → Pediatrics
+540,66,56,76,8,8,6,8,6,6,67,Designer,UI/UX,Designer → UI/UX
+541,83,60,91,6,7,8,8,5,6,73,Lawyer,Family Law,Lawyer → Family Law
+542,85,80,84,4,7,9,5,5,3,74,Engineer,Computer Science,Engineer → Computer Science
+543,68,55,78,7,10,6,7,9,4,67,Designer,Architecture,Designer → Architecture
+544,81,92,85,4,8,8,7,7,4,78,Scientist,Data Science,Scientist → Data Science
+545,82,73,80,6,7,10,9,9,5,75,Teacher,Administration,Teacher → Administration
+546,80,90,65,7,8,10,4,7,3,78,Scientist,Biology,Scientist → Biology
+547,79,65,84,7,8,8,6,5,4,74,Lawyer,Criminal Law,Lawyer → Criminal Law
+548,79,86,90,4,6,8,6,10,3,75,Doctor,Pediatrics,Doctor → Pediatrics
+549,99,93,85,5,8,10,6,7,2,84,Scientist,Physics,Scientist → Physics
+550,75,69,98,8,7,9,9,7,5,79,Lawyer,Criminal Law,Lawyer → Criminal Law
+551,84,72,91,7,9,9,9,8,4,79,Teacher,Elementary,Teacher → Elementary
+552,90,80,75,6,9,10,6,10,5,79,Teacher,Administration,Teacher → Administration
+553,76,71,75,7,8,10,9,8,4,72,Teacher,Mathematics,Teacher → Mathematics
+554,84,63,86,9,7,7,7,8,3,79,Business,Management,Business → Management
+555,91,93,65,6,9,9,5,6,3,80,Scientist,Physics,Scientist → Physics
+556,86,79,79,8,9,7,7,7,2,82,Teacher,English,Teacher → English
+557,76,80,82,8,7,8,7,8,5,79,Lawyer,Corporate Law,Lawyer → Corporate Law
+558,88,86,84,5,9,10,6,8,4,79,Doctor,Psychiatry,Doctor → Psychiatry
+559,75,85,73,8,9,8,7,8,4,78,Doctor,Cardiology,Doctor → Cardiology
+560,58,59,84,8,8,7,9,8,7,69,Designer,Industrial,Designer → Industrial
+561,96,100,70,6,8,10,5,7,4,85,Scientist,Biology,Scientist → Biology
+562,95,100,85,5,8,10,6,8,2,85,Doctor,Psychiatry,Doctor → Psychiatry
+563,93,92,90,3,6,8,8,7,2,79,Doctor,Psychiatry,Doctor → Psychiatry
+564,70,69,88,6,8,10,7,7,6,70,Lawyer,Criminal Law,Lawyer → Criminal Law
+565,62,50,89,10,8,6,7,8,6,72,Designer,Fashion,Designer → Fashion
+566,65,66,90,8,8,10,7,8,4,73,Teacher,Special Education,Teacher → Special Education
+567,75,63,85,10,10,7,7,6,5,78,Designer,Architecture,Designer → Architecture
+568,75,77,86,9,8,8,6,9,4,81,Teacher,Mathematics,Teacher → Mathematics
+569,88,89,82,5,9,10,6,7,5,80,Doctor,General Medicine,Doctor → General Medicine
+570,90,99,76,3,9,10,5,8,5,78,Doctor,Orthopedics,Doctor → Orthopedics
+571,86,76,70,8,7,7,8,9,4,78,Business,Entrepreneurship,Business → Entrepreneurship
+572,94,89,61,4,6,9,6,5,6,76,Engineer,Chemical,Engineer → Chemical
+573,94,100,90,3,8,8,5,9,3,82,Doctor,Psychiatry,Doctor → Psychiatry
+574,97,88,60,7,7,9,5,6,4,81,Engineer,Electrical,Engineer → Electrical
+575,94,93,85,3,9,10,4,8,3,79,Scientist,Physics,Scientist → Physics
+576,68,67,77,7,9,5,8,9,6,70,Designer,Fashion,Designer → Fashion
+577,90,87,65,5,8,7,4,8,3,76,Scientist,Data Science,Scientist → Data Science
+578,94,85,73,5,8,9,6,10,3,78,Doctor,Psychiatry,Doctor → Psychiatry
+579,86,98,69,5,9,9,6,7,4,79,Engineer,Civil,Engineer → Civil
+580,77,79,81,8,9,7,9,7,5,79,Teacher,Elementary,Teacher → Elementary
+581,86,94,82,4,8,8,5,5,3,77,Scientist,Physics,Scientist → Physics
+582,84,60,85,9,7,9,7,6,4,79,Business,Operations,Business → Operations
+583,92,90,72,6,10,9,6,5,4,80,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+584,93,100,88,6,9,9,6,9,3,88,Doctor,Pediatrics,Doctor → Pediatrics
+585,61,55,71,10,10,6,8,7,4,69,Designer,UI/UX,Designer → UI/UX
+586,85,70,76,4,8,7,5,5,4,70,IT Professional,Data Science,IT Professional → Data Science
+587,68,75,84,9,10,8,8,7,5,78,Designer,Graphic Design,Designer → Graphic Design
+588,67,65,70,10,9,6,8,9,3,74,Designer,Architecture,Designer → Architecture
+589,65,58,88,6,6,10,7,7,4,67,Business,Operations,Business → Operations
+590,100,82,68,5,7,9,4,5,2,79,Engineer,Mechanical,Engineer → Mechanical
+591,79,78,84,4,7,9,4,6,5,72,IT Professional,DevOps,IT Professional → DevOps
+592,92,87,72,4,9,9,4,8,2,76,Scientist,Physics,Scientist → Physics
+593,96,85,76,3,8,8,7,7,2,76,Scientist,Physics,Scientist → Physics
+594,81,70,72,6,9,6,4,7,6,71,IT Professional,UI/UX,IT Professional → UI/UX
+595,70,67,95,8,8,9,7,9,2,76,Teacher,Elementary,Teacher → Elementary
+596,99,92,79,4,7,9,4,8,4,82,Engineer,Computer Science,Engineer → Computer Science
+597,94,93,82,4,10,7,6,6,2,80,Scientist,Research,Scientist → Research
+598,77,72,89,6,9,10,6,7,5,74,Lawyer,IP Law,Lawyer → IP Law
+599,85,78,88,9,8,8,7,7,6,85,Business,Marketing,Business → Marketing
+600,74,73,75,8,9,9,7,8,5,74,Teacher,Science,Teacher → Science
+601,85,97,73,6,8,10,7,10,4,81,Doctor,Neurosurgery,Doctor → Neurosurgery
+602,76,83,65,4,10,7,4,8,4,69,IT Professional,DevOps,IT Professional → DevOps
+603,81,95,81,6,6,10,5,8,3,82,Doctor,Psychiatry,Doctor → Psychiatry
+604,91,74,85,7,10,7,8,5,4,81,IT Professional,AI/ML,IT Professional → AI/ML
+605,81,100,76,5,8,8,4,8,4,80,Scientist,Biology,Scientist → Biology
+606,63,66,84,9,9,5,8,7,5,73,Designer,Graphic Design,Designer → Graphic Design
+607,99,91,66,5,9,10,6,7,5,81,Scientist,Research,Scientist → Research
+608,66,75,78,8,9,8,6,6,4,74,Designer,Industrial,Designer → Industrial
+609,97,82,61,5,9,7,6,7,5,76,Engineer,Chemical,Engineer → Chemical
+610,100,90,76,7,10,7,6,8,2,86,Scientist,Physics,Scientist → Physics
+611,90,96,75,7,8,10,7,7,4,85,Engineer,Electrical,Engineer → Electrical
+612,91,81,73,5,10,9,5,7,3,76,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+613,61,75,71,10,10,8,7,7,5,75,Designer,Graphic Design,Designer → Graphic Design
+614,74,77,84,8,7,8,7,8,4,78,Business,Operations,Business → Operations
+615,96,91,78,5,9,10,6,7,5,81,Engineer,Civil,Engineer → Civil
+616,69,82,79,6,7,7,8,7,5,74,Teacher,English,Teacher → English
+617,89,86,78,4,8,8,7,8,3,76,Doctor,Orthopedics,Doctor → Orthopedics
+618,69,75,74,10,10,6,6,8,4,78,Designer,Architecture,Designer → Architecture
+619,69,84,76,5,9,9,6,10,2,71,Teacher,Administration,Teacher → Administration
+620,76,78,82,5,9,10,6,8,2,73,Teacher,Special Education,Teacher → Special Education
+621,81,71,88,5,8,8,8,8,3,72,Lawyer,IP Law,Lawyer → IP Law
+622,55,72,81,7,8,5,7,9,5,68,Designer,UI/UX,Designer → UI/UX
+623,75,74,81,5,9,7,5,7,3,70,IT Professional,DevOps,IT Professional → DevOps
+624,83,55,81,6,7,8,8,7,3,70,Business,Marketing,Business → Marketing
+625,68,70,90,9,10,5,9,6,4,78,Designer,Graphic Design,Designer → Graphic Design
+626,89,73,65,6,7,7,8,8,5,74,IT Professional,Data Science,IT Professional → Data Science
+627,80,92,77,6,8,7,5,8,5,80,Scientist,Data Science,Scientist → Data Science
+628,77,72,85,6,9,8,6,10,5,74,Teacher,Science,Teacher → Science
+629,80,64,92,7,8,9,8,8,3,75,Lawyer,Public Interest,Lawyer → Public Interest
+630,61,75,82,8,8,8,6,6,5,73,Designer,Industrial,Designer → Industrial
+631,80,79,86,6,10,9,7,9,3,77,Teacher,English,Teacher → English
+632,74,75,95,8,7,8,9,7,4,79,Business,Entrepreneurship,Business → Entrepreneurship
+633,85,88,67,6,10,8,5,8,4,77,Scientist,Data Science,Scientist → Data Science
+634,88,86,73,4,7,8,6,10,3,76,Doctor,Psychiatry,Doctor → Psychiatry
+635,85,77,70,9,7,10,8,8,4,81,Business,Management,Business → Management
+636,100,98,66,5,10,8,7,6,5,82,Scientist,Research,Scientist → Research
+637,76,90,69,7,7,9,6,7,5,78,IT Professional,AI/ML,IT Professional → AI/ML
+638,79,69,89,5,7,9,7,7,5,71,Lawyer,Public Interest,Lawyer → Public Interest
+639,80,85,74,3,10,9,5,6,3,70,Scientist,Research,Scientist → Research
+640,85,92,67,5,7,9,4,7,6,76,Engineer,Electrical,Engineer → Electrical
+641,91,93,78,6,7,10,4,8,3,83,Engineer,Chemical,Engineer → Chemical
+642,82,67,80,5,9,9,7,10,3,71,Teacher,Administration,Teacher → Administration
+643,73,58,75,10,9,7,8,6,4,74,Designer,Graphic Design,Designer → Graphic Design
+644,81,77,82,9,7,10,7,10,4,81,Teacher,Science,Teacher → Science
+645,67,62,78,8,10,7,6,9,5,70,Designer,Architecture,Designer → Architecture
+646,88,90,82,7,8,6,4,7,4,85,IT Professional,AI/ML,IT Professional → AI/ML
+647,87,87,70,7,10,7,6,6,4,80,Scientist,Chemistry,Scientist → Chemistry
+648,80,86,85,4,7,8,6,6,5,75,IT Professional,Data Science,IT Professional → Data Science
+649,100,100,70,4,10,9,5,7,2,82,Scientist,Biology,Scientist → Biology
+650,91,96,69,5,8,10,5,8,4,79,Scientist,Chemistry,Scientist → Chemistry
+651,85,64,94,6,9,9,7,8,5,75,Lawyer,Family Law,Lawyer → Family Law
+652,62,65,81,8,9,6,6,8,4,70,Designer,Fashion,Designer → Fashion
+653,81,90,65,6,8,6,6,6,6,77,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+654,84,69,95,7,9,10,7,9,5,78,Teacher,Administration,Teacher → Administration
+655,89,82,72,3,9,8,5,6,6,72,Engineer,Civil,Engineer → Civil
+656,100,85,85,6,10,9,7,5,2,84,Scientist,Physics,Scientist → Physics
+657,82,99,89,6,7,9,7,8,4,84,Doctor,Neurosurgery,Doctor → Neurosurgery
+658,89,78,76,7,9,9,5,6,4,79,IT Professional,DevOps,IT Professional → DevOps
+659,75,90,65,8,9,7,7,7,4,78,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+660,77,72,84,7,9,10,7,10,4,75,Teacher,Elementary,Teacher → Elementary
+661,88,100,75,6,10,8,6,8,3,84,Scientist,Chemistry,Scientist → Chemistry
+662,80,98,80,5,8,10,6,5,4,79,Scientist,Physics,Scientist → Physics
+663,80,65,83,7,8,7,9,9,5,75,Teacher,Science,Teacher → Science
+664,75,77,79,8,10,7,9,7,2,78,Teacher,Administration,Teacher → Administration
+665,71,60,96,4,9,10,6,8,5,66,Lawyer,Family Law,Lawyer → Family Law
+666,90,85,83,6,8,7,4,7,4,82,Scientist,Data Science,Scientist → Data Science
+667,78,65,78,5,7,8,9,9,4,68,Teacher,Special Education,Teacher → Special Education
+668,68,74,79,6,8,9,6,8,3,70,Teacher,English,Teacher → English
+669,75,75,80,4,7,7,7,8,6,70,IT Professional,AI/ML,IT Professional → AI/ML
+670,84,63,98,4,9,9,8,7,4,72,Lawyer,Corporate Law,Lawyer → Corporate Law
+671,82,70,65,6,8,6,6,6,4,71,IT Professional,DevOps,IT Professional → DevOps
+672,87,95,81,7,8,9,5,8,3,85,Doctor,Neurosurgery,Doctor → Neurosurgery
+673,77,59,72,8,7,7,7,6,5,72,Business,Entrepreneurship,Business → Entrepreneurship
+674,91,97,66,6,10,7,5,8,3,83,Scientist,Physics,Scientist → Physics
+675,76,78,85,4,8,7,7,8,6,71,IT Professional,AI/ML,IT Professional → AI/ML
+676,92,100,77,3,10,10,5,8,5,79,Scientist,Biology,Scientist → Biology
+677,65,85,89,8,8,8,6,10,2,79,Teacher,Science,Teacher → Science
+678,78,96,79,7,8,8,6,7,3,82,Doctor,Pediatrics,Doctor → Pediatrics
+679,67,67,76,8,8,5,6,9,4,71,Designer,Graphic Design,Designer → Graphic Design
+680,81,77,77,7,9,6,6,7,4,77,IT Professional,Software Development,IT Professional → Software Development
+681,77,80,80,7,9,9,9,6,4,76,Lawyer,IP Law,Lawyer → IP Law
+682,78,80,76,9,6,8,10,7,4,81,Business,Management,Business → Management
+683,85,68,89,6,8,8,9,5,3,75,Lawyer,Public Interest,Lawyer → Public Interest
+684,90,85,74,6,8,10,5,10,4,80,Doctor,Psychiatry,Doctor → Psychiatry
+685,100,100,65,5,9,9,7,5,2,83,Scientist,Environmental,Scientist → Environmental
+686,85,100,80,6,7,10,6,8,4,84,Doctor,Pediatrics,Doctor → Pediatrics
+687,86,70,71,6,8,6,5,7,6,73,IT Professional,AI/ML,IT Professional → AI/ML
+688,88,100,68,7,8,10,4,6,4,84,Scientist,Environmental,Scientist → Environmental
+689,76,85,90,3,8,10,7,9,4,73,Doctor,Orthopedics,Doctor → Orthopedics
+690,92,75,82,5,10,9,6,6,6,76,IT Professional,DevOps,IT Professional → DevOps
+691,93,100,90,7,8,8,5,8,4,90,Doctor,Pediatrics,Doctor → Pediatrics
+692,89,67,84,10,9,7,7,8,4,84,Business,Management,Business → Management
+693,65,71,83,5,7,8,7,5,6,68,Lawyer,Corporate Law,Lawyer → Corporate Law
+694,93,94,77,5,6,8,5,7,2,81,Engineer,Mechanical,Engineer → Mechanical
+695,83,62,75,7,7,9,9,9,4,73,Business,Operations,Business → Operations
+696,75,77,69,6,9,6,8,5,5,72,IT Professional,DevOps,IT Professional → DevOps
+697,92,98,65,4,9,9,4,6,3,79,Engineer,Chemical,Engineer → Chemical
+698,76,61,91,6,7,8,7,6,6,72,Lawyer,IP Law,Lawyer → IP Law
+699,80,57,83,7,6,8,9,7,4,71,Lawyer,Family Law,Lawyer → Family Law
+700,76,58,98,7,7,8,9,7,3,74,Lawyer,Family Law,Lawyer → Family Law
+701,90,85,75,4,8,8,5,7,2,76,Scientist,Physics,Scientist → Physics
+702,79,80,87,6,10,10,9,9,3,77,Teacher,Science,Teacher → Science
+703,88,87,65,4,8,10,5,6,4,74,Scientist,Research,Scientist → Research
+704,85,69,94,7,8,8,7,8,2,78,Teacher,Administration,Teacher → Administration
+705,83,76,91,8,10,10,9,10,4,82,Teacher,Elementary,Teacher → Elementary
+706,93,87,74,5,8,8,6,7,4,79,Engineer,Aerospace,Engineer → Aerospace
+707,87,85,71,6,6,8,7,7,5,78,Doctor,General Medicine,Doctor → General Medicine
+708,85,59,98,5,7,8,8,7,4,74,Lawyer,IP Law,Lawyer → IP Law
+709,80,96,66,4,10,9,4,7,5,75,Scientist,Research,Scientist → Research
+710,62,60,80,10,10,8,8,7,5,73,Designer,Industrial,Designer → Industrial
+711,75,98,79,4,6,10,8,10,5,76,Doctor,Orthopedics,Doctor → Orthopedics
+712,79,90,80,4,9,8,7,8,2,75,Doctor,Neurosurgery,Doctor → Neurosurgery
+713,69,50,80,10,8,8,6,9,6,71,Designer,Fashion,Designer → Fashion
+714,75,70,80,5,8,6,7,6,6,69,IT Professional,DevOps,IT Professional → DevOps
+715,65,70,75,8,9,7,10,7,6,72,Business,Marketing,Business → Marketing
+716,72,71,95,5,7,9,6,6,4,73,Lawyer,Public Interest,Lawyer → Public Interest
+717,78,82,87,9,8,8,8,9,3,83,Teacher,English,Teacher → English
+718,82,81,89,7,7,7,7,8,4,81,Teacher,Administration,Teacher → Administration
+719,86,85,82,4,8,10,6,9,4,76,Doctor,Neurosurgery,Doctor → Neurosurgery
+720,80,87,79,6,8,9,7,9,2,77,Teacher,Special Education,Teacher → Special Education
+721,75,61,90,8,7,10,9,5,4,75,Lawyer,Environmental Law,Lawyer → Environmental Law
+722,100,94,71,5,9,7,5,8,5,81,Engineer,Aerospace,Engineer → Aerospace
+723,68,59,70,10,10,8,7,6,6,72,Designer,Industrial,Designer → Industrial
+724,73,70,94,8,8,10,8,5,5,78,Lawyer,Corporate Law,Lawyer → Corporate Law
+725,77,79,78,10,8,9,8,8,5,82,Business,Management,Business → Management
+726,66,55,80,8,9,8,7,5,4,68,Lawyer,Public Interest,Lawyer → Public Interest
+727,86,85,67,8,9,8,5,8,5,81,IT Professional,DevOps,IT Professional → DevOps
+728,87,85,73,5,7,8,6,9,5,77,Doctor,Pediatrics,Doctor → Pediatrics
+729,65,56,92,5,9,10,8,8,4,64,Lawyer,Family Law,Lawyer → Family Law
+730,83,90,85,8,10,8,7,10,4,84,Teacher,Administration,Teacher → Administration
+731,82,80,93,6,7,10,7,8,4,78,Lawyer,Public Interest,Lawyer → Public Interest
+732,95,79,81,5,10,9,6,8,4,78,IT Professional,AI/ML,IT Professional → AI/ML
+733,82,76,65,6,9,6,6,8,6,72,IT Professional,UI/UX,IT Professional → UI/UX
+734,93,85,69,6,8,8,4,8,4,79,Scientist,Data Science,Scientist → Data Science
+735,67,62,74,8,8,5,9,8,7,69,Designer,Graphic Design,Designer → Graphic Design
+736,79,95,70,6,7,8,7,9,4,79,Doctor,Orthopedics,Doctor → Orthopedics
+737,75,87,86,5,10,10,8,9,3,76,Teacher,English,Teacher → English
+738,64,63,90,8,9,8,6,7,4,71,Designer,Architecture,Designer → Architecture
+739,85,60,96,4,9,8,6,7,5,71,Lawyer,IP Law,Lawyer → IP Law
+740,100,83,78,7,7,10,6,8,3,84,Engineer,Mechanical,Engineer → Mechanical
+741,89,85,90,5,9,9,7,10,5,80,Doctor,Pediatrics,Doctor → Pediatrics
+742,82,90,83,6,8,10,7,7,3,80,Doctor,Neurosurgery,Doctor → Neurosurgery
+743,90,72,87,9,9,9,9,6,6,84,Business,Consulting,Business → Consulting
+744,76,74,94,9,9,8,8,9,5,81,Business,Management,Business → Management
+745,75,100,82,8,8,8,5,8,3,84,Doctor,Cardiology,Doctor → Cardiology
+746,73,61,84,8,8,8,8,8,5,72,Business,Entrepreneurship,Business → Entrepreneurship
+747,100,98,73,6,6,10,6,6,5,86,Engineer,Aerospace,Engineer → Aerospace
+748,90,94,65,3,6,10,4,6,5,75,Engineer,Civil,Engineer → Civil
+749,93,88,64,5,8,8,5,7,2,77,Engineer,Aerospace,Engineer → Aerospace
+750,83,100,79,5,8,7,4,5,3,81,Scientist,Research,Scientist → Research
+751,70,85,81,8,8,9,7,7,5,79,Teacher,Science,Teacher → Science
+752,76,61,75,10,10,6,8,8,3,76,Designer,Industrial,Designer → Industrial
+753,77,65,86,6,7,7,9,7,5,72,Business,Consulting,Business → Consulting
+754,85,95,73,4,6,9,5,6,3,77,Engineer,Aerospace,Engineer → Aerospace
+755,61,63,87,10,9,5,8,9,3,75,Designer,Industrial,Designer → Industrial
+756,70,60,71,9,7,8,7,7,4,71,Business,Marketing,Business → Marketing
+757,95,73,65,7,7,6,4,6,5,76,IT Professional,Software Development,IT Professional → Software Development
+758,71,74,98,8,8,9,6,7,6,78,Lawyer,Family Law,Lawyer → Family Law
+759,69,59,70,9,10,5,7,9,5,71,Designer,Fashion,Designer → Fashion
+760,95,85,67,8,7,7,5,5,4,83,IT Professional,Data Science,IT Professional → Data Science
+761,83,71,75,5,10,7,5,8,6,71,IT Professional,DevOps,IT Professional → DevOps
+762,70,89,86,7,7,10,7,9,3,79,Teacher,Special Education,Teacher → Special Education
+763,93,94,68,6,8,8,7,6,2,82,Scientist,Environmental,Scientist → Environmental
+764,69,68,93,7,9,10,8,8,4,73,Teacher,Administration,Teacher → Administration
+765,75,60,87,4,8,8,8,7,6,66,Lawyer,Criminal Law,Lawyer → Criminal Law
+766,73,74,87,5,6,9,9,5,5,72,Lawyer,Criminal Law,Lawyer → Criminal Law
+767,100,80,83,3,9,9,4,8,3,77,Engineer,Chemical,Engineer → Chemical
+768,76,62,95,10,6,7,7,7,4,80,Business,Operations,Business → Operations
+769,94,74,76,6,7,8,4,6,5,77,IT Professional,DevOps,IT Professional → DevOps
+770,65,68,96,6,9,9,7,5,6,71,Lawyer,Family Law,Lawyer → Family Law
+771,90,89,70,5,9,9,6,5,3,78,Engineer,Chemical,Engineer → Chemical
+772,97,98,65,3,9,7,5,6,5,78,Scientist,Chemistry,Scientist → Chemistry
+773,100,88,85,5,10,8,4,5,5,84,Scientist,Data Science,Scientist → Data Science
+774,68,73,71,9,9,7,9,9,4,75,Designer,UI/UX,Designer → UI/UX
+775,89,81,85,7,10,7,6,5,4,83,IT Professional,AI/ML,IT Professional → AI/ML
+776,96,95,85,3,9,8,5,6,3,81,Scientist,Biology,Scientist → Biology
+777,87,87,78,6,8,10,6,8,4,79,Doctor,Orthopedics,Doctor → Orthopedics
+778,81,61,79,9,7,8,9,7,3,77,Business,Management,Business → Management
+779,83,80,82,4,9,7,4,7,7,74,IT Professional,Data Science,IT Professional → Data Science
+780,97,94,75,3,10,10,4,7,4,78,Scientist,Data Science,Scientist → Data Science
+781,81,64,76,8,9,8,10,8,6,74,Business,Operations,Business → Operations
+782,79,77,94,6,8,7,6,10,4,77,Teacher,Administration,Teacher → Administration
+783,99,98,71,5,9,8,6,5,3,83,Engineer,Aerospace,Engineer → Aerospace
+784,80,55,82,9,9,10,9,8,5,75,Business,Entrepreneurship,Business → Entrepreneurship
+785,81,70,85,7,9,8,9,8,5,76,Lawyer,Family Law,Lawyer → Family Law
+786,81,92,78,6,6,9,7,9,3,79,Doctor,Neurosurgery,Doctor → Neurosurgery
+787,68,77,91,7,9,7,8,8,2,75,Teacher,Science,Teacher → Science
+788,80,78,98,5,9,9,8,8,4,77,Lawyer,Environmental Law,Lawyer → Environmental Law
+789,77,97,71,5,7,10,7,9,2,77,Doctor,Pediatrics,Doctor → Pediatrics
+790,96,80,68,6,8,9,6,8,3,79,Engineer,Civil,Engineer → Civil
+791,88,92,62,5,9,8,6,7,5,76,Engineer,Electrical,Engineer → Electrical
+792,65,55,88,8,9,8,7,7,5,69,Business,Operations,Business → Operations
+793,75,89,70,4,8,8,8,8,4,71,Doctor,Psychiatry,Doctor → Psychiatry
+794,75,71,85,8,8,9,7,7,4,78,Business,Consulting,Business → Consulting
+795,72,81,95,9,7,10,7,9,2,82,Teacher,Mathematics,Teacher → Mathematics
+796,91,89,71,7,9,7,6,8,3,82,Scientist,Physics,Scientist → Physics
+797,80,100,85,5,8,9,4,7,4,80,Scientist,Research,Scientist → Research
+798,70,78,95,8,10,7,7,8,3,79,Teacher,English,Teacher → English
+799,95,100,80,8,8,9,6,10,3,90,Doctor,Neurosurgery,Doctor → Neurosurgery
+800,81,66,80,4,7,8,6,8,5,68,Lawyer,Environmental Law,Lawyer → Environmental Law
+801,65,64,80,6,9,10,7,8,3,66,Lawyer,IP Law,Lawyer → IP Law
+802,71,52,86,10,10,8,9,8,5,74,Designer,Industrial,Designer → Industrial
+803,68,80,88,6,6,9,9,6,5,74,Lawyer,Public Interest,Lawyer → Public Interest
+804,75,66,78,8,10,6,9,7,3,74,Designer,UI/UX,Designer → UI/UX
+805,85,61,83,4,6,9,9,6,4,68,Lawyer,Environmental Law,Lawyer → Environmental Law
+806,87,78,84,5,7,8,9,7,3,77,Teacher,Science,Teacher → Science
+807,95,83,65,4,7,6,4,7,5,75,IT Professional,DevOps,IT Professional → DevOps
+808,91,70,72,6,8,7,6,8,5,75,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+809,81,99,81,7,10,8,6,6,5,84,Scientist,Environmental,Scientist → Environmental
+810,78,64,80,7,9,8,8,8,7,74,Designer,Architecture,Designer → Architecture
+811,83,93,84,6,9,8,7,7,3,82,Scientist,Research,Scientist → Research
+812,71,74,79,10,7,10,9,9,4,80,Business,Entrepreneurship,Business → Entrepreneurship
+813,85,70,85,5,7,8,6,7,6,73,IT Professional,AI/ML,IT Professional → AI/ML
+814,76,69,87,9,7,8,8,6,3,78,Business,Finance,Business → Finance
+815,78,69,98,5,9,10,7,8,5,74,Lawyer,Corporate Law,Lawyer → Corporate Law
+816,81,100,84,8,7,8,7,9,4,87,Doctor,Neurosurgery,Doctor → Neurosurgery
+817,74,65,70,10,10,7,6,8,6,76,Designer,Industrial,Designer → Industrial
+818,78,75,73,4,10,8,6,6,4,69,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+819,85,55,98,5,7,8,8,5,5,73,Lawyer,Family Law,Lawyer → Family Law
+820,80,85,79,4,10,7,4,5,4,73,Scientist,Data Science,Scientist → Data Science
+821,91,96,79,5,6,10,7,7,3,82,Engineer,Civil,Engineer → Civil
+822,77,71,83,8,9,10,7,10,2,78,Teacher,Administration,Teacher → Administration
+823,84,65,70,8,7,9,9,6,5,76,Business,Entrepreneurship,Business → Entrepreneurship
+824,90,85,87,5,7,10,7,8,4,80,Doctor,Cardiology,Doctor → Cardiology
+825,100,90,60,7,7,8,5,6,5,83,Engineer,Mechanical,Engineer → Mechanical
+826,85,94,78,4,6,8,6,8,2,77,Engineer,Computer Science,Engineer → Computer Science
+827,95,79,70,5,10,7,6,8,6,75,IT Professional,UI/UX,IT Professional → UI/UX
+828,72,77,96,4,6,9,7,7,5,73,Lawyer,Corporate Law,Lawyer → Corporate Law
+829,74,72,90,5,9,8,6,7,3,72,Teacher,Mathematics,Teacher → Mathematics
+830,74,75,75,6,8,9,7,9,4,73,Teacher,Elementary,Teacher → Elementary
+831,85,59,93,7,7,8,7,7,5,76,Lawyer,Corporate Law,Lawyer → Corporate Law
+832,85,86,87,4,7,8,7,9,4,77,Doctor,Cardiology,Doctor → Cardiology
+833,93,100,67,7,10,9,7,5,3,85,Scientist,Chemistry,Scientist → Chemistry
+834,83,72,85,8,10,9,9,8,3,80,Teacher,Elementary,Teacher → Elementary
+835,89,86,75,7,8,8,6,9,4,82,Doctor,Neurosurgery,Doctor → Neurosurgery
+836,90,82,77,8,8,9,6,5,4,83,IT Professional,UI/UX,IT Professional → UI/UX
+837,78,81,88,8,7,7,9,10,2,81,Teacher,English,Teacher → English
+838,67,74,70,10,10,5,8,7,6,76,Designer,Game Design,Designer → Game Design
+839,74,66,89,6,7,10,8,7,6,71,Lawyer,Criminal Law,Lawyer → Criminal Law
+840,81,83,83,6,10,8,8,10,5,79,Teacher,Mathematics,Teacher → Mathematics
+841,89,92,77,7,6,8,6,7,6,84,Engineer,Civil,Engineer → Civil
+842,100,80,72,6,6,8,6,7,3,80,Engineer,Electrical,Engineer → Electrical
+843,82,81,95,7,8,7,8,7,3,82,Teacher,Administration,Teacher → Administration
+844,76,74,70,9,8,7,9,9,6,78,Business,Operations,Business → Operations
+845,84,58,93,7,8,9,7,7,4,76,Lawyer,IP Law,Lawyer → IP Law
+846,75,94,89,6,7,10,5,10,2,82,Doctor,Neurosurgery,Doctor → Neurosurgery
+847,100,80,79,3,7,8,6,7,3,77,Engineer,Electrical,Engineer → Electrical
+848,71,67,80,10,8,5,7,7,5,77,Designer,Game Design,Designer → Game Design
+849,90,90,74,5,7,9,5,8,4,79,Engineer,Civil,Engineer → Civil
+850,75,100,90,8,8,9,5,9,3,86,Doctor,General Medicine,Doctor → General Medicine
+851,85,84,64,6,9,9,4,8,3,76,Engineer,Computer Science,Engineer → Computer Science
+852,55,51,90,9,10,5,9,8,4,68,Designer,Graphic Design,Designer → Graphic Design
+853,80,75,79,5,9,6,8,5,5,73,IT Professional,AI/ML,IT Professional → AI/ML
+854,77,87,95,6,9,7,8,8,5,79,Teacher,Mathematics,Teacher → Mathematics
+855,84,88,72,7,8,10,5,10,5,79,Doctor,Psychiatry,Doctor → Psychiatry
+856,81,90,84,7,8,9,5,7,3,82,Doctor,Psychiatry,Doctor → Psychiatry
+857,81,85,84,7,9,8,6,8,2,81,Scientist,Biology,Scientist → Biology
+858,66,59,94,4,8,8,9,7,5,65,Lawyer,Family Law,Lawyer → Family Law
+859,70,50,74,10,8,6,6,8,6,71,Designer,UI/UX,Designer → UI/UX
+860,100,87,64,5,9,7,5,7,5,79,Engineer,Electrical,Engineer → Electrical
+861,76,63,98,5,7,8,8,8,3,72,Lawyer,Public Interest,Lawyer → Public Interest
+862,76,67,98,4,7,9,7,8,5,70,Lawyer,Criminal Law,Lawyer → Criminal Law
+863,69,77,79,9,8,9,8,7,3,78,Teacher,Mathematics,Teacher → Mathematics
+864,100,82,79,5,9,10,4,5,3,79,Engineer,Computer Science,Engineer → Computer Science
+865,91,90,81,5,8,7,7,7,7,80,IT Professional,AI/ML,IT Professional → AI/ML
+866,75,85,80,6,9,9,8,7,3,76,Doctor,General Medicine,Doctor → General Medicine
+867,64,67,82,8,9,5,6,8,6,72,Designer,Architecture,Designer → Architecture
+868,100,80,68,4,8,9,4,7,4,76,Engineer,Civil,Engineer → Civil
+869,100,91,71,5,7,7,6,6,4,82,Engineer,Chemical,Engineer → Chemical
+870,65,77,80,6,9,9,9,7,5,71,Business,Consulting,Business → Consulting
+871,69,71,80,4,7,10,6,8,5,66,Lawyer,Criminal Law,Lawyer → Criminal Law
+872,90,80,76,6,8,7,9,9,5,78,Business,Entrepreneurship,Business → Entrepreneurship
+873,67,74,98,8,8,8,7,6,5,78,Lawyer,Family Law,Lawyer → Family Law
+874,89,71,85,8,9,8,6,7,5,81,IT Professional,UI/UX,IT Professional → UI/UX
+875,92,96,85,3,7,7,7,6,2,80,Engineer,Civil,Engineer → Civil
+876,83,71,94,9,8,7,10,6,3,82,Business,Consulting,Business → Consulting
+877,84,72,94,6,8,8,7,7,5,78,Lawyer,Corporate Law,Lawyer → Corporate Law
+878,93,85,69,3,10,10,5,7,3,73,Scientist,Chemistry,Scientist → Chemistry
+879,66,53,70,9,8,5,7,8,6,67,Designer,Game Design,Designer → Game Design
+880,76,61,90,9,8,7,8,7,5,77,Designer,Graphic Design,Designer → Graphic Design
+881,61,50,78,9,9,8,9,7,5,66,Designer,Game Design,Designer → Game Design
+882,82,64,92,10,6,10,10,8,6,82,Business,Entrepreneurship,Business → Entrepreneurship
+883,88,97,72,3,8,8,8,8,2,76,Doctor,Psychiatry,Doctor → Psychiatry
+884,88,89,83,5,9,10,5,9,3,79,Doctor,Orthopedics,Doctor → Orthopedics
+885,99,90,72,5,9,7,4,8,2,81,Engineer,Chemical,Engineer → Chemical
+886,82,80,93,6,7,8,8,6,4,79,Business,Finance,Business → Finance
+887,65,77,73,7,8,9,10,9,4,71,Business,Entrepreneurship,Business → Entrepreneurship
+888,86,58,86,10,8,8,10,9,5,80,Business,Entrepreneurship,Business → Entrepreneurship
+889,90,91,71,4,10,8,5,6,3,77,Scientist,Data Science,Scientist → Data Science
+890,73,76,80,7,9,7,6,9,4,75,Teacher,Science,Teacher → Science
+891,98,85,77,7,9,8,7,5,5,84,Scientist,Chemistry,Scientist → Chemistry
+892,75,58,95,6,7,8,6,7,5,71,Lawyer,Family Law,Lawyer → Family Law
+893,86,100,89,5,7,9,7,10,2,83,Doctor,Pediatrics,Doctor → Pediatrics
+894,71,59,87,8,8,7,9,7,4,72,Business,Consulting,Business → Consulting
+895,77,66,74,10,8,5,8,9,6,77,Designer,Industrial,Designer → Industrial
+896,75,71,74,4,9,6,6,5,5,67,IT Professional,Data Science,IT Professional → Data Science
+897,78,61,80,7,8,10,6,6,5,72,Lawyer,Public Interest,Lawyer → Public Interest
+898,97,96,84,6,7,10,4,6,5,86,Engineer,Chemical,Engineer → Chemical
+899,68,66,95,9,9,9,8,9,4,77,Business,Finance,Business → Finance
+900,77,100,85,8,6,9,6,9,3,86,Doctor,Pediatrics,Doctor → Pediatrics
+901,87,80,80,6,8,9,6,7,5,77,IT Professional,UI/UX,IT Professional → UI/UX
+902,90,65,72,9,9,7,10,7,4,79,Business,Finance,Business → Finance
+903,77,68,92,10,7,9,9,9,5,82,Business,Operations,Business → Operations
+904,75,96,88,7,7,8,7,8,4,83,Doctor,Neurosurgery,Doctor → Neurosurgery
+905,73,80,91,9,7,9,9,8,3,82,Teacher,Elementary,Teacher → Elementary
+906,65,79,79,9,9,8,6,10,3,77,Teacher,Mathematics,Teacher → Mathematics
+907,91,95,74,6,10,8,7,8,3,83,Scientist,Chemistry,Scientist → Chemistry
+908,85,77,86,5,6,8,9,5,6,75,Lawyer,Family Law,Lawyer → Family Law
+909,90,57,84,6,6,7,9,7,3,74,Business,Operations,Business → Operations
+910,99,98,68,6,6,7,7,7,5,84,Engineer,Aerospace,Engineer → Aerospace
+911,78,61,85,9,8,7,9,8,4,77,Business,Operations,Business → Operations
+912,88,92,84,5,6,9,5,8,5,82,Doctor,Orthopedics,Doctor → Orthopedics
+913,92,94,85,5,6,7,5,5,5,83,Engineer,Aerospace,Engineer → Aerospace
+914,95,100,69,7,9,7,7,5,3,86,Scientist,Physics,Scientist → Physics
+915,77,65,80,5,9,8,9,7,4,69,Lawyer,Corporate Law,Lawyer → Corporate Law
+916,55,62,74,10,8,7,9,8,6,69,Designer,UI/UX,Designer → UI/UX
+917,79,80,77,6,6,8,7,6,6,76,Business,Operations,Business → Operations
+918,55,63,90,7,10,5,8,9,3,68,Designer,Architecture,Designer → Architecture
+919,100,98,68,5,8,10,7,6,2,83,Engineer,Chemical,Engineer → Chemical
+920,70,62,79,6,9,8,8,8,5,68,Business,Consulting,Business → Consulting
+921,87,94,76,7,6,8,5,10,4,84,Doctor,Pediatrics,Doctor → Pediatrics
+922,88,65,82,5,7,7,8,9,4,72,Teacher,Special Education,Teacher → Special Education
+923,78,78,82,8,9,9,7,6,5,78,Business,Entrepreneurship,Business → Entrepreneurship
+924,65,64,98,8,7,10,6,8,3,74,Lawyer,Criminal Law,Lawyer → Criminal Law
+925,88,97,70,5,8,8,6,8,3,79,Doctor,Cardiology,Doctor → Cardiology
+926,79,84,80,7,8,8,6,8,4,80,Teacher,English,Teacher → English
+927,90,92,75,6,9,8,7,7,2,81,Scientist,Research,Scientist → Research
+928,65,67,81,10,9,7,8,6,5,76,Business,Finance,Business → Finance
+929,85,96,81,6,9,10,5,6,2,83,Scientist,Environmental,Scientist → Environmental
+930,89,97,72,7,9,7,6,8,3,84,Scientist,Environmental,Scientist → Environmental
+931,95,93,90,6,8,8,6,7,2,86,Doctor,General Medicine,Doctor → General Medicine
+932,83,61,77,8,6,9,10,8,3,75,Business,Marketing,Business → Marketing
+933,73,70,90,9,6,9,10,7,6,80,Business,Consulting,Business → Consulting
+934,92,90,73,6,8,6,5,7,5,82,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+935,74,74,86,5,7,9,7,10,4,72,Teacher,Special Education,Teacher → Special Education
+936,82,65,85,7,7,8,9,7,6,75,Business,Entrepreneurship,Business → Entrepreneurship
+937,96,95,75,6,7,9,6,6,2,85,Engineer,Aerospace,Engineer → Aerospace
+938,75,97,77,6,8,8,7,7,4,79,Doctor,Cardiology,Doctor → Cardiology
+939,80,79,85,7,7,7,9,9,5,78,Teacher,Administration,Teacher → Administration
+940,77,85,80,5,8,8,5,7,5,74,Doctor,Orthopedics,Doctor → Orthopedics
+941,90,85,65,3,8,9,5,8,5,72,Scientist,Biology,Scientist → Biology
+942,84,55,76,6,8,9,9,7,4,69,Business,Consulting,Business → Consulting
+943,83,64,70,8,8,10,7,7,4,74,Business,Operations,Business → Operations
+944,78,55,80,8,8,6,9,8,3,72,Designer,UI/UX,Designer → UI/UX
+945,91,91,77,5,9,9,7,7,2,81,Scientist,Data Science,Scientist → Data Science
+946,70,76,88,6,7,9,8,5,3,73,Lawyer,IP Law,Lawyer → IP Law
+947,78,67,89,8,6,8,7,8,6,77,Business,Marketing,Business → Marketing
+948,65,82,80,8,8,10,6,8,3,75,Teacher,Science,Teacher → Science
+949,74,63,88,8,9,6,7,8,6,75,Designer,UI/UX,Designer → UI/UX
+950,65,77,81,8,8,9,6,8,3,74,Lawyer,Family Law,Lawyer → Family Law
+951,100,83,81,5,6,9,6,8,5,81,Engineer,Computer Science,Engineer → Computer Science
+952,80,100,72,5,8,8,5,8,2,78,Scientist,Biology,Scientist → Biology
+953,93,98,70,7,8,7,7,8,4,85,Engineer,Civil,Engineer → Civil
+954,83,64,70,6,7,8,9,7,5,71,Business,Marketing,Business → Marketing
+955,92,89,83,7,6,8,5,6,5,85,Engineer,Computer Science,Engineer → Computer Science
+956,71,72,94,8,9,7,6,8,3,77,Teacher,Administration,Teacher → Administration
+957,91,81,63,7,7,10,6,7,3,77,Engineer,Computer Science,Engineer → Computer Science
+958,65,77,87,5,8,9,8,7,3,71,Lawyer,Family Law,Lawyer → Family Law
+959,90,80,87,7,6,10,9,7,4,83,Business,Operations,Business → Operations
+960,82,71,92,8,6,10,8,7,3,81,Business,Finance,Business → Finance
+961,92,100,86,5,7,8,8,9,4,85,Doctor,Neurosurgery,Doctor → Neurosurgery
+962,100,93,82,3,7,10,4,6,4,80,Engineer,Computer Science,Engineer → Computer Science
+963,80,55,84,10,8,10,7,9,6,77,Business,Marketing,Business → Marketing
+964,89,85,84,6,8,8,5,8,4,80,Doctor,Pediatrics,Doctor → Pediatrics
+965,66,77,86,6,6,10,8,5,5,73,Lawyer,IP Law,Lawyer → IP Law
+966,85,71,75,4,9,7,4,6,4,70,IT Professional,Software Development,IT Professional → Software Development
+967,86,86,86,3,7,8,6,9,3,75,Doctor,Orthopedics,Doctor → Orthopedics
+968,73,58,94,4,9,10,8,5,5,67,Lawyer,Corporate Law,Lawyer → Corporate Law
+969,80,90,74,5,7,8,6,7,4,77,IT Professional,AI/ML,IT Professional → AI/ML
+970,75,85,90,6,7,9,5,10,3,78,Doctor,General Medicine,Doctor → General Medicine
+971,89,87,72,5,8,8,4,6,4,77,Engineer,Aerospace,Engineer → Aerospace
+972,100,87,66,5,8,10,4,6,5,80,Engineer,Mechanical,Engineer → Mechanical
+973,90,61,77,6,7,8,10,7,4,73,Business,Management,Business → Management
+974,77,80,94,5,8,10,8,8,4,77,Lawyer,Public Interest,Lawyer → Public Interest
+975,75,89,85,4,10,7,7,6,6,75,IT Professional,DevOps,IT Professional → DevOps
+976,81,81,75,8,8,8,8,10,3,79,Teacher,Elementary,Teacher → Elementary
+977,81,94,71,6,7,10,7,8,3,79,Doctor,Orthopedics,Doctor → Orthopedics
+978,86,96,73,5,10,8,6,7,5,80,Scientist,Research,Scientist → Research
+979,66,76,83,9,9,9,9,9,3,77,Teacher,Mathematics,Teacher → Mathematics
+980,76,75,90,7,10,5,8,8,3,77,Designer,Graphic Design,Designer → Graphic Design
+981,75,84,65,4,9,8,7,8,5,69,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+982,76,71,80,8,6,10,8,5,5,76,Lawyer,IP Law,Lawyer → IP Law
+983,88,92,67,3,9,8,4,5,4,73,Scientist,Research,Scientist → Research
+984,81,85,78,7,9,8,5,8,3,79,Scientist,Physics,Scientist → Physics
+985,89,80,75,8,9,8,9,9,5,82,Teacher,Administration,Teacher → Administration
+986,75,100,74,3,7,9,6,9,5,74,Doctor,Cardiology,Doctor → Cardiology
+987,80,92,90,5,6,8,6,8,4,80,Doctor,General Medicine,Doctor → General Medicine
+988,89,91,82,5,6,8,6,7,4,81,Engineer,Mechanical,Engineer → Mechanical
+989,94,96,90,6,6,8,8,10,2,86,Doctor,Orthopedics,Doctor → Orthopedics
+990,76,65,75,6,7,9,9,8,4,68,Teacher,Science,Teacher → Science
+991,75,82,79,5,8,9,6,10,2,73,Teacher,Science,Teacher → Science
+992,72,65,87,6,7,8,7,8,6,70,Lawyer,IP Law,Lawyer → IP Law
+993,71,80,81,6,9,10,7,8,4,74,Lawyer,Environmental Law,Lawyer → Environmental Law
+994,79,71,85,10,9,7,7,8,4,81,Designer,Architecture,Designer → Architecture
+995,75,80,65,6,8,7,5,7,6,71,IT Professional,Software Development,IT Professional → Software Development
+996,75,79,80,8,10,7,8,7,3,77,Teacher,Science,Teacher → Science
+997,67,75,78,7,10,7,7,9,3,72,Designer,UI/UX,Designer → UI/UX
+998,87,72,70,9,8,8,9,9,6,80,Business,Finance,Business → Finance
+999,95,93,88,6,9,10,8,9,2,86,Doctor,Pediatrics,Doctor → Pediatrics
+1000,66,75,76,8,8,7,6,7,5,74,Designer,Graphic Design,Designer → Graphic Design
+1001,93,90,83,4,9,9,5,6,3,78,Scientist,Data Science,Scientist → Data Science
+1002,92,85,72,4,8,7,5,8,4,76,Scientist,Chemistry,Scientist → Chemistry
+1003,95,88,69,8,10,7,5,8,5,85,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1004,83,100,69,7,8,7,6,8,5,82,Scientist,Research,Scientist → Research
+1005,62,52,83,10,8,7,6,8,5,71,Designer,Architecture,Designer → Architecture
+1006,87,90,76,5,6,10,5,9,3,78,Doctor,Neurosurgery,Doctor → Neurosurgery
+1007,90,88,79,8,8,8,5,7,2,85,Doctor,Neurosurgery,Doctor → Neurosurgery
+1008,100,93,70,3,9,10,6,6,3,78,Scientist,Chemistry,Scientist → Chemistry
+1009,88,80,85,6,9,9,7,7,5,79,Engineer,Electrical,Engineer → Electrical
+1010,65,78,84,8,9,10,8,10,5,75,Teacher,Administration,Teacher → Administration
+1011,83,89,65,7,10,9,7,7,3,79,Scientist,Chemistry,Scientist → Chemistry
+1012,95,95,85,4,6,7,4,6,6,83,Engineer,Mechanical,Engineer → Mechanical
+1013,95,80,72,6,6,7,6,6,4,78,Engineer,Aerospace,Engineer → Aerospace
+1014,89,79,85,5,10,7,6,6,5,78,IT Professional,UI/UX,IT Professional → UI/UX
+1015,71,73,87,4,6,10,6,7,5,69,Lawyer,Public Interest,Lawyer → Public Interest
+1016,66,66,70,9,8,7,6,6,5,71,Designer,Fashion,Designer → Fashion
+1017,64,54,70,7,10,7,6,7,6,64,Designer,Fashion,Designer → Fashion
+1018,64,53,79,7,9,7,6,7,3,65,Designer,Industrial,Designer → Industrial
+1019,65,70,87,7,7,10,8,6,5,72,Business,Management,Business → Management
+1020,90,90,76,4,8,9,7,7,5,78,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1021,95,85,84,8,8,8,7,10,2,87,Doctor,General Medicine,Doctor → General Medicine
+1022,92,90,70,3,9,8,7,5,2,75,Engineer,Electrical,Engineer → Electrical
+1023,75,85,71,5,7,10,7,9,5,72,Doctor,Orthopedics,Doctor → Orthopedics
+1024,84,55,87,10,7,9,8,8,3,79,Business,Management,Business → Management
+1025,75,81,90,7,7,7,9,7,5,78,Teacher,Special Education,Teacher → Special Education
+1026,89,94,90,7,6,10,8,7,2,88,Doctor,Psychiatry,Doctor → Psychiatry
+1027,60,54,70,9,10,6,6,9,7,66,Designer,Fashion,Designer → Fashion
+1028,70,65,95,5,6,10,9,7,3,70,Lawyer,Corporate Law,Lawyer → Corporate Law
+1029,73,85,89,6,9,7,8,8,3,77,Teacher,Special Education,Teacher → Special Education
+1030,92,83,73,5,6,9,6,6,5,76,Engineer,Aerospace,Engineer → Aerospace
+1031,74,72,86,5,9,10,7,7,5,72,Lawyer,Corporate Law,Lawyer → Corporate Law
+1032,88,83,75,8,9,8,6,6,5,81,IT Professional,UI/UX,IT Professional → UI/UX
+1033,73,63,76,6,6,7,9,9,6,69,Business,Finance,Business → Finance
+1034,78,100,72,8,6,9,5,9,4,84,Doctor,Orthopedics,Doctor → Orthopedics
+1035,88,90,60,6,9,8,4,6,4,77,Engineer,Chemical,Engineer → Chemical
+1036,94,96,73,4,9,8,6,7,4,79,Engineer,Aerospace,Engineer → Aerospace
+1037,75,54,74,7,9,6,7,8,4,67,Designer,UI/UX,Designer → UI/UX
+1038,100,93,84,4,6,8,6,6,5,82,Engineer,Chemical,Engineer → Chemical
+1039,65,66,81,5,8,10,6,8,4,66,Lawyer,IP Law,Lawyer → IP Law
+1040,85,91,68,6,10,9,4,6,4,79,Scientist,Chemistry,Scientist → Chemistry
+1041,85,89,74,5,8,8,5,8,4,77,Engineer,Computer Science,Engineer → Computer Science
+1042,91,86,65,5,9,10,6,6,5,76,Scientist,Physics,Scientist → Physics
+1043,76,66,95,9,6,9,8,7,3,81,Business,Consulting,Business → Consulting
+1044,74,70,95,6,6,8,9,9,5,74,Business,Finance,Business → Finance
+1045,92,70,71,6,7,6,6,7,4,74,IT Professional,DevOps,IT Professional → DevOps
+1046,56,66,75,10,8,6,7,6,5,72,Designer,Fashion,Designer → Fashion
+1047,90,71,79,5,8,8,4,6,6,75,IT Professional,AI/ML,IT Professional → AI/ML
+1048,98,95,76,3,9,10,5,6,3,79,Scientist,Chemistry,Scientist → Chemistry
+1049,87,75,93,8,7,10,8,7,5,84,Teacher,Special Education,Teacher → Special Education
+1050,74,60,84,5,7,9,7,7,4,68,Lawyer,Family Law,Lawyer → Family Law
+1051,95,88,79,6,8,6,6,5,4,83,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1052,100,83,85,6,8,9,5,7,2,83,Engineer,Electrical,Engineer → Electrical
+1053,65,72,87,5,9,7,6,10,4,68,Teacher,Special Education,Teacher → Special Education
+1054,68,77,90,8,9,10,8,7,5,78,Lawyer,Public Interest,Lawyer → Public Interest
+1055,80,91,75,7,9,8,7,6,5,80,Scientist,Research,Scientist → Research
+1056,90,85,90,5,8,8,6,9,3,80,Doctor,Cardiology,Doctor → Cardiology
+1057,68,50,78,10,10,7,6,6,6,71,Designer,Architecture,Designer → Architecture
+1058,74,79,95,6,8,10,6,9,3,76,Teacher,Elementary,Teacher → Elementary
+1059,81,98,78,7,9,7,7,6,5,84,Scientist,Research,Scientist → Research
+1060,99,97,85,5,9,8,6,6,5,87,Engineer,Chemical,Engineer → Chemical
+1061,76,81,95,8,8,8,9,8,4,81,Teacher,Special Education,Teacher → Special Education
+1062,81,61,98,8,6,9,8,8,5,78,Lawyer,IP Law,Lawyer → IP Law
+1063,65,79,80,6,9,8,7,7,4,71,Lawyer,Corporate Law,Lawyer → Corporate Law
+1064,84,83,79,7,10,8,6,8,4,79,IT Professional,DevOps,IT Professional → DevOps
+1065,62,60,79,9,8,7,7,8,6,70,Designer,Game Design,Designer → Game Design
+1066,88,100,75,6,8,9,6,10,2,83,Doctor,Pediatrics,Doctor → Pediatrics
+1067,97,84,80,5,7,7,5,5,5,81,Engineer,Electrical,Engineer → Electrical
+1068,95,100,81,5,6,9,5,8,2,85,Doctor,Neurosurgery,Doctor → Neurosurgery
+1069,70,80,92,7,8,9,8,7,3,78,Lawyer,Corporate Law,Lawyer → Corporate Law
+1070,91,78,77,5,7,6,8,8,4,77,IT Professional,Software Development,IT Professional → Software Development
+1071,100,91,80,3,8,8,7,8,4,79,Engineer,Computer Science,Engineer → Computer Science
+1072,88,98,81,5,7,8,6,6,5,81,Engineer,Mechanical,Engineer → Mechanical
+1073,92,97,78,6,9,9,6,6,4,84,Scientist,Data Science,Scientist → Data Science
+1074,87,85,69,6,7,7,5,8,7,78,IT Professional,DevOps,IT Professional → DevOps
+1075,83,70,75,7,10,8,6,5,5,75,IT Professional,Software Development,IT Professional → Software Development
+1076,76,65,86,5,9,8,7,7,4,69,Lawyer,IP Law,Lawyer → IP Law
+1077,55,54,70,9,8,6,6,6,7,65,Designer,Graphic Design,Designer → Graphic Design
+1078,85,98,60,5,8,8,4,6,4,76,Engineer,Mechanical,Engineer → Mechanical
+1079,75,91,83,7,6,8,6,8,3,81,Doctor,Pediatrics,Doctor → Pediatrics
+1080,89,96,80,7,8,9,7,8,3,86,Scientist,Research,Scientist → Research
+1081,95,90,82,8,10,8,4,6,5,88,IT Professional,AI/ML,IT Professional → AI/ML
+1082,91,85,71,6,8,8,7,6,5,79,Scientist,Research,Scientist → Research
+1083,65,59,80,9,10,6,6,7,5,72,Designer,Graphic Design,Designer → Graphic Design
+1084,100,95,65,5,10,9,4,5,3,81,Scientist,Chemistry,Scientist → Chemistry
+1085,80,50,74,10,10,6,6,6,4,73,Designer,Fashion,Designer → Fashion
+1086,76,78,83,6,7,6,6,8,7,75,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1087,87,92,85,7,7,9,6,9,4,84,Doctor,General Medicine,Doctor → General Medicine
+1088,80,86,70,7,6,10,7,7,3,77,Doctor,Neurosurgery,Doctor → Neurosurgery
+1089,100,89,70,4,8,8,5,6,3,78,Engineer,Aerospace,Engineer → Aerospace
+1090,95,90,84,4,6,8,6,7,4,81,Doctor,Orthopedics,Doctor → Orthopedics
+1091,79,73,83,5,10,7,5,7,6,72,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1092,86,98,75,3,9,8,6,8,2,76,Engineer,Electrical,Engineer → Electrical
+1093,65,58,79,9,7,9,8,9,5,71,Business,Marketing,Business → Marketing
+1094,91,86,75,5,8,7,5,8,2,78,Scientist,Chemistry,Scientist → Chemistry
+1095,74,78,84,7,6,9,7,5,5,75,Lawyer,Family Law,Lawyer → Family Law
+1096,84,94,75,5,8,9,7,5,3,78,Scientist,Biology,Scientist → Biology
+1097,73,60,87,10,8,7,7,9,4,77,Designer,Architecture,Designer → Architecture
+1098,93,91,88,6,7,10,5,8,4,84,Doctor,Psychiatry,Doctor → Psychiatry
+1099,72,70,85,8,8,7,9,8,5,75,Business,Operations,Business → Operations
+1100,91,88,69,4,6,10,6,6,6,75,Engineer,Computer Science,Engineer → Computer Science
+1101,95,81,75,6,7,8,8,7,4,80,IT Professional,Data Science,IT Professional → Data Science
+1102,80,94,66,3,10,9,6,7,2,71,Scientist,Data Science,Scientist → Data Science
+1103,94,91,76,4,7,9,7,8,3,79,Doctor,Orthopedics,Doctor → Orthopedics
+1104,61,59,82,10,8,5,6,8,5,72,Designer,Fashion,Designer → Fashion
+1105,81,75,90,8,8,8,8,7,4,81,Lawyer,Environmental Law,Lawyer → Environmental Law
+1106,82,76,78,9,9,10,8,9,2,81,Teacher,Elementary,Teacher → Elementary
+1107,88,91,73,5,8,9,6,6,2,78,Scientist,Biology,Scientist → Biology
+1108,93,90,74,3,9,9,4,7,4,76,Engineer,Electrical,Engineer → Electrical
+1109,98,98,75,3,7,10,4,7,6,80,Engineer,Aerospace,Engineer → Aerospace
+1110,86,82,72,4,6,10,4,6,4,73,Engineer,Mechanical,Engineer → Mechanical
+1111,85,80,82,5,9,10,4,8,5,77,Engineer,Chemical,Engineer → Chemical
+1112,55,62,90,8,10,7,8,9,5,69,Designer,Game Design,Designer → Game Design
+1113,85,81,70,7,7,8,7,6,5,78,IT Professional,Data Science,IT Professional → Data Science
+1114,70,65,76,6,8,8,8,9,4,68,Business,Management,Business → Management
+1115,78,64,82,9,8,8,10,9,5,76,Business,Entrepreneurship,Business → Entrepreneurship
+1116,85,95,85,4,9,10,6,9,2,79,Doctor,General Medicine,Doctor → General Medicine
+1117,88,89,76,4,7,6,5,6,4,76,IT Professional,Data Science,IT Professional → Data Science
+1118,100,100,82,4,9,7,7,6,3,84,Scientist,Research,Scientist → Research
+1119,90,75,76,5,9,8,6,10,4,75,Teacher,Elementary,Teacher → Elementary
+1120,95,90,77,4,10,7,6,8,5,79,IT Professional,Software Development,IT Professional → Software Development
+1121,79,62,97,6,8,8,7,6,3,75,Lawyer,Criminal Law,Lawyer → Criminal Law
+1122,90,85,64,7,8,9,4,6,4,79,Engineer,Chemical,Engineer → Chemical
+1123,84,65,89,6,6,7,7,9,4,74,Business,Consulting,Business → Consulting
+1124,79,84,70,7,10,9,6,7,6,76,IT Professional,UI/UX,IT Professional → UI/UX
+1125,88,98,70,6,7,8,7,6,4,83,Engineer,Aerospace,Engineer → Aerospace
+1126,87,90,85,6,9,8,5,7,5,81,IT Professional,UI/UX,IT Professional → UI/UX
+1127,68,50,84,8,10,6,7,9,5,68,Designer,Graphic Design,Designer → Graphic Design
+1128,84,69,88,8,7,10,7,5,5,79,Lawyer,Environmental Law,Lawyer → Environmental Law
+1129,80,70,74,6,9,8,7,8,7,71,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1130,89,87,76,8,10,7,8,6,5,84,IT Professional,Data Science,IT Professional → Data Science
+1131,79,99,86,7,9,9,7,7,5,84,Doctor,Pediatrics,Doctor → Pediatrics
+1132,72,63,85,5,7,10,6,8,4,67,Lawyer,Family Law,Lawyer → Family Law
+1133,94,90,65,4,8,7,6,6,5,77,IT Professional,UI/UX,IT Professional → UI/UX
+1134,78,85,94,9,9,10,7,10,4,86,Teacher,Mathematics,Teacher → Mathematics
+1135,62,69,70,10,9,8,8,8,4,73,Designer,Game Design,Designer → Game Design
+1136,62,59,90,8,10,7,7,7,3,70,Designer,Industrial,Designer → Industrial
+1137,83,90,80,5,9,9,7,9,5,78,Teacher,Elementary,Teacher → Elementary
+1138,83,68,95,9,8,8,8,8,6,83,Business,Consulting,Business → Consulting
+1139,91,89,73,7,10,9,4,7,5,82,Scientist,Biology,Scientist → Biology
+1140,95,95,81,8,8,9,6,9,5,89,Doctor,Pediatrics,Doctor → Pediatrics
+1141,78,81,73,7,8,9,4,8,4,76,IT Professional,UI/UX,IT Professional → UI/UX
+1142,55,50,77,9,8,5,8,8,6,64,Designer,Game Design,Designer → Game Design
+1143,90,78,78,8,8,9,9,8,4,81,Business,Finance,Business → Finance
+1144,79,80,84,8,6,9,10,7,4,80,Business,Operations,Business → Operations
+1145,63,65,74,8,8,6,8,6,6,69,Designer,Industrial,Designer → Industrial
+1146,76,90,81,5,10,9,5,8,4,75,IT Professional,UI/UX,IT Professional → UI/UX
+1147,76,73,82,8,7,10,7,7,4,77,Teacher,Elementary,Teacher → Elementary
+1148,75,90,72,5,10,8,5,7,7,75,IT Professional,DevOps,IT Professional → DevOps
+1149,90,85,85,5,6,10,8,8,4,80,Doctor,Neurosurgery,Doctor → Neurosurgery
+1150,65,62,87,9,8,9,9,8,5,74,Business,Operations,Business → Operations
+1151,70,69,75,6,8,9,7,9,4,68,Business,Operations,Business → Operations
+1152,76,76,85,8,9,6,5,7,5,78,IT Professional,Software Development,IT Professional → Software Development
+1153,89,85,75,4,10,8,6,5,4,75,Scientist,Biology,Scientist → Biology
+1154,87,95,81,3,10,8,4,7,3,77,Scientist,Chemistry,Scientist → Chemistry
+1155,89,96,85,7,9,9,8,8,5,87,Doctor,General Medicine,Doctor → General Medicine
+1156,86,65,86,10,7,10,8,6,3,82,Business,Consulting,Business → Consulting
+1157,88,55,73,7,7,9,9,8,5,71,Business,Marketing,Business → Marketing
+1158,70,73,78,9,8,9,9,9,4,77,Teacher,English,Teacher → English
+1159,70,76,91,7,8,10,8,5,6,77,Lawyer,Public Interest,Lawyer → Public Interest
+1160,67,71,96,4,8,8,9,5,5,70,Lawyer,IP Law,Lawyer → IP Law
+1161,90,92,70,6,7,9,7,7,4,80,Engineer,Mechanical,Engineer → Mechanical
+1162,77,71,84,7,9,7,6,8,6,75,IT Professional,Data Science,IT Professional → Data Science
+1163,65,54,83,9,8,7,7,7,7,70,Designer,Industrial,Designer → Industrial
+1164,95,100,71,3,7,10,6,9,4,79,Doctor,Psychiatry,Doctor → Psychiatry
+1165,100,97,75,5,8,10,7,5,5,85,Scientist,Biology,Scientist → Biology
+1166,76,93,72,4,8,9,7,8,2,73,Doctor,Neurosurgery,Doctor → Neurosurgery
+1167,87,100,77,6,9,10,5,5,5,84,Scientist,Data Science,Scientist → Data Science
+1168,55,61,70,8,10,6,7,8,6,65,Designer,Industrial,Designer → Industrial
+1169,98,94,75,5,9,9,6,6,5,82,Scientist,Environmental,Scientist → Environmental
+1170,65,70,92,7,8,7,9,9,5,73,Teacher,Elementary,Teacher → Elementary
+1171,85,83,84,7,8,8,4,6,6,81,Engineer,Computer Science,Engineer → Computer Science
+1172,80,85,84,6,9,9,5,9,2,79,Doctor,Pediatrics,Doctor → Pediatrics
+1173,55,56,80,8,8,5,6,7,7,65,Designer,Fashion,Designer → Fashion
+1174,76,66,98,8,8,10,7,5,3,78,Lawyer,Corporate Law,Lawyer → Corporate Law
+1175,88,81,67,3,8,7,6,7,2,71,Engineer,Mechanical,Engineer → Mechanical
+1176,95,87,82,6,7,8,7,7,7,83,IT Professional,Software Development,IT Professional → Software Development
+1177,72,50,83,7,8,8,7,6,5,68,Designer,Graphic Design,Designer → Graphic Design
+1178,75,99,86,5,8,9,7,9,2,80,Doctor,Orthopedics,Doctor → Orthopedics
+1179,84,100,82,6,6,9,7,8,2,84,Doctor,Neurosurgery,Doctor → Neurosurgery
+1180,88,99,80,6,8,9,4,7,5,84,Scientist,Data Science,Scientist → Data Science
+1181,95,86,83,4,9,9,7,8,4,79,Engineer,Civil,Engineer → Civil
+1182,77,76,77,7,7,7,8,9,4,75,Teacher,Administration,Teacher → Administration
+1183,79,74,80,7,9,9,5,8,4,75,IT Professional,AI/ML,IT Professional → AI/ML
+1184,77,75,70,9,8,9,10,8,3,77,Business,Entrepreneurship,Business → Entrepreneurship
+1185,73,61,86,8,6,8,6,6,6,73,Lawyer,Family Law,Lawyer → Family Law
+1186,100,100,82,4,8,8,7,7,4,84,Scientist,Environmental,Scientist → Environmental
+1187,62,75,70,9,9,7,7,8,4,73,Designer,Graphic Design,Designer → Graphic Design
+1188,78,60,83,8,10,7,9,8,4,75,Designer,Fashion,Designer → Fashion
+1189,89,100,87,6,8,9,5,10,4,87,Doctor,Pediatrics,Doctor → Pediatrics
+1190,77,91,90,8,6,9,7,8,5,84,Doctor,Neurosurgery,Doctor → Neurosurgery
+1191,84,59,86,6,9,9,7,8,5,72,Lawyer,Corporate Law,Lawyer → Corporate Law
+1192,95,74,79,6,8,9,4,7,4,78,IT Professional,UI/UX,IT Professional → UI/UX
+1193,74,80,80,4,7,9,6,8,4,70,Lawyer,IP Law,Lawyer → IP Law
+1194,85,88,67,4,9,7,5,6,4,74,Engineer,Electrical,Engineer → Electrical
+1195,77,59,80,5,7,10,9,5,3,67,Lawyer,Environmental Law,Lawyer → Environmental Law
+1196,74,62,89,6,6,9,7,5,5,71,Lawyer,IP Law,Lawyer → IP Law
+1197,81,80,89,8,10,10,8,8,2,83,Teacher,Administration,Teacher → Administration
+1198,88,89,90,5,9,9,7,9,3,81,Doctor,Orthopedics,Doctor → Orthopedics
+1199,100,83,75,4,8,7,4,7,2,78,Engineer,Chemical,Engineer → Chemical
+1200,82,88,75,6,7,8,7,10,4,79,Teacher,Special Education,Teacher → Special Education
+1201,95,92,78,5,8,10,5,9,4,81,Doctor,Orthopedics,Doctor → Orthopedics
+1202,85,93,68,5,6,10,5,7,4,78,Engineer,Computer Science,Engineer → Computer Science
+1203,77,56,92,8,6,9,6,6,5,74,Lawyer,IP Law,Lawyer → IP Law
+1204,91,89,76,6,8,9,6,6,5,81,IT Professional,Software Development,IT Professional → Software Development
+1205,89,81,76,3,7,10,5,5,5,73,Engineer,Civil,Engineer → Civil
+1206,55,61,87,8,10,6,8,7,4,67,Designer,Architecture,Designer → Architecture
+1207,96,100,79,4,10,10,6,8,5,83,Scientist,Environmental,Scientist → Environmental
+1208,73,71,73,8,7,10,8,7,3,73,Business,Management,Business → Management
+1209,67,78,95,6,9,10,9,8,5,75,Business,Finance,Business → Finance
+1210,92,89,70,6,9,6,8,6,5,80,IT Professional,Data Science,IT Professional → Data Science
+1211,95,85,81,4,6,10,7,8,5,79,Doctor,General Medicine,Doctor → General Medicine
+1212,81,70,70,6,8,8,9,9,5,72,Business,Finance,Business → Finance
+1213,76,65,87,6,7,8,7,10,2,72,Teacher,Mathematics,Teacher → Mathematics
+1214,95,91,68,6,6,9,6,7,2,81,Engineer,Computer Science,Engineer → Computer Science
+1215,75,100,86,8,9,8,7,8,3,86,Doctor,Psychiatry,Doctor → Psychiatry
+1216,66,63,89,7,8,10,8,7,4,71,Lawyer,Public Interest,Lawyer → Public Interest
+1217,83,80,94,6,6,9,9,6,3,80,Business,Management,Business → Management
+1218,86,98,75,3,8,8,6,6,4,77,Engineer,Computer Science,Engineer → Computer Science
+1219,69,52,73,8,9,6,7,7,4,67,Designer,UI/UX,Designer → UI/UX
+1220,73,72,98,5,7,8,8,7,4,72,Lawyer,Criminal Law,Lawyer → Criminal Law
+1221,94,89,85,6,7,8,5,7,6,84,Engineer,Aerospace,Engineer → Aerospace
+1222,78,69,88,8,7,8,7,7,4,78,Lawyer,Corporate Law,Lawyer → Corporate Law
+1223,73,78,93,6,7,9,9,9,5,76,Business,Consulting,Business → Consulting
+1224,77,90,77,6,8,8,7,8,2,77,Teacher,English,Teacher → English
+1225,100,92,83,4,7,10,5,5,3,82,Engineer,Mechanical,Engineer → Mechanical
+1226,80,70,82,10,8,7,6,8,5,81,Designer,Graphic Design,Designer → Graphic Design
+1227,85,57,80,6,7,10,7,7,5,71,Lawyer,Corporate Law,Lawyer → Corporate Law
+1228,91,85,69,3,9,8,5,7,4,73,Scientist,Research,Scientist → Research
+1229,83,59,87,8,6,10,8,7,4,76,Lawyer,Public Interest,Lawyer → Public Interest
+1230,99,98,68,5,8,8,7,8,3,82,Engineer,Aerospace,Engineer → Aerospace
+1231,62,55,70,8,9,7,7,7,5,66,Designer,Fashion,Designer → Fashion
+1232,76,80,83,5,7,8,7,6,5,74,Lawyer,IP Law,Lawyer → IP Law
+1233,85,91,67,5,6,10,5,6,6,77,Engineer,Computer Science,Engineer → Computer Science
+1234,99,87,74,7,8,9,4,7,4,85,Engineer,Aerospace,Engineer → Aerospace
+1235,61,52,77,10,10,7,9,7,6,68,Designer,Graphic Design,Designer → Graphic Design
+1236,97,85,85,5,10,10,5,6,2,81,Scientist,Research,Scientist → Research
+1237,87,97,66,6,10,8,6,5,3,80,Scientist,Data Science,Scientist → Data Science
+1238,75,96,84,5,7,8,7,7,5,78,Doctor,Cardiology,Doctor → Cardiology
+1239,86,100,65,5,10,9,7,6,2,78,Scientist,Research,Scientist → Research
+1240,85,98,79,3,6,9,8,7,2,78,Doctor,Neurosurgery,Doctor → Neurosurgery
+1241,85,91,72,5,6,9,6,5,6,78,Engineer,Chemical,Engineer → Chemical
+1242,95,80,80,7,9,9,4,7,4,82,Engineer,Civil,Engineer → Civil
+1243,91,79,74,5,9,9,6,6,6,75,IT Professional,Data Science,IT Professional → Data Science
+1244,93,81,83,5,9,8,8,6,4,80,IT Professional,Software Development,IT Professional → Software Development
+1245,85,80,85,4,7,9,4,6,6,75,Engineer,Electrical,Engineer → Electrical
+1246,70,54,83,8,10,6,7,9,3,70,Designer,Game Design,Designer → Game Design
+1247,83,67,81,8,8,10,8,7,6,77,Lawyer,Family Law,Lawyer → Family Law
+1248,85,86,74,6,9,8,5,7,2,77,Scientist,Environmental,Scientist → Environmental
+1249,80,72,80,5,7,10,7,7,4,72,Teacher,Special Education,Teacher → Special Education
+1250,74,56,87,5,8,8,6,6,3,67,Lawyer,Criminal Law,Lawyer → Criminal Law
+1251,85,98,65,5,8,8,5,7,6,77,Engineer,Computer Science,Engineer → Computer Science
+1252,91,100,88,6,8,8,7,7,2,87,Doctor,General Medicine,Doctor → General Medicine
+1253,76,66,75,10,6,8,9,9,4,77,Business,Entrepreneurship,Business → Entrepreneurship
+1254,97,100,68,3,8,9,4,6,5,79,Scientist,Biology,Scientist → Biology
+1255,91,91,79,4,7,8,4,6,4,79,Engineer,Computer Science,Engineer → Computer Science
+1256,77,61,90,5,9,9,7,7,6,70,Lawyer,Corporate Law,Lawyer → Corporate Law
+1257,85,89,77,4,8,7,6,5,5,76,Engineer,Civil,Engineer → Civil
+1258,90,87,65,6,9,7,5,5,3,78,Scientist,Environmental,Scientist → Environmental
+1259,90,86,79,6,6,8,7,7,4,80,Engineer,Chemical,Engineer → Chemical
+1260,92,89,65,5,9,7,4,6,3,77,Scientist,Biology,Scientist → Biology
+1261,92,86,72,5,7,8,5,8,5,77,Engineer,Electrical,Engineer → Electrical
+1262,85,92,60,6,6,10,5,5,3,77,Engineer,Aerospace,Engineer → Aerospace
+1263,90,98,90,4,8,8,7,10,5,82,Doctor,Cardiology,Doctor → Cardiology
+1264,80,86,85,7,8,9,6,7,4,81,Scientist,Research,Scientist → Research
+1265,75,81,89,6,9,10,9,7,5,75,Teacher,Special Education,Teacher → Special Education
+1266,73,63,84,10,10,7,8,7,5,78,Designer,Architecture,Designer → Architecture
+1267,70,76,92,8,6,10,6,5,5,77,Lawyer,IP Law,Lawyer → IP Law
+1268,73,76,78,7,9,10,9,7,4,74,Teacher,Special Education,Teacher → Special Education
+1269,74,62,92,7,6,8,6,7,6,73,Lawyer,IP Law,Lawyer → IP Law
+1270,76,75,84,8,8,9,6,6,6,78,IT Professional,AI/ML,IT Professional → AI/ML
+1271,90,94,85,3,6,8,7,8,3,79,Doctor,General Medicine,Doctor → General Medicine
+1272,82,59,98,6,8,8,7,8,4,73,Lawyer,Family Law,Lawyer → Family Law
+1273,98,80,65,7,6,8,7,6,4,80,Engineer,Civil,Engineer → Civil
+1274,76,71,81,8,7,10,9,7,6,76,Lawyer,Corporate Law,Lawyer → Corporate Law
+1275,81,90,65,5,8,8,6,6,5,75,IT Professional,AI/ML,IT Professional → AI/ML
+1276,69,75,90,7,10,7,6,6,5,76,Designer,Fashion,Designer → Fashion
+1277,78,76,79,6,7,6,6,6,6,74,IT Professional,Data Science,IT Professional → Data Science
+1278,93,83,76,4,7,10,5,8,5,76,Engineer,Mechanical,Engineer → Mechanical
+1279,57,50,79,10,9,7,7,8,6,68,Designer,Fashion,Designer → Fashion
+1280,96,80,85,3,8,7,5,7,3,76,Engineer,Chemical,Engineer → Chemical
+1281,87,85,81,8,10,8,6,6,6,84,IT Professional,Data Science,IT Professional → Data Science
+1282,73,61,83,7,10,5,7,9,3,71,Designer,UI/UX,Designer → UI/UX
+1283,83,68,90,10,6,9,7,7,5,83,Business,Consulting,Business → Consulting
+1284,77,68,86,9,7,8,8,9,6,80,Business,Finance,Business → Finance
+1285,79,64,74,7,7,10,7,9,6,72,Business,Entrepreneurship,Business → Entrepreneurship
+1286,87,80,63,4,9,10,7,8,6,70,Engineer,Computer Science,Engineer → Computer Science
+1287,100,80,69,7,8,9,7,5,4,81,Engineer,Aerospace,Engineer → Aerospace
+1288,78,70,82,7,9,6,6,6,5,75,IT Professional,UI/UX,IT Professional → UI/UX
+1289,77,88,83,6,6,8,7,8,5,78,Doctor,Psychiatry,Doctor → Psychiatry
+1290,85,70,85,8,7,6,7,6,4,79,IT Professional,UI/UX,IT Professional → UI/UX
+1291,96,94,75,3,10,8,6,5,3,78,Scientist,Physics,Scientist → Physics
+1292,70,73,86,9,10,6,8,8,3,78,Designer,Industrial,Designer → Industrial
+1293,65,61,89,6,7,10,7,6,5,68,Lawyer,Public Interest,Lawyer → Public Interest
+1294,95,70,70,6,9,7,6,7,6,75,IT Professional,Software Development,IT Professional → Software Development
+1295,88,72,84,8,8,10,6,7,3,80,Teacher,English,Teacher → English
+1296,84,79,77,4,8,6,6,8,5,73,IT Professional,DevOps,IT Professional → DevOps
+1297,72,57,92,10,6,8,9,7,3,77,Business,Consulting,Business → Consulting
+1298,67,83,82,5,9,9,6,8,3,71,Teacher,English,Teacher → English
+1299,85,98,85,5,9,8,5,7,3,82,Engineer,Electrical,Engineer → Electrical
+1300,76,77,84,10,7,8,10,9,6,83,Business,Management,Business → Management
+1301,95,90,67,3,7,8,5,7,3,76,Engineer,Electrical,Engineer → Electrical
+1302,83,78,77,8,9,8,5,7,4,79,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1303,79,86,95,7,8,10,8,8,4,83,Teacher,Science,Teacher → Science
+1304,94,86,75,8,7,9,5,7,4,85,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1305,79,62,82,8,8,9,10,9,4,75,Business,Marketing,Business → Marketing
+1306,65,79,88,5,7,9,9,7,5,71,Lawyer,Criminal Law,Lawyer → Criminal Law
+1307,91,97,71,7,8,10,6,6,3,85,Engineer,Civil,Engineer → Civil
+1308,70,53,73,9,9,8,9,9,6,70,Designer,Architecture,Designer → Architecture
+1309,90,89,72,6,6,7,4,6,5,80,Engineer,Computer Science,Engineer → Computer Science
+1310,85,80,75,3,8,9,5,7,4,71,Engineer,Computer Science,Engineer → Computer Science
+1311,93,88,75,5,6,8,6,7,4,78,Engineer,Computer Science,Engineer → Computer Science
+1312,86,88,72,7,8,9,4,7,3,80,Scientist,Data Science,Scientist → Data Science
+1313,72,52,79,7,10,6,9,9,5,67,Designer,UI/UX,Designer → UI/UX
+1314,95,72,83,5,8,6,6,5,6,77,IT Professional,AI/ML,IT Professional → AI/ML
+1315,85,67,70,7,6,9,7,7,6,73,Business,Marketing,Business → Marketing
+1316,90,87,69,5,8,9,4,7,4,77,IT Professional,AI/ML,IT Professional → AI/ML
+1317,74,65,80,5,10,8,8,8,4,68,Teacher,English,Teacher → English
+1318,81,67,98,7,7,9,8,6,3,77,Lawyer,Environmental Law,Lawyer → Environmental Law
+1319,67,60,90,9,8,7,8,6,5,75,Designer,Architecture,Designer → Architecture
+1320,82,65,91,5,10,7,9,8,3,72,Teacher,English,Teacher → English
+1321,79,94,77,6,7,8,8,10,5,80,Doctor,Orthopedics,Doctor → Orthopedics
+1322,74,63,93,7,9,9,9,6,5,74,Lawyer,Environmental Law,Lawyer → Environmental Law
+1323,90,82,86,8,10,8,7,7,3,84,Teacher,Elementary,Teacher → Elementary
+1324,80,73,75,5,7,10,8,9,4,72,Teacher,Science,Teacher → Science
+1325,90,86,93,8,9,10,9,9,5,86,Teacher,Administration,Teacher → Administration
+1326,95,81,65,5,9,8,7,6,3,76,IT Professional,DevOps,IT Professional → DevOps
+1327,59,75,80,10,8,7,9,8,5,76,Designer,Architecture,Designer → Architecture
+1328,85,92,85,7,9,7,7,7,4,84,Engineer,Electrical,Engineer → Electrical
+1329,70,55,76,8,6,7,7,9,6,68,Business,Operations,Business → Operations
+1330,80,63,83,7,7,8,8,9,5,73,Business,Consulting,Business → Consulting
+1331,88,94,79,6,8,8,7,9,5,83,Doctor,Orthopedics,Doctor → Orthopedics
+1332,75,89,79,8,8,9,5,8,3,80,Doctor,Cardiology,Doctor → Cardiology
+1333,76,61,98,8,8,8,8,7,5,77,Lawyer,Environmental Law,Lawyer → Environmental Law
+1334,82,100,68,5,8,9,5,7,4,78,Scientist,Research,Scientist → Research
+1335,95,89,78,7,6,10,6,8,5,85,Doctor,General Medicine,Doctor → General Medicine
+1336,73,62,90,7,6,9,9,6,3,72,Lawyer,Family Law,Lawyer → Family Law
+1337,95,96,72,4,9,9,6,9,4,80,Doctor,Orthopedics,Doctor → Orthopedics
+1338,70,72,70,10,10,8,8,7,4,77,Designer,Game Design,Designer → Game Design
+1339,95,71,74,6,9,8,4,6,5,78,IT Professional,DevOps,IT Professional → DevOps
+1340,77,70,89,8,10,9,7,8,3,78,Teacher,Science,Teacher → Science
+1341,70,64,90,7,6,8,7,7,6,71,Business,Marketing,Business → Marketing
+1342,83,92,72,3,9,9,5,7,3,73,Scientist,Data Science,Scientist → Data Science
+1343,75,71,86,5,9,10,8,8,5,71,Lawyer,Environmental Law,Lawyer → Environmental Law
+1344,82,74,82,4,7,10,9,5,5,71,Lawyer,Environmental Law,Lawyer → Environmental Law
+1345,70,57,75,10,8,5,7,7,4,73,Designer,Game Design,Designer → Game Design
+1346,78,70,83,6,7,10,10,6,6,74,Business,Consulting,Business → Consulting
+1347,66,71,85,8,9,7,8,9,5,75,Designer,Fashion,Designer → Fashion
+1348,87,91,68,4,9,8,4,8,3,74,Engineer,Aerospace,Engineer → Aerospace
+1349,67,77,70,9,9,8,10,7,5,76,Business,Entrepreneurship,Business → Entrepreneurship
+1350,95,80,73,4,8,10,7,7,5,76,Engineer,Chemical,Engineer → Chemical
+1351,71,69,76,8,8,8,8,8,5,73,Business,Finance,Business → Finance
+1352,76,100,90,5,9,10,8,9,2,81,Doctor,Orthopedics,Doctor → Orthopedics
+1353,75,60,85,8,9,8,10,8,4,74,Business,Consulting,Business → Consulting
+1354,84,69,83,9,7,9,9,7,3,81,Business,Entrepreneurship,Business → Entrepreneurship
+1355,95,91,61,7,8,8,6,7,5,82,Engineer,Civil,Engineer → Civil
+1356,82,59,95,8,8,8,8,8,3,78,Business,Finance,Business → Finance
+1357,86,70,79,5,10,7,5,5,7,73,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1358,65,67,70,9,10,8,8,9,6,71,Designer,Architecture,Designer → Architecture
+1359,95,90,79,7,7,8,5,6,3,86,IT Professional,UI/UX,IT Professional → UI/UX
+1360,71,73,84,10,8,8,9,8,3,80,Designer,Industrial,Designer → Industrial
+1361,84,69,78,9,6,8,7,7,5,80,Business,Finance,Business → Finance
+1362,97,84,85,3,7,8,4,6,3,78,Engineer,Mechanical,Engineer → Mechanical
+1363,85,85,73,3,9,7,6,6,5,72,Scientist,Physics,Scientist → Physics
+1364,89,86,78,8,9,10,6,9,4,84,Doctor,Pediatrics,Doctor → Pediatrics
+1365,62,64,73,10,8,8,8,7,5,72,Designer,Graphic Design,Designer → Graphic Design
+1366,83,79,76,7,10,9,6,10,4,78,Teacher,Special Education,Teacher → Special Education
+1367,73,72,76,7,9,6,6,7,7,73,Designer,Graphic Design,Designer → Graphic Design
+1368,86,88,75,6,7,7,5,8,5,78,IT Professional,DevOps,IT Professional → DevOps
+1369,95,85,72,3,9,10,7,8,4,74,Scientist,Biology,Scientist → Biology
+1370,77,65,70,9,10,6,7,6,4,75,Designer,Graphic Design,Designer → Graphic Design
+1371,75,69,72,8,8,5,6,6,5,74,Designer,Architecture,Designer → Architecture
+1372,65,74,80,6,6,9,6,6,5,69,Lawyer,Public Interest,Lawyer → Public Interest
+1373,75,85,85,8,7,9,6,10,3,81,Doctor,Neurosurgery,Doctor → Neurosurgery
+1374,97,93,85,7,9,10,5,6,5,88,Scientist,Data Science,Scientist → Data Science
+1375,93,85,74,7,9,8,7,5,3,82,Engineer,Chemical,Engineer → Chemical
+1376,78,75,82,5,7,10,9,7,3,73,Lawyer,Environmental Law,Lawyer → Environmental Law
+1377,83,85,73,7,8,9,4,8,2,79,Scientist,Data Science,Scientist → Data Science
+1378,65,81,94,7,10,8,7,7,5,76,Teacher,Mathematics,Teacher → Mathematics
+1379,96,97,66,5,7,8,5,6,4,80,Engineer,Computer Science,Engineer → Computer Science
+1380,88,94,83,7,7,9,5,6,6,85,Engineer,Chemical,Engineer → Chemical
+1381,90,67,93,8,9,10,7,7,3,82,Teacher,Elementary,Teacher → Elementary
+1382,70,56,70,6,8,7,7,6,5,64,Business,Entrepreneurship,Business → Entrepreneurship
+1383,78,72,89,4,8,8,6,7,5,71,Lawyer,Criminal Law,Lawyer → Criminal Law
+1384,70,80,88,6,9,8,7,7,6,74,Lawyer,Family Law,Lawyer → Family Law
+1385,62,61,80,8,10,6,8,8,6,69,Designer,Game Design,Designer → Game Design
+1386,75,72,72,7,8,8,6,6,5,72,IT Professional,Software Development,IT Professional → Software Development
+1387,75,76,86,5,8,8,9,6,6,73,Lawyer,Public Interest,Lawyer → Public Interest
+1388,80,70,75,6,8,9,9,9,5,72,Teacher,Mathematics,Teacher → Mathematics
+1389,93,91,76,4,9,10,4,7,3,78,Scientist,Physics,Scientist → Physics
+1390,89,96,76,5,10,8,6,8,5,82,Scientist,Research,Scientist → Research
+1391,74,81,95,8,10,9,7,7,4,81,Teacher,English,Teacher → English
+1392,80,92,77,6,10,10,5,5,5,80,Scientist,Data Science,Scientist → Data Science
+1393,85,80,85,7,8,9,6,7,5,81,Engineer,Aerospace,Engineer → Aerospace
+1394,77,69,85,5,7,8,8,7,5,70,Lawyer,Environmental Law,Lawyer → Environmental Law
+1395,75,65,85,8,10,6,9,7,5,75,Designer,Game Design,Designer → Game Design
+1396,88,74,79,5,9,7,8,7,5,74,IT Professional,Software Development,IT Professional → Software Development
+1397,95,74,72,6,10,8,5,6,6,77,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1398,93,87,68,5,9,8,7,6,2,78,Scientist,Chemistry,Scientist → Chemistry
+1399,85,100,72,5,9,7,5,7,2,80,Scientist,Physics,Scientist → Physics
+1400,92,94,72,3,8,10,6,7,2,77,Scientist,Environmental,Scientist → Environmental
+1401,77,84,89,7,9,7,9,10,3,80,Teacher,Administration,Teacher → Administration
+1402,90,87,78,7,10,8,6,5,4,83,Scientist,Physics,Scientist → Physics
+1403,98,97,74,4,8,9,5,8,5,81,Engineer,Computer Science,Engineer → Computer Science
+1404,65,64,75,9,9,8,8,7,5,71,Designer,Game Design,Designer → Game Design
+1405,89,98,78,6,6,9,4,5,3,83,Engineer,Aerospace,Engineer → Aerospace
+1406,86,87,77,6,7,9,6,6,4,79,Engineer,Electrical,Engineer → Electrical
+1407,87,100,65,6,10,8,7,6,2,80,Scientist,Biology,Scientist → Biology
+1408,70,65,88,7,8,9,7,6,3,73,Lawyer,Environmental Law,Lawyer → Environmental Law
+1409,82,55,75,8,9,7,7,8,5,72,Business,Consulting,Business → Consulting
+1410,82,100,65,4,8,10,5,8,4,76,Scientist,Biology,Scientist → Biology
+1411,91,84,73,6,7,9,5,6,3,80,IT Professional,Data Science,IT Professional → Data Science
+1412,95,90,78,4,9,9,6,7,2,80,Scientist,Data Science,Scientist → Data Science
+1413,78,82,85,6,7,8,7,5,3,77,IT Professional,Data Science,IT Professional → Data Science
+1414,83,100,70,4,10,10,6,5,4,77,Scientist,Physics,Scientist → Physics
+1415,84,96,90,4,7,9,6,9,4,81,Doctor,General Medicine,Doctor → General Medicine
+1416,75,85,87,6,7,10,7,7,4,77,Doctor,Pediatrics,Doctor → Pediatrics
+1417,94,80,72,3,9,9,6,7,6,73,Engineer,Aerospace,Engineer → Aerospace
+1418,100,81,85,4,7,8,4,7,5,79,Engineer,Chemical,Engineer → Chemical
+1419,82,76,79,9,9,8,8,7,4,81,Teacher,Elementary,Teacher → Elementary
+1420,73,75,70,9,10,8,8,6,3,76,Designer,Game Design,Designer → Game Design
+1421,77,86,75,8,9,9,7,9,2,80,Doctor,Psychiatry,Doctor → Psychiatry
+1422,76,91,76,6,8,10,7,9,5,78,Doctor,Neurosurgery,Doctor → Neurosurgery
+1423,57,74,90,10,8,5,9,6,3,77,Designer,Fashion,Designer → Fashion
+1424,74,61,83,9,7,8,10,7,4,76,Business,Entrepreneurship,Business → Entrepreneurship
+1425,78,92,77,5,6,10,5,8,5,76,Doctor,Orthopedics,Doctor → Orthopedics
+1426,81,60,92,4,7,8,7,8,3,69,Lawyer,Criminal Law,Lawyer → Criminal Law
+1427,93,87,78,6,8,7,8,8,5,82,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1428,85,78,79,6,9,7,5,8,5,77,IT Professional,Software Development,IT Professional → Software Development
+1429,74,78,78,5,8,9,7,8,4,72,Teacher,Science,Teacher → Science
+1430,92,100,81,7,10,8,4,6,4,88,Scientist,Chemistry,Scientist → Chemistry
+1431,75,77,80,6,7,10,8,6,4,74,Lawyer,Public Interest,Lawyer → Public Interest
+1432,85,73,92,4,6,8,7,6,5,74,Lawyer,Environmental Law,Lawyer → Environmental Law
+1433,69,80,93,6,7,8,6,6,4,76,Lawyer,Family Law,Lawyer → Family Law
+1434,75,90,71,5,8,8,8,10,3,74,Doctor,Psychiatry,Doctor → Psychiatry
+1435,73,68,74,8,7,8,7,8,4,74,Business,Management,Business → Management
+1436,85,82,73,5,7,8,5,7,4,75,Engineer,Computer Science,Engineer → Computer Science
+1437,79,71,85,7,7,9,9,9,5,77,Teacher,Elementary,Teacher → Elementary
+1438,88,70,76,7,9,7,6,6,6,76,IT Professional,UI/UX,IT Professional → UI/UX
+1439,68,76,88,5,6,10,9,8,5,71,Lawyer,Public Interest,Lawyer → Public Interest
+1440,70,58,73,10,8,7,9,8,6,73,Designer,Game Design,Designer → Game Design
+1441,85,100,75,5,8,7,6,7,3,81,Scientist,Data Science,Scientist → Data Science
+1442,66,84,82,6,7,8,8,8,4,73,Teacher,Science,Teacher → Science
+1443,62,56,90,10,10,7,7,9,5,73,Designer,UI/UX,Designer → UI/UX
+1444,99,95,60,6,9,8,7,8,5,81,Engineer,Aerospace,Engineer → Aerospace
+1445,83,89,65,7,9,8,6,5,2,78,Scientist,Physics,Scientist → Physics
+1446,74,73,77,6,9,8,10,7,5,72,Business,Entrepreneurship,Business → Entrepreneurship
+1447,65,58,74,9,8,7,7,7,5,70,Designer,Architecture,Designer → Architecture
+1448,81,76,69,5,10,6,5,8,5,71,IT Professional,Data Science,IT Professional → Data Science
+1449,73,65,98,6,9,10,8,5,4,73,Lawyer,Environmental Law,Lawyer → Environmental Law
+1450,93,87,66,5,9,7,6,7,2,78,Engineer,Aerospace,Engineer → Aerospace
+1451,77,63,98,6,6,10,7,6,6,74,Lawyer,Public Interest,Lawyer → Public Interest
+1452,91,85,83,3,8,8,4,6,5,76,Scientist,Data Science,Scientist → Data Science
+1453,71,87,80,9,8,8,8,8,3,81,Teacher,Elementary,Teacher → Elementary
+1454,96,98,62,6,6,8,7,7,3,83,Engineer,Civil,Engineer → Civil
+1455,75,80,92,7,6,8,8,7,3,79,Lawyer,Corporate Law,Lawyer → Corporate Law
+1456,70,56,78,7,8,6,8,9,4,68,Designer,Architecture,Designer → Architecture
+1457,82,79,98,7,7,9,6,7,5,83,Lawyer,Corporate Law,Lawyer → Corporate Law
+1458,100,100,82,5,8,9,4,5,2,86,Scientist,Biology,Scientist → Biology
+1459,95,89,68,5,7,10,5,8,4,79,Engineer,Electrical,Engineer → Electrical
+1460,78,71,86,9,10,8,6,7,5,80,Teacher,English,Teacher → English
+1461,84,74,75,10,7,10,9,6,4,82,Business,Management,Business → Management
+1462,83,91,65,5,8,8,6,6,4,76,Scientist,Environmental,Scientist → Environmental
+1463,66,65,86,9,9,6,6,6,4,75,Designer,Industrial,Designer → Industrial
+1464,82,94,86,7,8,10,5,7,2,85,Doctor,Neurosurgery,Doctor → Neurosurgery
+1465,63,70,70,10,9,5,7,7,5,73,Designer,Industrial,Designer → Industrial
+1466,75,72,95,5,8,9,7,7,3,74,Lawyer,Family Law,Lawyer → Family Law
+1467,89,68,94,8,6,8,10,7,4,82,Business,Entrepreneurship,Business → Entrepreneurship
+1468,94,83,78,8,9,7,5,7,5,84,IT Professional,AI/ML,IT Professional → AI/ML
+1469,90,78,77,4,7,9,6,7,4,74,IT Professional,UI/UX,IT Professional → UI/UX
+1470,87,87,67,5,9,9,5,8,5,76,Engineer,Mechanical,Engineer → Mechanical
+1471,88,68,79,10,9,8,10,8,6,82,Business,Entrepreneurship,Business → Entrepreneurship
+1472,80,63,70,10,10,8,9,7,6,77,Designer,Game Design,Designer → Game Design
+1473,77,62,77,6,7,8,9,7,6,69,Business,Entrepreneurship,Business → Entrepreneurship
+1474,60,58,78,9,8,6,7,9,3,70,Designer,Industrial,Designer → Industrial
+1475,77,65,83,7,10,7,9,9,2,73,Teacher,English,Teacher → English
+1476,97,91,85,5,10,9,4,5,5,83,Scientist,Data Science,Scientist → Data Science
+1477,66,60,78,9,10,8,8,6,5,72,Designer,Graphic Design,Designer → Graphic Design
+1478,90,74,85,7,8,9,8,8,3,80,Teacher,Administration,Teacher → Administration
+1479,89,93,81,6,7,7,5,7,3,84,Engineer,Computer Science,Engineer → Computer Science
+1480,65,61,85,7,9,8,8,7,5,69,Designer,Industrial,Designer → Industrial
+1481,85,96,69,5,7,10,6,7,5,79,Engineer,Civil,Engineer → Civil
+1482,66,57,83,7,8,8,8,8,7,67,Designer,Game Design,Designer → Game Design
+1483,65,80,82,9,10,9,6,9,3,78,Teacher,Elementary,Teacher → Elementary
+1484,97,96,74,4,8,10,5,8,3,81,Scientist,Physics,Scientist → Physics
+1485,100,95,71,4,8,9,4,8,2,81,Scientist,Data Science,Scientist → Data Science
+1486,87,79,80,7,10,9,8,7,5,79,Teacher,Science,Teacher → Science
+1487,84,99,77,8,8,10,8,9,5,86,Doctor,Cardiology,Doctor → Cardiology
+1488,95,85,68,4,8,9,6,8,3,76,Scientist,Physics,Scientist → Physics
+1489,66,67,85,7,8,9,8,8,6,72,Business,Finance,Business → Finance
+1490,89,100,86,6,8,9,8,7,3,85,Doctor,Orthopedics,Doctor → Orthopedics
+1491,96,90,71,5,6,8,5,6,4,80,Engineer,Civil,Engineer → Civil
+1492,73,64,80,6,8,10,9,7,5,70,Lawyer,Corporate Law,Lawyer → Corporate Law
+1493,95,90,82,5,9,8,6,8,5,82,Scientist,Data Science,Scientist → Data Science
+1494,88,80,75,4,7,7,7,5,4,74,IT Professional,DevOps,IT Professional → DevOps
+1495,71,72,88,7,7,7,8,8,4,75,Business,Operations,Business → Operations
+1496,73,58,84,5,8,8,7,6,3,66,Lawyer,Public Interest,Lawyer → Public Interest
+1497,100,88,81,3,9,10,5,5,4,79,Engineer,Aerospace,Engineer → Aerospace
+1498,55,60,80,10,9,7,9,7,3,70,Designer,Architecture,Designer → Architecture
+1499,77,90,94,6,9,8,7,8,3,81,Teacher,Elementary,Teacher → Elementary
+1500,68,73,74,8,9,5,9,7,6,73,Designer,Architecture,Designer → Architecture
+1501,83,61,87,8,7,8,8,8,5,78,Business,Finance,Business → Finance
+1502,76,72,73,6,8,8,7,8,3,72,Business,Marketing,Business → Marketing
+1503,69,68,77,8,7,9,9,8,4,73,Business,Operations,Business → Operations
+1504,76,51,90,7,9,8,9,9,5,70,Designer,Architecture,Designer → Architecture
+1505,85,67,91,4,6,8,7,5,3,72,Lawyer,Family Law,Lawyer → Family Law
+1506,73,62,71,10,9,7,9,7,6,74,Designer,Architecture,Designer → Architecture
+1507,84,93,79,6,7,10,6,8,5,80,Doctor,Neurosurgery,Doctor → Neurosurgery
+1508,88,74,95,6,8,9,8,8,3,80,Teacher,Special Education,Teacher → Special Education
+1509,75,65,80,6,8,9,9,6,4,70,Lawyer,Environmental Law,Lawyer → Environmental Law
+1510,90,61,93,9,7,9,9,6,6,82,Business,Consulting,Business → Consulting
+1511,90,81,78,6,9,10,8,10,5,79,Teacher,Mathematics,Teacher → Mathematics
+1512,57,58,82,8,10,7,7,9,4,68,Designer,UI/UX,Designer → UI/UX
+1513,65,71,85,8,9,9,7,8,3,74,Teacher,Science,Teacher → Science
+1514,82,100,65,5,9,10,5,7,3,77,Scientist,Research,Scientist → Research
+1515,79,67,71,7,7,10,9,9,6,73,Business,Marketing,Business → Marketing
+1516,86,98,74,6,9,8,6,7,2,81,Engineer,Chemical,Engineer → Chemical
+1517,80,100,65,6,10,10,4,7,3,79,Scientist,Chemistry,Scientist → Chemistry
+1518,60,75,82,8,8,5,7,7,4,73,Designer,Architecture,Designer → Architecture
+1519,80,50,82,8,8,6,8,8,5,72,Designer,Graphic Design,Designer → Graphic Design
+1520,80,64,73,7,8,9,10,7,5,72,Business,Operations,Business → Operations
+1521,83,82,75,7,10,10,8,9,5,79,Teacher,Administration,Teacher → Administration
+1522,58,58,72,7,9,8,7,8,5,63,Designer,UI/UX,Designer → UI/UX
+1523,84,88,85,5,10,7,7,8,4,79,Teacher,Administration,Teacher → Administration
+1524,67,72,76,6,7,9,7,7,6,70,Business,Consulting,Business → Consulting
+1525,69,66,80,8,10,7,6,6,4,73,Designer,Fashion,Designer → Fashion
+1526,67,61,79,10,10,8,8,9,5,74,Designer,Graphic Design,Designer → Graphic Design
+1527,75,88,78,5,6,8,6,10,2,75,Doctor,Orthopedics,Doctor → Orthopedics
+1528,75,85,70,6,8,10,8,9,5,73,Doctor,Neurosurgery,Doctor → Neurosurgery
+1529,62,68,80,9,9,5,7,8,6,72,Designer,Industrial,Designer → Industrial
+1530,88,86,90,3,7,8,8,8,3,76,Doctor,General Medicine,Doctor → General Medicine
+1531,82,93,77,6,6,9,6,8,2,80,Doctor,Cardiology,Doctor → Cardiology
+1532,97,91,72,6,9,10,6,6,5,83,Scientist,Physics,Scientist → Physics
+1533,77,67,75,9,8,7,9,8,6,77,Designer,Industrial,Designer → Industrial
+1534,74,73,70,6,7,8,9,7,4,70,Business,Operations,Business → Operations
+1535,87,100,83,8,9,8,6,9,4,88,Doctor,Cardiology,Doctor → Cardiology
+1536,92,93,82,4,6,9,7,9,5,80,Doctor,Orthopedics,Doctor → Orthopedics
+1537,72,87,95,6,10,8,9,9,3,78,Teacher,English,Teacher → English
+1538,81,70,76,5,9,6,6,5,6,71,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1539,89,82,83,6,8,6,6,6,3,80,IT Professional,UI/UX,IT Professional → UI/UX
+1540,85,84,60,7,7,8,5,7,4,77,Engineer,Mechanical,Engineer → Mechanical
+1541,66,70,83,5,8,9,6,7,4,67,Lawyer,Environmental Law,Lawyer → Environmental Law
+1542,56,50,71,7,9,6,7,9,4,60,Designer,UI/UX,Designer → UI/UX
+1543,89,86,72,7,10,6,6,7,5,81,IT Professional,AI/ML,IT Professional → AI/ML
+1544,86,98,82,6,8,8,5,7,2,84,Scientist,Environmental,Scientist → Environmental
+1545,86,72,95,6,8,9,8,6,3,78,Business,Consulting,Business → Consulting
+1546,78,66,76,5,8,7,9,8,3,68,Teacher,Science,Teacher → Science
+1547,78,87,70,6,7,10,5,9,4,76,Doctor,Orthopedics,Doctor → Orthopedics
+1548,86,93,81,4,10,10,5,7,3,78,Scientist,Biology,Scientist → Biology
+1549,78,88,68,6,9,6,7,6,6,76,IT Professional,Software Development,IT Professional → Software Development
+1550,89,81,92,7,8,8,8,10,4,83,Teacher,Special Education,Teacher → Special Education
+1551,65,66,89,4,7,9,6,8,6,66,Lawyer,IP Law,Lawyer → IP Law
+1552,95,77,73,7,8,6,5,5,6,80,IT Professional,Data Science,IT Professional → Data Science
+1553,60,69,81,10,8,7,8,9,5,75,Designer,Game Design,Designer → Game Design
+1554,81,81,85,7,7,7,6,7,3,80,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1555,72,82,75,8,9,9,8,10,5,77,Teacher,Administration,Teacher → Administration
+1556,63,56,75,10,10,5,9,6,5,71,Designer,Fashion,Designer → Fashion
+1557,82,78,65,5,9,7,4,8,5,72,IT Professional,DevOps,IT Professional → DevOps
+1558,76,70,98,5,7,10,7,7,3,74,Lawyer,Environmental Law,Lawyer → Environmental Law
+1559,81,77,95,5,8,10,7,8,5,77,Teacher,Science,Teacher → Science
+1560,87,77,83,6,8,9,7,8,5,79,Teacher,Administration,Teacher → Administration
+1561,77,76,89,9,8,9,6,10,4,81,Teacher,Mathematics,Teacher → Mathematics
+1562,69,81,95,5,8,10,8,10,5,75,Teacher,Mathematics,Teacher → Mathematics
+1563,71,55,71,6,9,8,10,7,3,64,Business,Marketing,Business → Marketing
+1564,65,72,88,7,10,8,6,7,2,73,Teacher,Special Education,Teacher → Special Education
+1565,95,82,68,8,7,6,4,8,5,83,IT Professional,DevOps,IT Professional → DevOps
+1566,73,65,81,9,9,5,7,9,5,75,Designer,UI/UX,Designer → UI/UX
+1567,88,97,66,3,8,8,5,8,4,75,Scientist,Environmental,Scientist → Environmental
+1568,80,50,82,7,9,5,8,8,5,70,Designer,UI/UX,Designer → UI/UX
+1569,72,66,84,9,8,7,8,7,6,77,Business,Operations,Business → Operations
+1570,88,83,72,7,8,7,5,5,6,79,IT Professional,DevOps,IT Professional → DevOps
+1571,77,68,81,10,7,9,7,8,6,79,Business,Finance,Business → Finance
+1572,73,83,84,5,10,7,9,9,3,74,Teacher,Elementary,Teacher → Elementary
+1573,94,98,69,3,10,9,5,5,3,77,Scientist,Data Science,Scientist → Data Science
+1574,73,51,90,8,10,7,9,7,5,72,Designer,Architecture,Designer → Architecture
+1575,95,100,72,6,6,10,7,10,3,85,Doctor,Cardiology,Doctor → Cardiology
+1576,77,55,70,7,8,6,6,7,5,68,Designer,Architecture,Designer → Architecture
+1577,85,85,79,6,7,10,7,8,4,78,Doctor,Cardiology,Doctor → Cardiology
+1578,82,84,79,6,7,8,4,5,5,78,IT Professional,AI/ML,IT Professional → AI/ML
+1579,55,54,76,8,9,6,7,7,5,63,Designer,Graphic Design,Designer → Graphic Design
+1580,68,64,86,4,9,10,6,6,6,65,Lawyer,Family Law,Lawyer → Family Law
+1581,97,88,77,6,9,7,4,7,3,83,Scientist,Data Science,Scientist → Data Science
+1582,83,85,86,5,8,10,6,9,2,77,Doctor,Orthopedics,Doctor → Orthopedics
+1583,87,90,79,5,7,8,4,5,5,78,IT Professional,Software Development,IT Professional → Software Development
+1584,98,98,74,4,8,10,6,8,3,82,Scientist,Biology,Scientist → Biology
+1585,80,85,83,6,9,8,5,7,3,78,Scientist,Physics,Scientist → Physics
+1586,89,90,76,8,10,7,7,5,7,85,IT Professional,UI/UX,IT Professional → UI/UX
+1587,91,78,65,7,7,6,7,5,3,77,IT Professional,DevOps,IT Professional → DevOps
+1588,82,69,80,8,7,8,8,8,6,79,Business,Management,Business → Management
+1589,79,80,75,5,8,8,7,6,6,72,IT Professional,UI/UX,IT Professional → UI/UX
+1590,57,67,89,9,8,6,7,9,4,74,Designer,Fashion,Designer → Fashion
+1591,91,85,81,6,9,8,5,6,2,80,Scientist,Physics,Scientist → Physics
+1592,85,75,75,6,7,9,8,8,4,74,Teacher,Elementary,Teacher → Elementary
+1593,90,81,74,6,10,6,7,8,6,77,IT Professional,Data Science,IT Professional → Data Science
+1594,89,91,67,5,10,9,5,8,2,78,Scientist,Biology,Scientist → Biology
+1595,72,64,75,7,10,6,8,8,5,70,Designer,Industrial,Designer → Industrial
+1596,92,100,78,5,8,8,5,7,4,84,Scientist,Research,Scientist → Research
+1597,80,57,83,5,9,8,7,5,5,68,Lawyer,Family Law,Lawyer → Family Law
+1598,86,75,85,5,7,7,8,6,4,76,IT Professional,DevOps,IT Professional → DevOps
+1599,68,70,70,7,9,8,7,8,4,69,Designer,Industrial,Designer → Industrial
+1600,91,94,85,5,8,8,4,7,4,82,Scientist,Environmental,Scientist → Environmental
+1601,100,98,75,6,9,9,6,6,6,87,Engineer,Computer Science,Engineer → Computer Science
+1602,96,87,65,7,8,7,5,8,5,82,Scientist,Research,Scientist → Research
+1603,100,85,79,4,9,7,6,6,3,80,Scientist,Research,Scientist → Research
+1604,100,92,75,6,8,7,5,7,3,85,Engineer,Electrical,Engineer → Electrical
+1605,94,80,78,4,9,8,7,6,3,76,Engineer,Chemical,Engineer → Chemical
+1606,75,95,90,6,8,10,7,7,5,80,Doctor,Pediatrics,Doctor → Pediatrics
+1607,85,80,75,7,6,7,7,6,4,78,Engineer,Chemical,Engineer → Chemical
+1608,91,84,72,6,9,9,6,7,6,78,IT Professional,Software Development,IT Professional → Software Development
+1609,73,72,93,5,9,9,9,5,5,72,Lawyer,Criminal Law,Lawyer → Criminal Law
+1610,86,99,74,4,10,7,6,6,2,78,Scientist,Chemistry,Scientist → Chemistry
+1611,71,85,95,5,9,7,7,10,4,76,Teacher,Administration,Teacher → Administration
+1612,66,60,73,9,7,10,10,7,4,71,Business,Management,Business → Management
+1613,87,100,65,5,10,8,6,6,3,80,Scientist,Environmental,Scientist → Environmental
+1614,83,81,69,5,7,6,8,6,3,73,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1615,86,95,68,3,9,7,4,8,5,74,Scientist,Chemistry,Scientist → Chemistry
+1616,65,67,83,5,7,10,6,6,6,66,Lawyer,Environmental Law,Lawyer → Environmental Law
+1617,77,79,84,6,10,8,7,6,4,75,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1618,100,90,79,4,9,9,4,7,6,81,Engineer,Civil,Engineer → Civil
+1619,80,63,82,4,8,10,8,7,6,67,Lawyer,Family Law,Lawyer → Family Law
+1620,100,91,81,7,9,10,7,8,3,87,Scientist,Data Science,Scientist → Data Science
+1621,85,81,64,6,7,9,6,5,4,75,Engineer,Mechanical,Engineer → Mechanical
+1622,77,79,98,6,6,8,6,5,5,79,Lawyer,Family Law,Lawyer → Family Law
+1623,87,88,75,6,9,7,5,6,3,81,Scientist,Environmental,Scientist → Environmental
+1624,72,90,95,6,7,8,9,8,5,80,Teacher,Elementary,Teacher → Elementary
+1625,81,73,98,7,7,10,8,6,4,80,Lawyer,Environmental Law,Lawyer → Environmental Law
+1626,65,67,77,10,7,7,9,7,4,75,Business,Management,Business → Management
+1627,99,100,65,4,8,8,5,7,4,80,Scientist,Physics,Scientist → Physics
+1628,89,70,77,5,8,9,5,6,3,74,IT Professional,Software Development,IT Professional → Software Development
+1629,80,70,91,4,9,9,9,8,6,71,Lawyer,Criminal Law,Lawyer → Criminal Law
+1630,70,61,76,9,7,7,10,8,3,72,Business,Finance,Business → Finance
+1631,84,87,81,4,9,6,6,6,7,75,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1632,100,98,84,7,9,8,6,5,3,90,Scientist,Physics,Scientist → Physics
+1633,72,74,97,5,9,10,7,8,4,74,Lawyer,Family Law,Lawyer → Family Law
+1634,92,91,81,6,9,9,4,7,4,83,Scientist,Biology,Scientist → Biology
+1635,64,57,71,8,8,8,7,8,3,67,Designer,Industrial,Designer → Industrial
+1636,98,98,76,5,7,9,5,7,4,83,Engineer,Aerospace,Engineer → Aerospace
+1637,73,70,84,6,7,10,7,6,6,72,Business,Management,Business → Management
+1638,91,91,68,5,9,8,5,7,5,78,Scientist,Biology,Scientist → Biology
+1639,80,73,87,8,9,10,8,5,5,79,Lawyer,Public Interest,Lawyer → Public Interest
+1640,80,72,83,9,7,9,7,8,2,80,Teacher,Special Education,Teacher → Special Education
+1641,81,92,75,3,9,8,7,7,2,73,Doctor,Cardiology,Doctor → Cardiology
+1642,86,85,84,3,7,10,7,7,2,75,Doctor,Neurosurgery,Doctor → Neurosurgery
+1643,73,79,96,6,6,9,8,5,5,77,Lawyer,Public Interest,Lawyer → Public Interest
+1644,64,73,77,10,9,7,7,8,6,76,Designer,Industrial,Designer → Industrial
+1645,93,92,73,6,6,7,6,5,3,82,Engineer,Chemical,Engineer → Chemical
+1646,67,66,77,10,10,7,8,7,4,75,Designer,UI/UX,Designer → UI/UX
+1647,86,100,88,4,6,9,7,9,4,82,Doctor,Pediatrics,Doctor → Pediatrics
+1648,87,72,75,6,8,7,9,7,5,74,Teacher,English,Teacher → English
+1649,94,89,73,3,6,9,5,8,4,76,Engineer,Aerospace,Engineer → Aerospace
+1650,80,93,72,5,9,8,6,7,2,75,Scientist,Environmental,Scientist → Environmental
+1651,95,72,80,8,9,6,6,8,5,82,IT Professional,Software Development,IT Professional → Software Development
+1652,88,71,76,6,7,7,8,8,6,75,Business,Operations,Business → Operations
+1653,73,50,82,9,8,7,6,6,6,70,Designer,UI/UX,Designer → UI/UX
+1654,79,88,85,3,8,10,5,8,4,74,Doctor,Neurosurgery,Doctor → Neurosurgery
+1655,81,67,98,5,8,10,7,7,6,74,Lawyer,Corporate Law,Lawyer → Corporate Law
+1656,84,85,84,5,7,6,6,7,5,77,IT Professional,UI/UX,IT Professional → UI/UX
+1657,86,59,71,7,9,8,8,7,4,72,Business,Entrepreneurship,Business → Entrepreneurship
+1658,84,75,84,8,9,9,9,8,3,81,Teacher,English,Teacher → English
+1659,87,100,90,4,7,8,5,9,2,82,Doctor,Neurosurgery,Doctor → Neurosurgery
+1660,81,77,89,7,7,7,6,7,3,79,Teacher,Science,Teacher → Science
+1661,80,83,95,7,9,9,8,9,4,82,Teacher,Special Education,Teacher → Special Education
+1662,90,72,77,8,10,9,8,9,4,80,Teacher,Mathematics,Teacher → Mathematics
+1663,92,89,86,6,9,8,8,8,4,83,Doctor,Psychiatry,Doctor → Psychiatry
+1664,85,95,78,4,6,8,5,9,3,78,Doctor,Cardiology,Doctor → Cardiology
+1665,100,97,85,5,9,8,6,6,3,86,Scientist,Data Science,Scientist → Data Science
+1666,65,75,87,8,7,8,7,8,5,76,Business,Operations,Business → Operations
+1667,88,81,84,7,9,7,4,7,4,81,Engineer,Computer Science,Engineer → Computer Science
+1668,88,70,79,4,10,7,7,7,3,72,IT Professional,UI/UX,IT Professional → UI/UX
+1669,100,90,75,5,8,8,7,8,4,82,Scientist,Data Science,Scientist → Data Science
+1670,93,77,73,7,8,9,5,8,6,79,IT Professional,UI/UX,IT Professional → UI/UX
+1671,86,94,82,5,8,10,5,7,3,80,Scientist,Physics,Scientist → Physics
+1672,99,85,80,5,8,10,5,6,4,81,Scientist,Environmental,Scientist → Environmental
+1673,69,69,92,5,6,9,9,7,4,69,Lawyer,Criminal Law,Lawyer → Criminal Law
+1674,76,87,65,4,8,9,6,7,5,70,IT Professional,DevOps,IT Professional → DevOps
+1675,85,98,75,5,10,10,4,7,5,79,Scientist,Chemistry,Scientist → Chemistry
+1676,95,90,71,7,9,9,7,7,3,83,IT Professional,DevOps,IT Professional → DevOps
+1677,94,87,75,4,7,7,6,6,5,76,Engineer,Electrical,Engineer → Electrical
+1678,93,89,72,5,7,7,5,7,4,79,Engineer,Electrical,Engineer → Electrical
+1679,77,71,75,4,8,8,5,5,7,68,IT Professional,Software Development,IT Professional → Software Development
+1680,70,65,84,8,9,7,7,8,6,73,Designer,Game Design,Designer → Game Design
+1681,92,88,69,6,9,8,7,7,4,79,Scientist,Biology,Scientist → Biology
+1682,87,86,78,8,10,7,7,9,3,83,Teacher,Science,Teacher → Science
+1683,93,90,85,3,7,8,6,7,4,78,Engineer,Mechanical,Engineer → Mechanical
+1684,95,78,79,6,7,9,4,7,7,79,IT Professional,Software Development,IT Professional → Software Development
+1685,85,82,76,5,7,7,7,5,4,75,Engineer,Computer Science,Engineer → Computer Science
+1686,86,91,85,6,8,10,7,7,3,82,Scientist,Research,Scientist → Research
+1687,88,84,80,3,9,9,6,6,3,74,Engineer,Electrical,Engineer → Electrical
+1688,95,71,65,5,7,8,8,8,4,73,IT Professional,Software Development,IT Professional → Software Development
+1689,76,55,93,7,7,9,7,7,5,71,Lawyer,Family Law,Lawyer → Family Law
+1690,85,79,89,7,8,8,8,7,4,82,Lawyer,Criminal Law,Lawyer → Criminal Law
+1691,86,83,85,5,8,9,6,7,4,78,IT Professional,UI/UX,IT Professional → UI/UX
+1692,84,93,73,4,8,7,5,6,5,76,Scientist,Data Science,Scientist → Data Science
+1693,85,67,79,8,8,8,8,8,5,78,Business,Operations,Business → Operations
+1694,68,58,91,5,7,9,7,5,5,66,Lawyer,Environmental Law,Lawyer → Environmental Law
+1695,74,62,91,8,8,8,10,7,4,74,Business,Management,Business → Management
+1696,89,87,74,7,9,10,5,7,4,81,Engineer,Aerospace,Engineer → Aerospace
+1697,80,80,83,7,9,9,9,9,4,79,Teacher,Science,Teacher → Science
+1698,83,94,76,6,9,10,4,8,4,80,Scientist,Environmental,Scientist → Environmental
+1699,85,65,93,5,6,8,6,8,3,74,Lawyer,IP Law,Lawyer → IP Law
+1700,83,90,77,5,8,7,6,7,7,76,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1701,95,90,82,5,8,9,6,8,5,81,Scientist,Data Science,Scientist → Data Science
+1702,100,96,83,6,9,9,5,6,4,87,Engineer,Computer Science,Engineer → Computer Science
+1703,74,67,84,7,8,9,7,8,4,74,Business,Consulting,Business → Consulting
+1704,75,94,76,5,8,8,7,10,4,75,Doctor,Orthopedics,Doctor → Orthopedics
+1705,59,70,78,9,9,6,8,7,6,73,Designer,UI/UX,Designer → UI/UX
+1706,87,74,76,6,10,8,7,8,3,76,Teacher,Special Education,Teacher → Special Education
+1707,86,74,71,8,8,7,6,8,5,78,IT Professional,UI/UX,IT Professional → UI/UX
+1708,81,92,90,7,8,10,7,7,4,83,Doctor,Cardiology,Doctor → Cardiology
+1709,87,85,70,4,10,8,7,6,3,74,Scientist,Data Science,Scientist → Data Science
+1710,65,77,80,5,6,8,8,7,4,68,Lawyer,Family Law,Lawyer → Family Law
+1711,55,54,73,9,9,7,8,6,7,65,Designer,Architecture,Designer → Architecture
+1712,85,71,80,6,7,10,8,7,5,75,Lawyer,Public Interest,Lawyer → Public Interest
+1713,95,92,73,3,8,9,6,10,3,77,Doctor,Pediatrics,Doctor → Pediatrics
+1714,76,60,82,9,7,10,10,8,4,75,Business,Operations,Business → Operations
+1715,92,80,79,7,8,8,6,6,5,82,IT Professional,DevOps,IT Professional → DevOps
+1716,81,77,86,5,8,10,9,7,2,75,Teacher,Mathematics,Teacher → Mathematics
+1717,65,77,85,9,7,7,8,8,4,78,Business,Consulting,Business → Consulting
+1718,95,96,77,8,8,10,5,8,4,89,Doctor,Psychiatry,Doctor → Psychiatry
+1719,83,88,90,6,8,8,5,8,2,81,Doctor,Orthopedics,Doctor → Orthopedics
+1720,85,95,75,5,9,8,6,8,5,79,Doctor,Orthopedics,Doctor → Orthopedics
+1721,86,87,68,5,8,9,5,5,6,76,Engineer,Computer Science,Engineer → Computer Science
+1722,90,84,78,5,6,10,4,5,5,77,Engineer,Computer Science,Engineer → Computer Science
+1723,91,93,83,4,9,7,7,5,4,80,Scientist,Environmental,Scientist → Environmental
+1724,90,71,75,5,9,7,7,10,4,73,Teacher,English,Teacher → English
+1725,89,97,79,5,7,10,5,9,4,81,Doctor,Psychiatry,Doctor → Psychiatry
+1726,78,74,95,5,8,8,7,9,4,74,Teacher,Elementary,Teacher → Elementary
+1727,98,87,76,7,9,10,5,8,3,85,Engineer,Civil,Engineer → Civil
+1728,88,76,75,6,9,9,4,5,3,77,IT Professional,UI/UX,IT Professional → UI/UX
+1729,89,85,71,5,9,10,6,5,3,76,Engineer,Computer Science,Engineer → Computer Science
+1730,66,75,82,7,10,5,6,7,7,73,Designer,Industrial,Designer → Industrial
+1731,65,65,81,10,9,8,8,9,4,75,Business,Marketing,Business → Marketing
+1732,76,55,96,7,8,10,7,5,5,72,Lawyer,Environmental Law,Lawyer → Environmental Law
+1733,92,82,68,4,7,6,7,5,6,74,IT Professional,AI/ML,IT Professional → AI/ML
+1734,89,85,85,6,9,9,6,6,5,81,IT Professional,DevOps,IT Professional → DevOps
+1735,75,90,76,6,9,10,8,8,4,76,Doctor,Cardiology,Doctor → Cardiology
+1736,77,60,70,8,8,7,8,6,6,71,Designer,UI/UX,Designer → UI/UX
+1737,81,79,66,6,9,9,6,7,4,73,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1738,71,67,96,6,8,9,6,5,6,72,Lawyer,Family Law,Lawyer → Family Law
+1739,72,70,76,9,9,8,7,8,5,76,Teacher,Special Education,Teacher → Special Education
+1740,71,85,76,5,9,9,6,9,4,73,Teacher,Administration,Teacher → Administration
+1741,92,93,64,6,8,9,5,7,4,81,Engineer,Chemical,Engineer → Chemical
+1742,65,50,86,7,8,8,9,6,3,66,Designer,Game Design,Designer → Game Design
+1743,76,55,91,9,7,10,10,7,4,76,Business,Consulting,Business → Consulting
+1744,80,64,87,9,10,6,7,9,5,79,Designer,Industrial,Designer → Industrial
+1745,88,98,84,5,7,8,7,8,4,82,Engineer,Computer Science,Engineer → Computer Science
+1746,85,94,85,4,8,10,6,8,5,80,Scientist,Biology,Scientist → Biology
+1747,87,93,70,5,7,9,7,6,2,77,Engineer,Chemical,Engineer → Chemical
+1748,88,91,86,4,9,8,6,10,5,79,Doctor,Neurosurgery,Doctor → Neurosurgery
+1749,89,83,81,5,8,8,4,5,4,78,IT Professional,DevOps,IT Professional → DevOps
+1750,85,60,81,6,7,10,8,7,3,73,Business,Consulting,Business → Consulting
+1751,71,55,91,7,8,9,8,5,4,69,Lawyer,Criminal Law,Lawyer → Criminal Law
+1752,75,75,74,8,9,7,5,6,6,76,IT Professional,UI/UX,IT Professional → UI/UX
+1753,66,67,92,8,7,10,6,7,4,74,Lawyer,Criminal Law,Lawyer → Criminal Law
+1754,75,70,65,4,7,7,5,7,5,65,IT Professional,DevOps,IT Professional → DevOps
+1755,77,78,85,4,8,8,4,7,7,72,IT Professional,DevOps,IT Professional → DevOps
+1756,100,100,65,4,8,7,6,6,2,80,Scientist,Environmental,Scientist → Environmental
+1757,90,80,74,6,9,9,7,6,2,78,Engineer,Mechanical,Engineer → Mechanical
+1758,67,71,75,8,10,7,8,7,5,73,Designer,Graphic Design,Designer → Graphic Design
+1759,77,71,83,5,7,8,8,5,4,71,Lawyer,IP Law,Lawyer → IP Law
+1760,78,90,79,6,9,9,6,9,2,78,Doctor,General Medicine,Doctor → General Medicine
+1761,86,72,79,5,9,8,8,10,2,73,Teacher,Special Education,Teacher → Special Education
+1762,70,78,81,6,7,10,9,7,5,72,Business,Entrepreneurship,Business → Entrepreneurship
+1763,80,63,96,5,9,9,6,7,5,72,Lawyer,Environmental Law,Lawyer → Environmental Law
+1764,81,80,90,7,9,9,8,8,6,81,Business,Operations,Business → Operations
+1765,90,83,83,9,10,10,6,9,5,86,Teacher,Special Education,Teacher → Special Education
+1766,75,80,83,7,9,8,7,6,6,76,IT Professional,UI/UX,IT Professional → UI/UX
+1767,80,66,91,9,9,7,7,8,4,81,Business,Consulting,Business → Consulting
+1768,80,72,83,5,9,8,9,10,3,72,Teacher,Science,Teacher → Science
+1769,75,85,75,7,7,9,8,7,3,77,Doctor,Pediatrics,Doctor → Pediatrics
+1770,92,100,69,4,8,9,7,6,2,79,Scientist,Environmental,Scientist → Environmental
+1771,75,68,95,6,8,7,10,7,4,74,Business,Management,Business → Management
+1772,87,94,78,5,8,10,4,7,5,80,Scientist,Physics,Scientist → Physics
+1773,71,68,89,7,8,9,7,8,3,74,Lawyer,Family Law,Lawyer → Family Law
+1774,76,76,91,8,7,8,8,8,4,79,Teacher,Science,Teacher → Science
+1775,72,71,89,6,7,8,6,6,5,73,Lawyer,Environmental Law,Lawyer → Environmental Law
+1776,71,68,95,8,9,10,8,7,5,77,Business,Consulting,Business → Consulting
+1777,75,77,76,6,10,8,7,7,5,73,IT Professional,DevOps,IT Professional → DevOps
+1778,96,80,61,3,6,9,7,8,2,71,Engineer,Aerospace,Engineer → Aerospace
+1779,75,100,78,6,6,10,5,9,3,80,Doctor,Orthopedics,Doctor → Orthopedics
+1780,83,65,90,10,6,9,7,7,4,82,Business,Finance,Business → Finance
+1781,87,84,73,6,7,8,6,7,7,78,IT Professional,AI/ML,IT Professional → AI/ML
+1782,83,75,76,4,8,9,7,6,6,71,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1783,69,65,70,10,10,7,8,6,4,73,Designer,Industrial,Designer → Industrial
+1784,75,63,77,9,8,8,10,7,4,75,Business,Finance,Business → Finance
+1785,75,100,88,4,8,8,7,7,5,79,Doctor,Cardiology,Doctor → Cardiology
+1786,89,89,77,8,9,9,8,9,4,85,Doctor,Cardiology,Doctor → Cardiology
+1787,67,63,77,10,9,7,9,7,3,75,Designer,Fashion,Designer → Fashion
+1788,85,55,73,10,7,10,9,6,6,77,Business,Consulting,Business → Consulting
+1789,90,75,92,6,10,10,6,7,4,80,Teacher,Special Education,Teacher → Special Education
+1790,79,61,98,4,7,10,7,8,5,70,Lawyer,IP Law,Lawyer → IP Law
+1791,75,67,91,9,8,8,6,8,2,78,Teacher,Mathematics,Teacher → Mathematics
+1792,80,95,65,6,10,7,7,6,5,78,Scientist,Physics,Scientist → Physics
+1793,68,80,80,7,7,8,7,8,5,74,Lawyer,Environmental Law,Lawyer → Environmental Law
+1794,77,90,85,8,7,8,8,6,3,83,IT Professional,DevOps,IT Professional → DevOps
+1795,80,72,74,4,9,8,7,8,5,69,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1796,96,91,72,4,9,7,7,5,4,78,Engineer,Electrical,Engineer → Electrical
+1797,99,98,71,6,10,8,4,6,3,85,Scientist,Data Science,Scientist → Data Science
+1798,80,95,79,5,10,10,7,8,2,78,Scientist,Chemistry,Scientist → Chemistry
+1799,83,63,95,8,7,9,8,8,4,79,Business,Consulting,Business → Consulting
+1800,69,62,97,5,8,9,9,8,5,69,Lawyer,Public Interest,Lawyer → Public Interest
+1801,90,75,72,8,6,7,8,7,4,80,Business,Entrepreneurship,Business → Entrepreneurship
+1802,72,78,76,6,10,8,8,8,4,72,Teacher,Special Education,Teacher → Special Education
+1803,100,87,84,7,8,9,6,7,3,86,Scientist,Chemistry,Scientist → Chemistry
+1804,89,98,64,5,8,9,5,5,3,79,Engineer,Aerospace,Engineer → Aerospace
+1805,80,56,70,7,8,7,8,6,5,70,Designer,Game Design,Designer → Game Design
+1806,72,61,80,7,10,8,8,8,6,71,Designer,Industrial,Designer → Industrial
+1807,70,68,81,5,9,9,9,5,4,68,Lawyer,IP Law,Lawyer → IP Law
+1808,88,86,60,5,8,9,4,6,4,75,Engineer,Civil,Engineer → Civil
+1809,80,90,83,5,7,8,6,8,3,78,Doctor,Psychiatry,Doctor → Psychiatry
+1810,75,85,81,4,7,8,8,10,3,73,Doctor,Neurosurgery,Doctor → Neurosurgery
+1811,85,85,73,6,6,8,6,7,4,77,Doctor,Cardiology,Doctor → Cardiology
+1812,75,77,85,8,6,10,10,9,6,78,Business,Marketing,Business → Marketing
+1813,92,88,84,7,10,9,5,7,5,84,Scientist,Chemistry,Scientist → Chemistry
+1814,83,70,82,8,7,10,6,5,5,78,Lawyer,Public Interest,Lawyer → Public Interest
+1815,73,58,86,8,8,5,7,9,6,73,Designer,UI/UX,Designer → UI/UX
+1816,90,67,88,9,8,7,7,6,4,83,Business,Entrepreneurship,Business → Entrepreneurship
+1817,90,100,71,5,10,9,6,6,3,82,Scientist,Physics,Scientist → Physics
+1818,67,56,84,7,7,8,6,6,4,67,Lawyer,Environmental Law,Lawyer → Environmental Law
+1819,56,61,78,8,8,5,8,8,4,67,Designer,Fashion,Designer → Fashion
+1820,96,98,74,5,7,8,7,8,5,83,Engineer,Chemical,Engineer → Chemical
+1821,72,74,81,7,7,9,8,7,5,74,Business,Finance,Business → Finance
+1822,89,85,90,6,8,10,6,8,4,83,Doctor,Cardiology,Doctor → Cardiology
+1823,80,93,79,3,9,9,5,7,3,74,Scientist,Environmental,Scientist → Environmental
+1824,82,76,66,5,7,8,8,8,6,70,IT Professional,DevOps,IT Professional → DevOps
+1825,83,76,65,4,10,7,7,5,5,69,IT Professional,UI/UX,IT Professional → UI/UX
+1826,78,57,77,10,9,8,7,7,3,76,Designer,Industrial,Designer → Industrial
+1827,93,85,70,6,8,9,6,7,3,80,Engineer,Chemical,Engineer → Chemical
+1828,86,65,78,6,8,9,9,7,5,73,Business,Entrepreneurship,Business → Entrepreneurship
+1829,95,88,70,3,6,10,6,9,5,75,Doctor,Psychiatry,Doctor → Psychiatry
+1830,76,85,82,5,8,8,6,7,4,74,IT Professional,AI/ML,IT Professional → AI/ML
+1831,85,88,80,9,8,8,7,8,4,86,Teacher,English,Teacher → English
+1832,80,63,79,6,8,8,10,7,5,71,Business,Marketing,Business → Marketing
+1833,85,89,81,7,7,8,4,6,4,82,Engineer,Civil,Engineer → Civil
+1834,89,99,79,3,10,7,5,6,4,78,Scientist,Physics,Scientist → Physics
+1835,85,73,84,9,9,9,10,6,5,82,Business,Entrepreneurship,Business → Entrepreneurship
+1836,71,62,86,8,10,7,6,8,5,73,Designer,Industrial,Designer → Industrial
+1837,83,90,65,5,9,7,4,7,4,76,IT Professional,Software Development,IT Professional → Software Development
+1838,84,82,66,5,9,8,6,6,4,74,IT Professional,Data Science,IT Professional → Data Science
+1839,74,57,84,8,8,6,7,8,5,72,Designer,UI/UX,Designer → UI/UX
+1840,95,96,71,8,8,9,6,7,5,87,Doctor,Orthopedics,Doctor → Orthopedics
+1841,75,64,83,10,8,8,8,8,4,78,Business,Consulting,Business → Consulting
+1842,84,92,71,7,7,10,5,9,5,81,Doctor,Neurosurgery,Doctor → Neurosurgery
+1843,92,82,78,4,9,8,6,6,3,76,IT Professional,AI/ML,IT Professional → AI/ML
+1844,82,63,78,10,9,10,9,6,5,79,Business,Management,Business → Management
+1845,80,80,75,10,6,9,10,8,6,83,Business,Management,Business → Management
+1846,76,70,89,8,6,7,9,8,6,77,Business,Management,Business → Management
+1847,72,78,95,6,9,7,8,8,4,76,Teacher,Science,Teacher → Science
+1848,77,78,91,7,8,8,7,5,5,78,Lawyer,Environmental Law,Lawyer → Environmental Law
+1849,100,80,80,6,6,9,5,6,5,82,Engineer,Mechanical,Engineer → Mechanical
+1850,92,85,67,3,7,8,5,7,6,73,Engineer,Mechanical,Engineer → Mechanical
+1851,93,90,65,6,8,7,4,6,2,79,Scientist,Physics,Scientist → Physics
+1852,90,89,70,4,9,8,6,6,6,76,Engineer,Computer Science,Engineer → Computer Science
+1853,88,64,74,9,9,9,8,6,6,78,Business,Marketing,Business → Marketing
+1854,92,98,77,7,6,8,4,8,5,86,Engineer,Civil,Engineer → Civil
+1855,90,66,82,7,8,8,8,8,6,77,Business,Entrepreneurship,Business → Entrepreneurship
+1856,69,90,85,7,8,8,8,8,3,78,Teacher,Mathematics,Teacher → Mathematics
+1857,75,70,80,8,8,7,4,6,3,75,IT Professional,Software Development,IT Professional → Software Development
+1858,82,99,82,8,6,9,5,8,3,86,Doctor,Neurosurgery,Doctor → Neurosurgery
+1859,75,60,78,7,10,7,6,8,5,70,Designer,Graphic Design,Designer → Graphic Design
+1860,84,89,83,7,8,9,8,7,2,83,Teacher,Elementary,Teacher → Elementary
+1861,95,74,85,7,9,7,7,5,7,82,IT Professional,DevOps,IT Professional → DevOps
+1862,79,74,88,6,9,8,8,6,4,76,Business,Management,Business → Management
+1863,90,70,86,6,7,10,10,7,3,77,Business,Marketing,Business → Marketing
+1864,79,89,86,7,6,10,8,8,4,82,Doctor,Pediatrics,Doctor → Pediatrics
+1865,71,62,79,10,10,7,7,8,4,75,Designer,Game Design,Designer → Game Design
+1866,82,64,85,6,9,8,6,6,6,73,Lawyer,Environmental Law,Lawyer → Environmental Law
+1867,88,68,84,8,7,10,8,7,3,79,Teacher,Science,Teacher → Science
+1868,88,91,83,8,6,8,7,10,2,86,Doctor,Cardiology,Doctor → Cardiology
+1869,96,92,73,6,10,9,5,6,5,83,Scientist,Data Science,Scientist → Data Science
+1870,69,62,79,9,8,5,6,8,5,74,Designer,Graphic Design,Designer → Graphic Design
+1871,81,90,68,6,10,7,6,5,7,78,IT Professional,AI/ML,IT Professional → AI/ML
+1872,84,87,90,5,7,10,8,8,4,80,Doctor,Neurosurgery,Doctor → Neurosurgery
+1873,68,69,95,6,7,9,9,8,4,72,Business,Consulting,Business → Consulting
+1874,80,95,90,5,8,10,7,9,3,80,Doctor,Pediatrics,Doctor → Pediatrics
+1875,97,96,74,6,7,8,5,8,3,84,Engineer,Chemical,Engineer → Chemical
+1876,70,69,79,7,9,8,8,7,7,72,Designer,Industrial,Designer → Industrial
+1877,61,51,73,10,10,7,6,8,6,68,Designer,Architecture,Designer → Architecture
+1878,100,80,80,4,6,8,5,7,4,78,Engineer,Chemical,Engineer → Chemical
+1879,69,51,90,8,10,7,8,7,5,71,Designer,Fashion,Designer → Fashion
+1880,89,94,75,7,8,8,6,6,3,84,Scientist,Chemistry,Scientist → Chemistry
+1881,73,72,82,8,7,10,7,8,5,76,Teacher,Special Education,Teacher → Special Education
+1882,73,78,85,7,8,10,7,5,5,76,Lawyer,Environmental Law,Lawyer → Environmental Law
+1883,63,59,89,9,8,7,7,7,5,73,Designer,Industrial,Designer → Industrial
+1884,91,85,83,4,7,8,5,7,4,78,Engineer,Civil,Engineer → Civil
+1885,70,88,95,5,7,9,8,9,3,76,Teacher,Administration,Teacher → Administration
+1886,100,85,74,3,8,8,4,6,3,77,Scientist,Data Science,Scientist → Data Science
+1887,79,65,80,6,8,8,10,8,6,72,Business,Operations,Business → Operations
+1888,55,56,88,8,10,6,7,8,7,66,Designer,Industrial,Designer → Industrial
+1889,70,80,77,5,9,8,9,9,3,70,Teacher,Mathematics,Teacher → Mathematics
+1890,78,71,85,8,8,7,7,8,7,78,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1891,91,84,69,4,9,9,6,6,5,75,Engineer,Electrical,Engineer → Electrical
+1892,76,76,84,8,9,8,5,6,6,78,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1893,74,79,75,6,7,8,6,10,5,72,Teacher,Special Education,Teacher → Special Education
+1894,66,79,83,8,6,8,8,7,4,76,Lawyer,Environmental Law,Lawyer → Environmental Law
+1895,77,71,80,6,8,8,6,7,6,72,Lawyer,IP Law,Lawyer → IP Law
+1896,71,83,81,5,7,10,9,9,4,72,Teacher,Elementary,Teacher → Elementary
+1897,66,57,90,9,8,6,7,7,6,74,Designer,UI/UX,Designer → UI/UX
+1898,87,77,85,8,8,7,7,6,3,82,IT Professional,UI/UX,IT Professional → UI/UX
+1899,94,85,85,4,9,7,6,6,2,78,Scientist,Chemistry,Scientist → Chemistry
+1900,92,80,78,5,8,10,4,7,3,77,Engineer,Civil,Engineer → Civil
+1901,78,78,95,6,7,9,6,8,2,77,Teacher,English,Teacher → English
+1902,77,59,70,7,8,7,6,7,7,69,Designer,Fashion,Designer → Fashion
+1903,100,80,60,4,7,8,7,7,3,74,Engineer,Civil,Engineer → Civil
+1904,73,62,77,6,7,10,10,7,3,68,Business,Management,Business → Management
+1905,70,80,92,7,6,9,9,7,4,77,Business,Entrepreneurship,Business → Entrepreneurship
+1906,83,85,85,4,7,9,5,9,4,76,Doctor,Cardiology,Doctor → Cardiology
+1907,82,94,87,7,9,10,7,8,3,84,Doctor,Cardiology,Doctor → Cardiology
+1908,78,97,80,5,6,9,6,10,2,79,Doctor,Cardiology,Doctor → Cardiology
+1909,77,74,87,6,10,7,7,7,3,75,Teacher,Administration,Teacher → Administration
+1910,75,81,85,6,9,8,4,6,5,75,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1911,82,65,79,6,7,8,7,9,2,72,Teacher,Science,Teacher → Science
+1912,72,68,78,10,9,7,9,6,5,78,Designer,Graphic Design,Designer → Graphic Design
+1913,99,92,77,3,9,8,5,7,3,79,Scientist,Biology,Scientist → Biology
+1914,99,86,78,7,8,10,6,6,3,85,Engineer,Mechanical,Engineer → Mechanical
+1915,95,80,82,4,8,8,6,6,6,77,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1916,71,71,86,6,6,9,8,9,3,73,Business,Management,Business → Management
+1917,100,83,67,5,7,10,4,7,3,78,Engineer,Chemical,Engineer → Chemical
+1918,76,66,89,5,7,9,7,6,5,70,Lawyer,Family Law,Lawyer → Family Law
+1919,85,92,68,6,8,8,7,7,2,79,Engineer,Aerospace,Engineer → Aerospace
+1920,85,80,70,4,6,9,5,6,6,72,Engineer,Electrical,Engineer → Electrical
+1921,80,89,80,3,10,9,7,5,4,73,Scientist,Data Science,Scientist → Data Science
+1922,93,82,67,7,8,9,6,6,4,80,Engineer,Civil,Engineer → Civil
+1923,75,67,89,9,6,10,8,8,4,78,Business,Management,Business → Management
+1924,90,93,80,5,10,9,7,6,2,81,Scientist,Biology,Scientist → Biology
+1925,86,97,84,3,9,8,4,8,3,78,Engineer,Computer Science,Engineer → Computer Science
+1926,100,100,78,5,9,8,5,8,4,85,Scientist,Data Science,Scientist → Data Science
+1927,74,80,80,5,6,8,7,7,5,73,Lawyer,Environmental Law,Lawyer → Environmental Law
+1928,72,58,81,10,7,9,9,8,4,75,Business,Finance,Business → Finance
+1929,85,84,78,7,9,10,5,5,6,80,Engineer,Electrical,Engineer → Electrical
+1930,88,85,79,9,8,9,7,9,2,86,Teacher,Special Education,Teacher → Special Education
+1931,71,71,81,7,9,10,8,7,4,73,Lawyer,Family Law,Lawyer → Family Law
+1932,82,55,91,9,6,9,8,8,3,77,Business,Marketing,Business → Marketing
+1933,90,100,72,7,7,10,8,9,4,85,Doctor,Pediatrics,Doctor → Pediatrics
+1934,100,94,75,4,8,8,4,6,6,82,Engineer,Computer Science,Engineer → Computer Science
+1935,77,70,85,7,9,7,6,7,7,74,IT Professional,AI/ML,IT Professional → AI/ML
+1936,92,92,80,5,8,9,6,8,4,81,Doctor,Psychiatry,Doctor → Psychiatry
+1937,88,98,84,4,6,9,5,9,3,80,Doctor,Orthopedics,Doctor → Orthopedics
+1938,78,92,76,6,7,8,6,8,3,78,Doctor,Pediatrics,Doctor → Pediatrics
+1939,85,86,82,3,8,8,7,8,2,74,Engineer,Electrical,Engineer → Electrical
+1940,87,90,78,6,9,10,9,10,3,80,Teacher,Mathematics,Teacher → Mathematics
+1941,95,76,75,8,9,7,5,5,6,82,IT Professional,UI/UX,IT Professional → UI/UX
+1942,87,93,85,7,9,9,6,7,2,84,Scientist,Physics,Scientist → Physics
+1943,89,76,85,8,9,9,9,9,6,82,Business,Operations,Business → Operations
+1944,67,67,70,8,6,10,8,6,5,70,Business,Finance,Business → Finance
+1945,84,67,98,5,9,8,8,6,6,75,Lawyer,Public Interest,Lawyer → Public Interest
+1946,74,58,91,7,9,9,9,8,6,72,Business,Entrepreneurship,Business → Entrepreneurship
+1947,89,75,71,8,9,7,4,5,4,79,IT Professional,Cybersecurity,IT Professional → Cybersecurity
+1948,86,85,84,7,10,7,5,6,4,81,IT Professional,AI/ML,IT Professional → AI/ML
+1949,95,85,70,4,8,10,5,9,3,77,Doctor,Cardiology,Doctor → Cardiology
+1950,87,85,70,3,7,9,5,8,2,71,Doctor,Pediatrics,Doctor → Pediatrics
+1951,79,86,81,7,8,10,6,9,4,80,Doctor,Neurosurgery,Doctor → Neurosurgery
+1952,85,76,87,8,8,8,9,5,3,82,Lawyer,Public Interest,Lawyer → Public Interest
+1953,86,88,70,7,8,9,8,8,3,80,Doctor,Psychiatry,Doctor → Psychiatry
+1954,86,89,74,7,8,10,6,9,3,81,Doctor,Neurosurgery,Doctor → Neurosurgery
+1955,90,80,83,8,8,9,9,9,5,84,Teacher,Administration,Teacher → Administration
+1956,73,72,80,4,8,8,6,8,5,67,Lawyer,Public Interest,Lawyer → Public Interest
+1957,90,80,72,5,9,7,7,8,5,76,Engineer,Electrical,Engineer → Electrical
+1958,86,100,70,5,9,9,7,8,5,79,Doctor,Neurosurgery,Doctor → Neurosurgery
+1959,69,72,87,10,10,8,7,7,5,79,Designer,Graphic Design,Designer → Graphic Design
+1960,64,50,90,10,9,6,6,7,7,72,Designer,Game Design,Designer → Game Design
+1961,90,68,70,10,8,7,8,7,4,81,Business,Finance,Business → Finance
+1962,100,83,60,3,7,9,6,8,3,74,Engineer,Aerospace,Engineer → Aerospace
+1963,66,60,83,8,8,5,9,8,5,71,Designer,Fashion,Designer → Fashion
+1964,88,84,77,6,10,9,7,9,4,80,Teacher,Elementary,Teacher → Elementary
+1965,82,64,84,8,8,10,8,8,4,76,Business,Finance,Business → Finance
+1966,75,65,83,6,9,8,9,7,3,71,Teacher,Elementary,Teacher → Elementary
+1967,98,96,77,4,10,10,4,6,5,82,Scientist,Biology,Scientist → Biology
+1968,76,85,85,8,6,9,8,9,5,81,Doctor,General Medicine,Doctor → General Medicine
+1969,77,63,95,7,9,8,7,6,5,76,Business,Management,Business → Management
+1970,66,71,98,6,8,10,7,8,4,72,Lawyer,Public Interest,Lawyer → Public Interest
+1971,100,100,66,4,10,8,6,5,5,81,Scientist,Research,Scientist → Research
+1972,72,61,76,10,10,5,8,9,5,75,Designer,Game Design,Designer → Game Design
+1973,65,60,89,7,9,6,9,8,4,70,Designer,Architecture,Designer → Architecture
+1974,78,65,81,8,9,10,9,7,5,75,Lawyer,Family Law,Lawyer → Family Law
+1975,84,85,85,3,8,8,8,8,4,75,Doctor,General Medicine,Doctor → General Medicine
+1976,72,54,72,8,9,7,6,8,4,68,Designer,Fashion,Designer → Fashion
+1977,75,66,90,8,10,8,6,7,5,77,Designer,Architecture,Designer → Architecture
+1978,97,85,77,4,8,8,7,8,3,77,Scientist,Chemistry,Scientist → Chemistry
+1979,83,81,86,8,8,10,7,8,2,83,Teacher,Science,Teacher → Science
+1980,86,71,84,8,8,9,9,7,3,80,Teacher,Administration,Teacher → Administration
+1981,97,95,81,5,8,9,7,5,4,83,Engineer,Computer Science,Engineer → Computer Science
+1982,98,92,73,4,8,8,5,6,4,80,Engineer,Mechanical,Engineer → Mechanical
+1983,95,94,88,6,9,9,7,7,2,86,Doctor,Neurosurgery,Doctor → Neurosurgery
+1984,74,84,84,7,8,10,8,9,4,77,Teacher,Science,Teacher → Science
+1985,56,65,90,8,10,8,6,6,6,70,Designer,Industrial,Designer → Industrial
+1986,95,70,73,6,9,6,6,6,4,76,IT Professional,Software Development,IT Professional → Software Development
+1987,79,55,83,4,6,9,8,6,3,65,Lawyer,Criminal Law,Lawyer → Criminal Law
+1988,67,76,89,10,8,8,10,8,6,81,Business,Marketing,Business → Marketing
+1989,83,99,78,3,7,8,7,9,3,77,Doctor,Neurosurgery,Doctor → Neurosurgery
+1990,77,64,90,7,8,9,7,6,6,74,Lawyer,Environmental Law,Lawyer → Environmental Law
+1991,84,99,78,5,7,8,6,10,2,80,Doctor,Pediatrics,Doctor → Pediatrics
+1992,70,65,84,10,8,7,6,8,4,77,Designer,Architecture,Designer → Architecture
+1993,85,61,81,7,8,8,8,8,6,73,Lawyer,Public Interest,Lawyer → Public Interest
+1994,79,89,82,8,7,9,6,8,3,83,Doctor,Orthopedics,Doctor → Orthopedics
+1995,95,93,78,5,6,9,5,6,3,82,Engineer,Chemical,Engineer → Chemical
+1996,65,72,76,8,7,8,8,6,5,73,Business,Finance,Business → Finance
+1997,70,63,82,8,7,9,8,7,3,72,Lawyer,Corporate Law,Lawyer → Corporate Law
+1998,85,94,75,6,10,8,5,8,3,80,Scientist,Chemistry,Scientist → Chemistry
+1999,92,95,66,3,8,10,4,8,3,76,Engineer,Chemical,Engineer → Chemical
+2000,85,80,82,3,6,10,5,7,5,72,Engineer,Aerospace,Engineer → Aerospace
